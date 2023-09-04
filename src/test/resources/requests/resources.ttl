@@ -1,0 +1,53 @@
+@prefix test: <https://dalstonsemantics.com/test/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+test:schema rdfs:label "Test Schema" .
+
+test:TestClass1 a rdfs:Class ;
+  rdfs:label "Test Class 1" ;
+  rdfs:isDefinedBy test:schema .
+
+test:TestSubClass1 rdfs:subClassOf test:TestClass1 ;
+  rdfs:label "Test Sub Class 1" ;
+  rdfs:isDefinedBy test:schema .
+
+test:TestSubClass2 rdfs:subClassOf test:TestClass1 ;
+  rdfs:label "Test Sub Class 2" ;
+  rdfs:isDefinedBy test:schema .
+
+test:TestClass2 a rdfs:Class ;
+  rdfs:label "Test Class 2" ;
+  rdfs:isDefinedBy test:schema .
+
+test:TestClass3 a rdfs:Class ;
+  rdfs:label "Test Class 3" ;
+  rdfs:isDefinedBy test:schema .
+
+test:TestClass4 a rdfs:Class ;
+  rdfs:label "Test Class 4" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testProperty1 a rdf:Property ;
+  rdfs:label "test Property 1" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testSubProperty1 rdfs:subPropertyOf test:testProperty1 ;
+  rdfs:label "test Sub Property 1" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testSubProperty2 rdfs:subPropertyOf test:testProperty1 ;
+  rdfs:label "test Sub Property 2" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testProperty2 a rdf:Property ;
+  rdfs:label "test Property 2" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testProperty3 a rdf:Property ;
+  rdfs:label "test Property 3" ;
+  rdfs:isDefinedBy test:schema .
+
+test:testProperty4 a rdf:Property ;
+  rdfs:label "test Property 4" ;
+  rdfs:isDefinedBy test:schema .

@@ -1,0 +1,17 @@
+{
+  "userAccountId": "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+  "accountType": "customer",
+  "blog": {
+    "creatorAccountId": "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+    "spaceKey": "~323528440",
+    "modificationDate": 1632067391591,
+    "lastModifierAccountId": "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+    "self": "https://dalstonsemantics.atlassian.net/wiki/spaces/~323528440/blog/2021/09/19/1192525828/Simple+Blog+Post",
+    "id": 1192525828,
+    "title": "Simple Blog Post",
+    "creationDate": 1632066485181,
+    "contentType": "blogpost",
+    "version": 2
+  },
+  "timestamp": 1632067391621
+}

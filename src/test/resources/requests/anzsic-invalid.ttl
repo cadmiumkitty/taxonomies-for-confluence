@@ -1,0 +1,5 @@
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+anzsic:0111 a 

@@ -1,0 +1,49 @@
+@prefix dg: <https://dalstonsemantics.com/dg/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+dg:schema rdfs:label "Data Governance Schema" .
+
+dg:DataDomain a rdfs:Class ;
+  rdfs:label "Data Domain" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:DataElement a rdfs:Class ;
+  rdfs:label "Data Element" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:CriticalDataElement a rdfs:Class ;
+  rdfs:subClassOf dg:DataElement ;
+  rdfs:label "Critical Data Element" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:Role a rdfs:Class ;
+  rdfs:label "Role" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:DataOwner a rdfs:Class ;
+  rdfs:subClassOf dg:Role ;
+  rdfs:label "Data Owner" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:DataSteward a rdfs:Class ;
+  rdfs:subClassOf dg:Role ;
+  rdfs:label "Data Steward" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:ownerOfDataDomain a rdf:Property ;
+  rdfs:label "owner of Data Domain" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:allocatedRole a rdf:Property ;
+  rdfs:label "allocated Role" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:ownerOfDataElement a rdf:Property ;
+  rdfs:label "owner of Data Domain" ;
+  rdfs:isDefinedBy dg:schema .
+
+dg:ownerOfCriticalDataElement a rdf:Property ;
+  rdfs:subPropertyOf dg:ownerOfDataElement ;
+  rdfs:label "owner of Data Domain" ;
+  rdfs:isDefinedBy dg:schema .

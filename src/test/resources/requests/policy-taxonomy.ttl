@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix policy: <https://dalstonsemantics.com/ns/org/isbn-international/978-0124158290/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+policy:0001 a skos:Concept ;
+    skos:inScheme policy:scheme ;
+    skos:prefLabel "Principle" ;
+    skos:topConceptOf policy:scheme .
+
+policy:0003 a skos:Concept ;
+    skos:broader policy:0002 ;
+    skos:inScheme policy:scheme ;
+    skos:prefLabel "Standard" .
+
+policy:0004 a skos:Concept ;
+    skos:broader policy:0002 ;
+    skos:inScheme policy:scheme ;
+    skos:prefLabel "Control" .
+
+policy:0005 a skos:Concept ;
+    skos:broader policy:0002 ;
+    skos:inScheme policy:scheme ;
+    skos:prefLabel "Process" .
+
+policy:0002 a skos:Concept ;
+    dcterms:source <https://technicspub.com/sample-page/dmbok/dama-dictionary-pdf/> ;
+    skos:definition "A statement of a selected course of action and high-level description of desired behavior to achieve a set of goals." ;
+    skos:inScheme policy:scheme ;
+    skos:prefLabel "Policy" ;
+    skos:topConceptOf policy:scheme .
+
+policy:scheme a skos:ConceptScheme ;
+    dcterms:source <https://learning.oreilly.com/library/view/data-governance/9780124158290/xhtml/CHP002.html#F0030> ;
+    pav:version "0.0.1" ;
+    skos:note "This taxonomy is derived from the Figure 2-5 in Chapter 2 Definitions and Concepts of the Data Governance book by John Ladley." ;
+    skos:prefLabel "Taxonomy for Policy" .
+

@@ -1,0 +1,18 @@
+<https://tfc.dalstonsemantics.com/client/927294f7-0a9f-3d01-8120-b3ca3a45df38> a <https://dalstonsemantics.com/ns/com/atlassian/AtlassianHost>;
+  <https://dalstonsemantics.com/ns/com/atlassian/baseUrl> "https://dalstonsemantics.atlassian.net/wiki";
+  <https://dalstonsemantics.com/ns/com/atlassian/clientKey> "927294f7-0a9f-3d01-8120-b3ca3a45df38";
+  <https://dalstonsemantics.com/ns/com/atlassian/description> "Atlassian Confluence at null ";
+  <https://dalstonsemantics.com/ns/com/atlassian/productType> "confluence";
+  <https://dalstonsemantics.com/ns/com/atlassian/addonInstalled> true;
+  <https://dalstonsemantics.com/ns/com/atlassian/sharedSecret> "WFhYWFgtWFhYWFgtWFhYWFgtWFhYWFgtWFhYWFgtWFhYWFg=" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/keyIdentifier> "https://tfc.vault.azure.net/keys/tfc-atlassian-shared-secret/fcc7aabb9c9849bdb8926488e9631f35" .
+
+<https://tfc.dalstonsemantics.com/activity/e08e2a76-c934-400f-b0a9-2b58d807c9f9> a <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/client/927294f7-0a9f-3d01-8120-b3ca3a45df38>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2021-08-07T16:30:06.921959595Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://www.w3.org/ns/prov#endedAtTime> "2021-08-07T16:30:06.921959595Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://www.w3.org/ns/prov#used> _:4a1e482c-05dd-488f-b999-a03e90ebc06d .
+
+_:4a1e482c-05dd-488f-b999-a03e90ebc06d <https://dalstonsemantics.com/ns/com/atlassian/sharedSecret> "WFhYWFgtWFhYWFgtWFhYWFgtWFhYWFgtWFhYWFgtWFhYWFg=" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/keyIdentifier> "https://tfc.vault.azure.net/keys/tfc-atlassian-shared-secret/fcc7aabb9c9849bdb8926488e9631f35" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/addonInstalled> true .

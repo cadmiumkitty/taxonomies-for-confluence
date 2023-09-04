@@ -1,0 +1,4949 @@
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+anzsic:0112 a skos:Concept ;
+    skos:broader anzsic:011 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0112" ;
+    skos:prefLabel "Updated - Nursery Production (Outdoors)" .
+
+anzsic:0114 a skos:Concept ;
+    skos:broader anzsic:011 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0114" ;
+    skos:prefLabel "Floriculture Production (Under Cover)" ;
+    dcterms:replaces anzsic:0113 .
+
+anzsic:0115 a skos:Concept ;
+    skos:broader anzsic:011 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0115" ;
+    skos:prefLabel "Floriculture Production (Outdoors)" .
+
+anzsic:0121 a skos:Concept ;
+    skos:broader anzsic:012 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0121" ;
+    skos:prefLabel "Mushroom Growing" .
+
+anzsic:0122 a skos:Concept ;
+    skos:broader anzsic:012 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0122" ;
+    skos:prefLabel "Vegetable Growing (Under Cover)" .
+
+anzsic:0123 a skos:Concept ;
+    skos:broader anzsic:012 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0123" ;
+    skos:prefLabel "Vegetable Growing (Outdoors)" .
+
+anzsic:0131 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0131" ;
+    skos:prefLabel "Grape Growing" .
+
+anzsic:0132 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0132" ;
+    skos:prefLabel "Kiwifruit Growing" .
+
+anzsic:0133 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0133" ;
+    skos:prefLabel "Berry Fruit Growing" .
+
+anzsic:0134 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0134" ;
+    skos:prefLabel "Apple and Pear Growing" .
+
+anzsic:0135 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0135" ;
+    skos:prefLabel "Stone Fruit Growing" .
+
+anzsic:0136 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0136" ;
+    skos:prefLabel "Citrus Fruit Growing" .
+
+anzsic:0137 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0137" ;
+    skos:prefLabel "Olive Growing" .
+
+anzsic:0139 a skos:Concept ;
+    skos:broader anzsic:013 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0139" ;
+    skos:prefLabel "Other Fruit and Tree Nut Growing" .
+
+anzsic:0141 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0141" ;
+    skos:prefLabel "Sheep Farming (Specialised)" .
+
+anzsic:0142 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0142" ;
+    skos:prefLabel "Beef Cattle Farming (Specialised)" .
+
+anzsic:0143 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0143" ;
+    skos:prefLabel "Beef Cattle Feedlots (Specialised)" .
+
+anzsic:0144 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0144" ;
+    skos:prefLabel "Sheep-Beef Cattle Farming" .
+
+anzsic:0145 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0145" ;
+    skos:prefLabel "Grain-Sheep or Grain-Beef Cattle Farming" .
+
+anzsic:0146 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0146" ;
+    skos:prefLabel "Rice Growing" .
+
+anzsic:0149 a skos:Concept ;
+    skos:broader anzsic:014 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0149" ;
+    skos:prefLabel "Other Grain Growing" .
+
+anzsic:0151 a skos:Concept ;
+    skos:broader anzsic:015 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0151" ;
+    skos:prefLabel "Sugar Cane Growing" .
+
+anzsic:0152 a skos:Concept ;
+    skos:broader anzsic:015 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0152" ;
+    skos:prefLabel "Cotton Growing" .
+
+anzsic:0159 a skos:Concept ;
+    skos:broader anzsic:015 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0159" ;
+    skos:prefLabel "Other Crop Growing n.e.c." .
+
+anzsic:0160 a skos:Concept ;
+    skos:broader anzsic:016 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0160" ;
+    skos:prefLabel "Dairy Cattle Farming" .
+
+anzsic:0171 a skos:Concept ;
+    skos:broader anzsic:017 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0171" ;
+    skos:prefLabel "Poultry Farming (Meat)" .
+
+anzsic:0172 a skos:Concept ;
+    skos:broader anzsic:017 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0172" ;
+    skos:prefLabel "Poultry Farming (Eggs)" .
+
+anzsic:0180 a skos:Concept ;
+    skos:broader anzsic:018 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0180" ;
+    skos:prefLabel "Deer Farming" .
+
+anzsic:0191 a skos:Concept ;
+    skos:broader anzsic:019 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0191" ;
+    skos:prefLabel "Horse Farming" .
+
+anzsic:0192 a skos:Concept ;
+    skos:broader anzsic:019 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0192" ;
+    skos:prefLabel "Pig Farming" .
+
+anzsic:0193 a skos:Concept ;
+    skos:broader anzsic:019 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0193" ;
+    skos:prefLabel "Beekeeping" .
+
+anzsic:0199 a skos:Concept ;
+    skos:broader anzsic:019 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0199" ;
+    skos:prefLabel "Other Livestock Farming n.e.c." .
+
+anzsic:0201 a skos:Concept ;
+    skos:broader anzsic:020 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0201" ;
+    skos:prefLabel "Offshore Longline and Rack Aquaculture" .
+
+anzsic:0202 a skos:Concept ;
+    skos:broader anzsic:020 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0202" ;
+    skos:prefLabel "Offshore Caged Aquaculture" .
+
+anzsic:0203 a skos:Concept ;
+    skos:broader anzsic:020 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0203" ;
+    skos:prefLabel "Onshore Aquaculture" .
+
+anzsic:0301 a skos:Concept ;
+    skos:broader anzsic:030 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0301" ;
+    skos:prefLabel "Forestry" .
+
+anzsic:0302 a skos:Concept ;
+    skos:broader anzsic:030 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0302" ;
+    skos:prefLabel "Logging" .
+
+anzsic:0411 a skos:Concept ;
+    skos:broader anzsic:041 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0411" ;
+    skos:prefLabel "Rock Lobster and Crab Potting" .
+
+anzsic:0412 a skos:Concept ;
+    skos:broader anzsic:041 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0412" ;
+    skos:prefLabel "Prawn Fishing" .
+
+anzsic:0413 a skos:Concept ;
+    skos:broader anzsic:041 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0413" ;
+    skos:prefLabel "Line Fishing" .
+
+anzsic:0414 a skos:Concept ;
+    skos:broader anzsic:041 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0414" ;
+    skos:prefLabel "Fish Trawling, Seining and Netting" .
+
+anzsic:0419 a skos:Concept ;
+    skos:broader anzsic:041 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0419" ;
+    skos:prefLabel "Other Fishing" .
+
+anzsic:0420 a skos:Concept ;
+    skos:broader anzsic:042 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0420" ;
+    skos:prefLabel "Hunting and Trapping" .
+
+anzsic:0510 a skos:Concept ;
+    skos:broader anzsic:051 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0510" ;
+    skos:prefLabel "Forestry Support Services" .
+
+anzsic:0521 a skos:Concept ;
+    skos:broader anzsic:052 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0521" ;
+    skos:prefLabel "Cotton Ginning" .
+
+anzsic:0522 a skos:Concept ;
+    skos:broader anzsic:052 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0522" ;
+    skos:prefLabel "Shearing Services" .
+
+anzsic:0529 a skos:Concept ;
+    skos:broader anzsic:052 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0529" ;
+    skos:prefLabel "Other Agriculture and Fishing Support Services" .
+
+anzsic:0600 a skos:Concept ;
+    skos:broader anzsic:060 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0600" ;
+    skos:prefLabel "Coal Mining" .
+
+anzsic:0700 a skos:Concept ;
+    skos:broader anzsic:070 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0700" ;
+    skos:prefLabel "Oil and Gas Extraction" .
+
+anzsic:0801 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0801" ;
+    skos:prefLabel "Iron Ore Mining" .
+
+anzsic:0802 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0802" ;
+    skos:prefLabel "Bauxite Mining" .
+
+anzsic:0803 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0803" ;
+    skos:prefLabel "Copper Ore Mining" .
+
+anzsic:0804 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0804" ;
+    skos:prefLabel "Gold Ore Mining" .
+
+anzsic:0805 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0805" ;
+    skos:prefLabel "Mineral Sand Mining" .
+
+anzsic:0806 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0806" ;
+    skos:prefLabel "Nickel Ore Mining" .
+
+anzsic:0807 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0807" ;
+    skos:prefLabel "Silver-Lead-Zinc Ore Mining" .
+
+anzsic:0809 a skos:Concept ;
+    skos:broader anzsic:080 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0809" ;
+    skos:prefLabel "Other Metal Ore Mining" .
+
+anzsic:0911 a skos:Concept ;
+    skos:broader anzsic:091 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0911" ;
+    skos:prefLabel "Gravel and Sand Quarrying" .
+
+anzsic:0919 a skos:Concept ;
+    skos:broader anzsic:091 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0919" ;
+    skos:prefLabel "Other Construction Material Mining" .
+
+anzsic:0990 a skos:Concept ;
+    skos:broader anzsic:099 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "0990" ;
+    skos:prefLabel "Other Non-Metallic Mineral Mining and Quarrying" .
+
+anzsic:1011 a skos:Concept ;
+    skos:broader anzsic:101 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1011" ;
+    skos:prefLabel "Petroleum Exploration" .
+
+anzsic:1012 a skos:Concept ;
+    skos:broader anzsic:101 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1012" ;
+    skos:prefLabel "Mineral Exploration" .
+
+anzsic:1090 a skos:Concept ;
+    skos:broader anzsic:109 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1090" ;
+    skos:prefLabel "Other Mining Support Services" .
+
+anzsic:1111 a skos:Concept ;
+    skos:broader anzsic:111 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1111" ;
+    skos:prefLabel "Meat Processing" .
+
+anzsic:1112 a skos:Concept ;
+    skos:broader anzsic:111 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1112" ;
+    skos:prefLabel "Poultry Processing" .
+
+anzsic:1113 a skos:Concept ;
+    skos:broader anzsic:111 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1113" ;
+    skos:prefLabel "Cured Meat and Smallgoods Manufacturing" .
+
+anzsic:1120 a skos:Concept ;
+    skos:broader anzsic:112 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1120" ;
+    skos:prefLabel "Seafood Processing" .
+
+anzsic:1131 a skos:Concept ;
+    skos:broader anzsic:113 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1131" ;
+    skos:prefLabel "Milk and Cream Processing" .
+
+anzsic:1132 a skos:Concept ;
+    skos:broader anzsic:113 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1132" ;
+    skos:prefLabel "Ice Cream Manufacturing" .
+
+anzsic:1133 a skos:Concept ;
+    skos:broader anzsic:113 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1133" ;
+    skos:prefLabel "Cheese and Other Dairy Product Manufacturing" .
+
+anzsic:1140 a skos:Concept ;
+    skos:broader anzsic:114 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1140" ;
+    skos:prefLabel "Fruit and Vegetable Processing" .
+
+anzsic:1150 a skos:Concept ;
+    skos:broader anzsic:115 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1150" ;
+    skos:prefLabel "Oil and Fat Manufacturing" .
+
+anzsic:1161 a skos:Concept ;
+    skos:broader anzsic:116 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1161" ;
+    skos:prefLabel "Grain Mill Product Manufacturing" .
+
+anzsic:1162 a skos:Concept ;
+    skos:broader anzsic:116 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1162" ;
+    skos:prefLabel "Cereal, Pasta and Baking Mix Manufacturing" .
+
+anzsic:1171 a skos:Concept ;
+    skos:broader anzsic:117 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1171" ;
+    skos:prefLabel "Bread Manufacturing (Factory based)" .
+
+anzsic:1172 a skos:Concept ;
+    skos:broader anzsic:117 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1172" ;
+    skos:prefLabel "Cake and Pastry Manufacturing (Factory based)" .
+
+anzsic:1173 a skos:Concept ;
+    skos:broader anzsic:117 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1173" ;
+    skos:prefLabel "Biscuit Manufacturing (Factory based)" .
+
+anzsic:1174 a skos:Concept ;
+    skos:broader anzsic:117 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1174" ;
+    skos:prefLabel "Bakery Product Manufacturing (Non-factory based)" .
+
+anzsic:1181 a skos:Concept ;
+    skos:broader anzsic:118 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1181" ;
+    skos:prefLabel "Sugar Manufacturing" .
+
+anzsic:1182 a skos:Concept ;
+    skos:broader anzsic:118 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1182" ;
+    skos:prefLabel "Confectionery Manufacturing" .
+
+anzsic:1191 a skos:Concept ;
+    skos:broader anzsic:119 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1191" ;
+    skos:prefLabel "Potato, Corn and Other Crisp Manufacturing" .
+
+anzsic:1192 a skos:Concept ;
+    skos:broader anzsic:119 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1192" ;
+    skos:prefLabel "Prepared Animal and Bird Feed Manufacturing" .
+
+anzsic:1199 a skos:Concept ;
+    skos:broader anzsic:119 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1199" ;
+    skos:prefLabel "Other Food Product Manufacturing n.e.c." .
+
+anzsic:1211 a skos:Concept ;
+    skos:broader anzsic:121 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1211" ;
+    skos:prefLabel "Soft Drink, Cordial and Syrup Manufacturing" .
+
+anzsic:1212 a skos:Concept ;
+    skos:broader anzsic:121 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1212" ;
+    skos:prefLabel "Beer Manufacturing" .
+
+anzsic:1213 a skos:Concept ;
+    skos:broader anzsic:121 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1213" ;
+    skos:prefLabel "Spirit Manufacturing" .
+
+anzsic:1214 a skos:Concept ;
+    skos:broader anzsic:121 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1214" ;
+    skos:prefLabel "Wine and Other Alcoholic Beverage Manufacturing" .
+
+anzsic:1220 a skos:Concept ;
+    skos:broader anzsic:122 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1220" ;
+    skos:prefLabel "Cigarette and Tobacco Product Manufacturing" .
+
+anzsic:1311 a skos:Concept ;
+    skos:broader anzsic:131 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1311" ;
+    skos:prefLabel "Wool Scouring" .
+
+anzsic:1312 a skos:Concept ;
+    skos:broader anzsic:131 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1312" ;
+    skos:prefLabel "Natural Textile Manufacturing" .
+
+anzsic:1313 a skos:Concept ;
+    skos:broader anzsic:131 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1313" ;
+    skos:prefLabel "Synthetic Textile Manufacturing" .
+
+anzsic:1320 a skos:Concept ;
+    skos:broader anzsic:132 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1320" ;
+    skos:prefLabel "Leather Tanning, Fur Dressing and Leather Product Manufacturing" .
+
+anzsic:1331 a skos:Concept ;
+    skos:broader anzsic:133 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1331" ;
+    skos:prefLabel "Textile Floor Covering Manufacturing" .
+
+anzsic:1332 a skos:Concept ;
+    skos:broader anzsic:133 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1332" ;
+    skos:prefLabel "Rope, Cordage and Twine Manufacturing" .
+
+anzsic:1333 a skos:Concept ;
+    skos:broader anzsic:133 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1333" ;
+    skos:prefLabel "Cut and Sewn Textile Product Manufacturing" .
+
+anzsic:1334 a skos:Concept ;
+    skos:broader anzsic:133 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1334" ;
+    skos:prefLabel "Textile Finishing and Other Textile Product Manufacturing" .
+
+anzsic:1340 a skos:Concept ;
+    skos:broader anzsic:134 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1340" ;
+    skos:prefLabel "Knitted Product Manufacturing" .
+
+anzsic:1351 a skos:Concept ;
+    skos:broader anzsic:135 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1351" ;
+    skos:prefLabel "Clothing Manufacturing" .
+
+anzsic:1352 a skos:Concept ;
+    skos:broader anzsic:135 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1352" ;
+    skos:prefLabel "Footwear Manufacturing" .
+
+anzsic:1411 a skos:Concept ;
+    skos:broader anzsic:141 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1411" ;
+    skos:prefLabel "Log Sawmilling" .
+
+anzsic:1412 a skos:Concept ;
+    skos:broader anzsic:141 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1412" ;
+    skos:prefLabel "Wood Chipping" .
+
+anzsic:1413 a skos:Concept ;
+    skos:broader anzsic:141 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1413" ;
+    skos:prefLabel "Timber Resawing and Dressing" .
+
+anzsic:1491 a skos:Concept ;
+    skos:broader anzsic:149 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1491" ;
+    skos:prefLabel "Prefabricated Wooden Building Manufacturing" .
+
+anzsic:1492 a skos:Concept ;
+    skos:broader anzsic:149 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1492" ;
+    skos:prefLabel "Wooden Structural Fitting and Component Manufacturing" .
+
+anzsic:1493 a skos:Concept ;
+    skos:broader anzsic:149 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1493" ;
+    skos:prefLabel "Veneer and Plywood Manufacturing" .
+
+anzsic:1494 a skos:Concept ;
+    skos:broader anzsic:149 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1494" ;
+    skos:prefLabel "Reconstituted Wood Product Manufacturing" .
+
+anzsic:1499 a skos:Concept ;
+    skos:broader anzsic:149 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1499" ;
+    skos:prefLabel "Other Wood Product Manufacturing n.e.c." .
+
+anzsic:1510 a skos:Concept ;
+    skos:broader anzsic:151 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1510" ;
+    skos:prefLabel "Pulp, Paper and Paperboard Manufacturing" .
+
+anzsic:1521 a skos:Concept ;
+    skos:broader anzsic:152 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1521" ;
+    skos:prefLabel "Corrugated Paperboard and Paperboard Container Manufacturing" .
+
+anzsic:1522 a skos:Concept ;
+    skos:broader anzsic:152 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1522" ;
+    skos:prefLabel "Paper Bag Manufacturing" .
+
+anzsic:1523 a skos:Concept ;
+    skos:broader anzsic:152 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1523" ;
+    skos:prefLabel "Paper Stationery Manufacturing" .
+
+anzsic:1524 a skos:Concept ;
+    skos:broader anzsic:152 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1524" ;
+    skos:prefLabel "Sanitary Paper Product Manufacturing" .
+
+anzsic:1529 a skos:Concept ;
+    skos:broader anzsic:152 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1529" ;
+    skos:prefLabel "Other Converted Paper Product Manufacturing" .
+
+anzsic:1611 a skos:Concept ;
+    skos:broader anzsic:161 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1611" ;
+    skos:prefLabel "Printing" .
+
+anzsic:1612 a skos:Concept ;
+    skos:broader anzsic:161 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1612" ;
+    skos:prefLabel "Printing Support Services" .
+
+anzsic:1620 a skos:Concept ;
+    skos:broader anzsic:162 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1620" ;
+    skos:prefLabel "Reproduction of Recorded Media" .
+
+anzsic:1701 a skos:Concept ;
+    skos:broader anzsic:170 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1701" ;
+    skos:prefLabel "Petroleum Refining and Petroleum Fuel Manufacturing" .
+
+anzsic:1709 a skos:Concept ;
+    skos:broader anzsic:170 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1709" ;
+    skos:prefLabel "Other Petroleum and Coal Product Manufacturing" .
+
+anzsic:1811 a skos:Concept ;
+    skos:broader anzsic:181 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1811" ;
+    skos:prefLabel "Industrial Gas Manufacturing" .
+
+anzsic:1812 a skos:Concept ;
+    skos:broader anzsic:181 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1812" ;
+    skos:prefLabel "Basic Organic Chemical Manufacturing" .
+
+anzsic:1813 a skos:Concept ;
+    skos:broader anzsic:181 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1813" ;
+    skos:prefLabel "Basic Inorganic Chemical Manufacturing" .
+
+anzsic:1821 a skos:Concept ;
+    skos:broader anzsic:182 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1821" ;
+    skos:prefLabel "Synthetic Resin and Synthetic Rubber Manufacturing" .
+
+anzsic:1829 a skos:Concept ;
+    skos:broader anzsic:182 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1829" ;
+    skos:prefLabel "Other Basic Polymer Manufacturing" .
+
+anzsic:1831 a skos:Concept ;
+    skos:broader anzsic:183 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1831" ;
+    skos:prefLabel "Fertiliser Manufacturing" .
+
+anzsic:1832 a skos:Concept ;
+    skos:broader anzsic:183 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1832" ;
+    skos:prefLabel "Pesticide Manufacturing" .
+
+anzsic:1841 a skos:Concept ;
+    skos:broader anzsic:184 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1841" ;
+    skos:prefLabel "Human Pharmaceutical and Medicinal Product Manufacturing" .
+
+anzsic:1842 a skos:Concept ;
+    skos:broader anzsic:184 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1842" ;
+    skos:prefLabel "Veterinary Pharmaceutical and Medicinal Product Manufacturing" .
+
+anzsic:1851 a skos:Concept ;
+    skos:broader anzsic:185 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1851" ;
+    skos:prefLabel "Cleaning Compound Manufacturing" .
+
+anzsic:1852 a skos:Concept ;
+    skos:broader anzsic:185 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1852" ;
+    skos:prefLabel "Cosmetic and Toiletry Preparation Manufacturing" .
+
+anzsic:1891 a skos:Concept ;
+    skos:broader anzsic:189 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1891" ;
+    skos:prefLabel "Photographic Chemical Product Manufacturing" .
+
+anzsic:1892 a skos:Concept ;
+    skos:broader anzsic:189 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1892" ;
+    skos:prefLabel "Explosive Manufacturing" .
+
+anzsic:1899 a skos:Concept ;
+    skos:broader anzsic:189 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1899" ;
+    skos:prefLabel "Other Basic Chemical Product Manufacturing n.e.c." .
+
+anzsic:1911 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1911" ;
+    skos:prefLabel "Polymer Film and Sheet Packaging Material Manufacturing" .
+
+anzsic:1912 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1912" ;
+    skos:prefLabel "Rigid and Semi-Rigid Polymer Product Manufacturing" .
+
+anzsic:1913 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1913" ;
+    skos:prefLabel "Polymer Foam Product Manufacturing" .
+
+anzsic:1914 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1914" ;
+    skos:prefLabel "Tyre Manufacturing" .
+
+anzsic:1915 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1915" ;
+    skos:prefLabel "Adhesive Manufacturing" .
+
+anzsic:1916 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1916" ;
+    skos:prefLabel "Paint and Coatings Manufacturing" .
+
+anzsic:1919 a skos:Concept ;
+    skos:broader anzsic:191 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1919" ;
+    skos:prefLabel "Other Polymer Product Manufacturing" .
+
+anzsic:1920 a skos:Concept ;
+    skos:broader anzsic:192 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "1920" ;
+    skos:prefLabel "Natural Rubber Product Manufacturing" .
+
+anzsic:2010 a skos:Concept ;
+    skos:broader anzsic:201 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2010" ;
+    skos:prefLabel "Glass and Glass Product Manufacturing" .
+
+anzsic:2021 a skos:Concept ;
+    skos:broader anzsic:202 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2021" ;
+    skos:prefLabel "Clay Brick Manufacturing" .
+
+anzsic:2029 a skos:Concept ;
+    skos:broader anzsic:202 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2029" ;
+    skos:prefLabel "Other Ceramic Product Manufacturing" .
+
+anzsic:2031 a skos:Concept ;
+    skos:broader anzsic:203 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2031" ;
+    skos:prefLabel "Cement and Lime Manufacturing" .
+
+anzsic:2032 a skos:Concept ;
+    skos:broader anzsic:203 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2032" ;
+    skos:prefLabel "Plaster Product Manufacturing" .
+
+anzsic:2033 a skos:Concept ;
+    skos:broader anzsic:203 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2033" ;
+    skos:prefLabel "Ready-Mixed Concrete Manufacturing" .
+
+anzsic:2034 a skos:Concept ;
+    skos:broader anzsic:203 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2034" ;
+    skos:prefLabel "Concrete Product Manufacturing" .
+
+anzsic:2090 a skos:Concept ;
+    skos:broader anzsic:209 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2090" ;
+    skos:prefLabel "Other Non-Metallic Mineral Product Manufacturing" .
+
+anzsic:2110 a skos:Concept ;
+    skos:broader anzsic:211 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2110" ;
+    skos:prefLabel "Iron Smelting and Steel Manufacturing" .
+
+anzsic:2121 a skos:Concept ;
+    skos:broader anzsic:212 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2121" ;
+    skos:prefLabel "Iron and Steel Casting" .
+
+anzsic:2122 a skos:Concept ;
+    skos:broader anzsic:212 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2122" ;
+    skos:prefLabel "Steel Pipe and Tube Manufacturing" .
+
+anzsic:2131 a skos:Concept ;
+    skos:broader anzsic:213 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2131" ;
+    skos:prefLabel "Alumina Production" .
+
+anzsic:2132 a skos:Concept ;
+    skos:broader anzsic:213 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2132" ;
+    skos:prefLabel "Aluminium Smelting" .
+
+anzsic:2133 a skos:Concept ;
+    skos:broader anzsic:213 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2133" ;
+    skos:prefLabel "Copper, Silver, Lead and Zinc Smelting and Refining" .
+
+anzsic:2139 a skos:Concept ;
+    skos:broader anzsic:213 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2139" ;
+    skos:prefLabel "Other Basic Non-Ferrous Metal Manufacturing" .
+
+anzsic:2141 a skos:Concept ;
+    skos:broader anzsic:214 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2141" ;
+    skos:prefLabel "Non-Ferrous Metal Casting" .
+
+anzsic:2142 a skos:Concept ;
+    skos:broader anzsic:214 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2142" ;
+    skos:prefLabel "Aluminium Rolling, Drawing, Extruding" .
+
+anzsic:2149 a skos:Concept ;
+    skos:broader anzsic:214 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2149" ;
+    skos:prefLabel "Other Basic Non-Ferrous Metal Product Manufacturing" .
+
+anzsic:2210 a skos:Concept ;
+    skos:broader anzsic:221 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2210" ;
+    skos:prefLabel "Iron and Steel Forging" .
+
+anzsic:2221 a skos:Concept ;
+    skos:broader anzsic:222 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2221" ;
+    skos:prefLabel "Structural Steel Fabricating" .
+
+anzsic:2222 a skos:Concept ;
+    skos:broader anzsic:222 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2222" ;
+    skos:prefLabel "Prefabricated Metal Building Manufacturing" .
+
+anzsic:2223 a skos:Concept ;
+    skos:broader anzsic:222 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2223" ;
+    skos:prefLabel "Architectural Aluminium Product Manufacturing" .
+
+anzsic:2224 a skos:Concept ;
+    skos:broader anzsic:222 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2224" ;
+    skos:prefLabel "Metal Roof and Guttering Manufacturing (except Aluminium)" .
+
+anzsic:2229 a skos:Concept ;
+    skos:broader anzsic:222 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2229" ;
+    skos:prefLabel "Other Structural Metal Product Manufacturing" .
+
+anzsic:2231 a skos:Concept ;
+    skos:broader anzsic:223 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2231" ;
+    skos:prefLabel "Boiler, Tank and Other Heavy Gauge Metal Container Manufacturing" .
+
+anzsic:2239 a skos:Concept ;
+    skos:broader anzsic:223 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2239" ;
+    skos:prefLabel "Other Metal Container Manufacturing" .
+
+anzsic:2240 a skos:Concept ;
+    skos:broader anzsic:224 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2240" ;
+    skos:prefLabel "Sheet Metal Product Manufacturing (except Metal Structural and Container" .
+
+anzsic:2291 a skos:Concept ;
+    skos:broader anzsic:229 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2291" ;
+    skos:prefLabel "Spring and Wire Product Manufacturing" .
+
+anzsic:2292 a skos:Concept ;
+    skos:broader anzsic:229 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2292" ;
+    skos:prefLabel "Nut, Bolt, Screw and Rivet Manufacturing" .
+
+anzsic:2293 a skos:Concept ;
+    skos:broader anzsic:229 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2293" ;
+    skos:prefLabel "Metal Coating and Finishing" .
+
+anzsic:2299 a skos:Concept ;
+    skos:broader anzsic:229 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2299" ;
+    skos:prefLabel "Other Fabricated Metal Product Manufacturing n.e.c." .
+
+anzsic:2311 a skos:Concept ;
+    skos:broader anzsic:231 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2311" ;
+    skos:prefLabel "Motor Vehicle Manufacturing" .
+
+anzsic:2312 a skos:Concept ;
+    skos:broader anzsic:231 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2312" ;
+    skos:prefLabel "Motor Vehicle Body and Trailer Manufacturing" .
+
+anzsic:2313 a skos:Concept ;
+    skos:broader anzsic:231 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2313" ;
+    skos:prefLabel "Automotive Electrical Component Manufacturing" .
+
+anzsic:2319 a skos:Concept ;
+    skos:broader anzsic:231 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2319" ;
+    skos:prefLabel "Other Motor Vehicle Parts Manufacturing" .
+
+anzsic:2391 a skos:Concept ;
+    skos:broader anzsic:239 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2391" ;
+    skos:prefLabel "Shipbuilding and Repair Services" .
+
+anzsic:2392 a skos:Concept ;
+    skos:broader anzsic:239 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2392" ;
+    skos:prefLabel "Boatbuilding and Repair Services" .
+
+anzsic:2393 a skos:Concept ;
+    skos:broader anzsic:239 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2393" ;
+    skos:prefLabel "Railway Rolling Stock Manufacturing and Repair Services" .
+
+anzsic:2394 a skos:Concept ;
+    skos:broader anzsic:239 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2394" ;
+    skos:prefLabel "Aircraft Manufacturing and Repair Services" .
+
+anzsic:2399 a skos:Concept ;
+    skos:broader anzsic:239 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2399" ;
+    skos:prefLabel "Other Transport Equipment Manufacturing n.e.c." .
+
+anzsic:2411 a skos:Concept ;
+    skos:broader anzsic:241 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2411" ;
+    skos:prefLabel "Photographic, Optical and Ophthalmic Equipment Manufacturing" .
+
+anzsic:2412 a skos:Concept ;
+    skos:broader anzsic:241 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2412" ;
+    skos:prefLabel "Medical and Surgical Equipment Manufacturing" .
+
+anzsic:2419 a skos:Concept ;
+    skos:broader anzsic:241 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2419" ;
+    skos:prefLabel "Other Professional and Scientific Equipment Manufacturing" .
+
+anzsic:2421 a skos:Concept ;
+    skos:broader anzsic:242 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2421" ;
+    skos:prefLabel "Computer and Electronic Office Equipment Manufacturing" .
+
+anzsic:2422 a skos:Concept ;
+    skos:broader anzsic:242 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2422" ;
+    skos:prefLabel "Communication Equipment Manufacturing" .
+
+anzsic:2429 a skos:Concept ;
+    skos:broader anzsic:242 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2429" ;
+    skos:prefLabel "Other Electronic Equipment Manufacturing" .
+
+anzsic:2431 a skos:Concept ;
+    skos:broader anzsic:243 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2431" ;
+    skos:prefLabel "Electric Cable and Wire Manufacturing" .
+
+anzsic:2432 a skos:Concept ;
+    skos:broader anzsic:243 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2432" ;
+    skos:prefLabel "Electric Lighting Equipment Manufacturing" .
+
+anzsic:2439 a skos:Concept ;
+    skos:broader anzsic:243 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2439" ;
+    skos:prefLabel "Other Electrical Equipment Manufacturing" .
+
+anzsic:2441 a skos:Concept ;
+    skos:broader anzsic:244 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2441" ;
+    skos:prefLabel "Whiteware Appliance Manufacturing" .
+
+anzsic:2449 a skos:Concept ;
+    skos:broader anzsic:244 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2449" ;
+    skos:prefLabel "Other Domestic Appliance Manufacturing" .
+
+anzsic:2451 a skos:Concept ;
+    skos:broader anzsic:245 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2451" ;
+    skos:prefLabel "Pump and Compressor Manufacturing" .
+
+anzsic:2452 a skos:Concept ;
+    skos:broader anzsic:245 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2452" ;
+    skos:prefLabel "Fixed Space Heating, Cooling and Ventilation Equipment Manufacturing" .
+
+anzsic:2461 a skos:Concept ;
+    skos:broader anzsic:246 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2461" ;
+    skos:prefLabel "Agricultural Machinery and Equipment Manufacturing" .
+
+anzsic:2462 a skos:Concept ;
+    skos:broader anzsic:246 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2462" ;
+    skos:prefLabel "Mining and Construction Machinery Manufacturing" .
+
+anzsic:2463 a skos:Concept ;
+    skos:broader anzsic:246 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2463" ;
+    skos:prefLabel "Machine Tool and Parts Manufacturing" .
+
+anzsic:2469 a skos:Concept ;
+    skos:broader anzsic:246 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2469" ;
+    skos:prefLabel "Other Specialised Machinery and Equipment Manufacturing" .
+
+anzsic:2491 a skos:Concept ;
+    skos:broader anzsic:249 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2491" ;
+    skos:prefLabel "Lifting and Material Handling Equipment Manufacturing" .
+
+anzsic:2499 a skos:Concept ;
+    skos:broader anzsic:249 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2499" ;
+    skos:prefLabel "Other Machinery and Equipment Manufacturing n.e.c." .
+
+anzsic:2511 a skos:Concept ;
+    skos:broader anzsic:251 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2511" ;
+    skos:prefLabel "Wooden Furniture and Upholstered Seat Manufacturing" .
+
+anzsic:2512 a skos:Concept ;
+    skos:broader anzsic:251 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2512" ;
+    skos:prefLabel "Metal Furniture Manufacturing" .
+
+anzsic:2513 a skos:Concept ;
+    skos:broader anzsic:251 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2513" ;
+    skos:prefLabel "Mattress Manufacturing" .
+
+anzsic:2519 a skos:Concept ;
+    skos:broader anzsic:251 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2519" ;
+    skos:prefLabel "Other Furniture Manufacturing" .
+
+anzsic:2591 a skos:Concept ;
+    skos:broader anzsic:259 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2591" ;
+    skos:prefLabel "Jewellery and Silverware Manufacturing" .
+
+anzsic:2592 a skos:Concept ;
+    skos:broader anzsic:259 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2592" ;
+    skos:prefLabel "Toy, Sporting and Recreational Product Manufacturing" .
+
+anzsic:2599 a skos:Concept ;
+    skos:broader anzsic:259 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2599" ;
+    skos:prefLabel "Other Manufacturing n.e.c." .
+
+anzsic:2611 a skos:Concept ;
+    skos:broader anzsic:261 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2611" ;
+    skos:prefLabel "Fossil Fuel Electricity Generation" .
+
+anzsic:2612 a skos:Concept ;
+    skos:broader anzsic:261 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2612" ;
+    skos:prefLabel "Hydro-Electricity Generation" .
+
+anzsic:2619 a skos:Concept ;
+    skos:broader anzsic:261 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2619" ;
+    skos:prefLabel "Other Electricity Generation" .
+
+anzsic:2620 a skos:Concept ;
+    skos:broader anzsic:262 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2620" ;
+    skos:prefLabel "Electricity Transmission" .
+
+anzsic:2630 a skos:Concept ;
+    skos:broader anzsic:263 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2630" ;
+    skos:prefLabel "Electricity Distribution" .
+
+anzsic:2640 a skos:Concept ;
+    skos:broader anzsic:264 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2640" ;
+    skos:prefLabel "On Selling Electricity and Electricity Market Operation" .
+
+anzsic:2700 a skos:Concept ;
+    skos:broader anzsic:270 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2700" ;
+    skos:prefLabel "Gas Supply" .
+
+anzsic:2811 a skos:Concept ;
+    skos:broader anzsic:281 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2811" ;
+    skos:prefLabel "Water Supply" .
+
+anzsic:2812 a skos:Concept ;
+    skos:broader anzsic:281 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2812" ;
+    skos:prefLabel "Sewerage and Drainage Services" .
+
+anzsic:2911 a skos:Concept ;
+    skos:broader anzsic:291 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2911" ;
+    skos:prefLabel "Solid Waste Collection Services" .
+
+anzsic:2919 a skos:Concept ;
+    skos:broader anzsic:291 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2919" ;
+    skos:prefLabel "Other Waste Collection Services" .
+
+anzsic:2921 a skos:Concept ;
+    skos:broader anzsic:292 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2921" ;
+    skos:prefLabel "Waste Treatment and Disposal Services" .
+
+anzsic:2922 a skos:Concept ;
+    skos:broader anzsic:292 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "2922" ;
+    skos:prefLabel "Waste Remediation and Materials Recovery Services" .
+
+anzsic:3011 a skos:Concept ;
+    skos:broader anzsic:301 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3011" ;
+    skos:prefLabel "House Construction" .
+
+anzsic:3019 a skos:Concept ;
+    skos:broader anzsic:301 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3019" ;
+    skos:prefLabel "Other Residential Building Construction" .
+
+anzsic:3020 a skos:Concept ;
+    skos:broader anzsic:302 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3020" ;
+    skos:prefLabel "Non-Residential Building Construction" .
+
+anzsic:3101 a skos:Concept ;
+    skos:broader anzsic:310 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3101" ;
+    skos:prefLabel "Road and Bridge Construction" .
+
+anzsic:3109 a skos:Concept ;
+    skos:broader anzsic:310 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3109" ;
+    skos:prefLabel "Other Heavy and Civil Engineering Construction" .
+
+anzsic:3211 a skos:Concept ;
+    skos:broader anzsic:321 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3211" ;
+    skos:prefLabel "Land Development and Subdivision" .
+
+anzsic:3212 a skos:Concept ;
+    skos:broader anzsic:321 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3212" ;
+    skos:prefLabel "Site Preparation Services" .
+
+anzsic:3221 a skos:Concept ;
+    skos:broader anzsic:322 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3221" ;
+    skos:prefLabel "Concreting Services" .
+
+anzsic:3222 a skos:Concept ;
+    skos:broader anzsic:322 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3222" ;
+    skos:prefLabel "Bricklaying Services" .
+
+anzsic:3223 a skos:Concept ;
+    skos:broader anzsic:322 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3223" ;
+    skos:prefLabel "Roofing Services" .
+
+anzsic:3224 a skos:Concept ;
+    skos:broader anzsic:322 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3224" ;
+    skos:prefLabel "Structural Steel Erection Services" .
+
+anzsic:3231 a skos:Concept ;
+    skos:broader anzsic:323 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3231" ;
+    skos:prefLabel "Plumbing Services" .
+
+anzsic:3232 a skos:Concept ;
+    skos:broader anzsic:323 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3232" ;
+    skos:prefLabel "Electrical Services" .
+
+anzsic:3233 a skos:Concept ;
+    skos:broader anzsic:323 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3233" ;
+    skos:prefLabel "Air Conditioning and Heating Services" .
+
+anzsic:3234 a skos:Concept ;
+    skos:broader anzsic:323 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3234" ;
+    skos:prefLabel "Fire and Security Alarm Installation Services" .
+
+anzsic:3239 a skos:Concept ;
+    skos:broader anzsic:323 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3239" ;
+    skos:prefLabel "Other Building Installation Services" .
+
+anzsic:3241 a skos:Concept ;
+    skos:broader anzsic:324 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3241" ;
+    skos:prefLabel "Plastering and Ceiling Services" .
+
+anzsic:3242 a skos:Concept ;
+    skos:broader anzsic:324 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3242" ;
+    skos:prefLabel "Carpentry Services" .
+
+anzsic:3243 a skos:Concept ;
+    skos:broader anzsic:324 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3243" ;
+    skos:prefLabel "Tiling and Carpeting Services" .
+
+anzsic:3244 a skos:Concept ;
+    skos:broader anzsic:324 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3244" ;
+    skos:prefLabel "Painting and Decorating Services" .
+
+anzsic:3245 a skos:Concept ;
+    skos:broader anzsic:324 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3245" ;
+    skos:prefLabel "Glazing Services" .
+
+anzsic:3291 a skos:Concept ;
+    skos:broader anzsic:329 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3291" ;
+    skos:prefLabel "Landscape Construction Services" .
+
+anzsic:3292 a skos:Concept ;
+    skos:broader anzsic:329 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3292" ;
+    skos:prefLabel "Hire of Construction Machinery with Operator" .
+
+anzsic:3299 a skos:Concept ;
+    skos:broader anzsic:329 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3299" ;
+    skos:prefLabel "Other Construction Services n.e.c." .
+
+anzsic:3311 a skos:Concept ;
+    skos:broader anzsic:331 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3311" ;
+    skos:prefLabel "Wool Wholesaling" .
+
+anzsic:3312 a skos:Concept ;
+    skos:broader anzsic:331 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3312" ;
+    skos:prefLabel "Cereal Grain Wholesaling" .
+
+anzsic:3319 a skos:Concept ;
+    skos:broader anzsic:331 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3319" ;
+    skos:prefLabel "Other Agricultural Product Wholesaling" .
+
+anzsic:3321 a skos:Concept ;
+    skos:broader anzsic:332 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3321" ;
+    skos:prefLabel "Petroleum Product Wholesaling" .
+
+anzsic:3322 a skos:Concept ;
+    skos:broader anzsic:332 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3322" ;
+    skos:prefLabel "Metal and Mineral Wholesaling" .
+
+anzsic:3323 a skos:Concept ;
+    skos:broader anzsic:332 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3323" ;
+    skos:prefLabel "Industrial and Agricultural Chemical Product Wholesaling" .
+
+anzsic:3331 a skos:Concept ;
+    skos:broader anzsic:333 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3331" ;
+    skos:prefLabel "Timber Wholesaling" .
+
+anzsic:3332 a skos:Concept ;
+    skos:broader anzsic:333 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3332" ;
+    skos:prefLabel "Plumbing Goods Wholesaling" .
+
+anzsic:3339 a skos:Concept ;
+    skos:broader anzsic:333 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3339" ;
+    skos:prefLabel "Other Hardware Goods Wholesaling" .
+
+anzsic:3411 a skos:Concept ;
+    skos:broader anzsic:341 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3411" ;
+    skos:prefLabel "Agricultural and Construction Machinery Wholesaling" .
+
+anzsic:3419 a skos:Concept ;
+    skos:broader anzsic:341 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3419" ;
+    skos:prefLabel "Other Specialised Industrial Machinery and Equipment Wholesaling" .
+
+anzsic:3491 a skos:Concept ;
+    skos:broader anzsic:349 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3491" ;
+    skos:prefLabel "Professional and Scientific Goods Wholesaling" .
+
+anzsic:3492 a skos:Concept ;
+    skos:broader anzsic:349 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3492" ;
+    skos:prefLabel "Computer and Computer Peripheral Wholesaling" .
+
+anzsic:3493 a skos:Concept ;
+    skos:broader anzsic:349 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3493" ;
+    skos:prefLabel "Telecommunication Goods Wholesaling" .
+
+anzsic:3494 a skos:Concept ;
+    skos:broader anzsic:349 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3494" ;
+    skos:prefLabel "Other Electrical and Electronic Goods Wholesaling" .
+
+anzsic:3499 a skos:Concept ;
+    skos:broader anzsic:349 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3499" ;
+    skos:prefLabel "Other Machinery and Equipment Wholesaling n.e.c." .
+
+anzsic:3501 a skos:Concept ;
+    skos:broader anzsic:350 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3501" ;
+    skos:prefLabel "Car Wholesaling" .
+
+anzsic:3502 a skos:Concept ;
+    skos:broader anzsic:350 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3502" ;
+    skos:prefLabel "Commercial Vehicle Wholesaling" .
+
+anzsic:3503 a skos:Concept ;
+    skos:broader anzsic:350 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3503" ;
+    skos:prefLabel "Trailer and Other Motor Vehicle Wholesaling" .
+
+anzsic:3504 a skos:Concept ;
+    skos:broader anzsic:350 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3504" ;
+    skos:prefLabel "Motor Vehicle New Parts Wholesaling" .
+
+anzsic:3505 a skos:Concept ;
+    skos:broader anzsic:350 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3505" ;
+    skos:prefLabel "Motor Vehicle Dismantling and Used Parts Wholesaling" .
+
+anzsic:3601 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3601" ;
+    skos:prefLabel "General Line Grocery Wholesaling" .
+
+anzsic:3602 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3602" ;
+    skos:prefLabel "Meat, Poultry and Smallgoods Wholesaling" .
+
+anzsic:3603 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3603" ;
+    skos:prefLabel "Dairy Produce Wholesaling" .
+
+anzsic:3604 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3604" ;
+    skos:prefLabel "Fish and Seafood Wholesaling" .
+
+anzsic:3605 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3605" ;
+    skos:prefLabel "Fruit and Vegetable Wholesaling" .
+
+anzsic:3606 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3606" ;
+    skos:prefLabel "Liquor and Tobacco Product Wholesaling" .
+
+anzsic:3609 a skos:Concept ;
+    skos:broader anzsic:360 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3609" ;
+    skos:prefLabel "Other Grocery Wholesaling" .
+
+anzsic:3711 a skos:Concept ;
+    skos:broader anzsic:371 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3711" ;
+    skos:prefLabel "Textile Product Wholesaling" .
+
+anzsic:3712 a skos:Concept ;
+    skos:broader anzsic:371 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3712" ;
+    skos:prefLabel "Clothing and Footwear Wholesaling" .
+
+anzsic:3720 a skos:Concept ;
+    skos:broader anzsic:372 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3720" ;
+    skos:prefLabel "Pharmaceutical and Toiletry Goods Wholesaling" .
+
+anzsic:3731 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3731" ;
+    skos:prefLabel "Furniture and Floor Covering Wholesaling" .
+
+anzsic:3732 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3732" ;
+    skos:prefLabel "Jewellery and Watch Wholesaling" .
+
+anzsic:3733 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3733" ;
+    skos:prefLabel "Kitchen and Diningware Wholesaling" .
+
+anzsic:3734 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3734" ;
+    skos:prefLabel "Toy and Sporting Goods Wholesaling" .
+
+anzsic:3735 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3735" ;
+    skos:prefLabel "Book and Magazine Wholesaling" .
+
+anzsic:3736 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3736" ;
+    skos:prefLabel "Paper Product Wholesaling" .
+
+anzsic:3739 a skos:Concept ;
+    skos:broader anzsic:373 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3739" ;
+    skos:prefLabel "Other Goods Wholesaling n.e.c." .
+
+anzsic:3800 a skos:Concept ;
+    skos:broader anzsic:380 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3800" ;
+    skos:prefLabel "Commission-Based Wholesaling" .
+
+anzsic:3911 a skos:Concept ;
+    skos:broader anzsic:391 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3911" ;
+    skos:prefLabel "Car Retailing" .
+
+anzsic:3912 a skos:Concept ;
+    skos:broader anzsic:391 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3912" ;
+    skos:prefLabel "Motor Cycle Retailing" .
+
+anzsic:3913 a skos:Concept ;
+    skos:broader anzsic:391 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3913" ;
+    skos:prefLabel "Trailer and Other Motor Vehicle Retailing" .
+
+anzsic:3921 a skos:Concept ;
+    skos:broader anzsic:392 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3921" ;
+    skos:prefLabel "Motor Vehicle Parts Retailing" .
+
+anzsic:3922 a skos:Concept ;
+    skos:broader anzsic:392 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "3922" ;
+    skos:prefLabel "Tyre Retailing" .
+
+anzsic:4000 a skos:Concept ;
+    skos:broader anzsic:400 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4000" ;
+    skos:prefLabel "Fuel Retailing" .
+
+anzsic:4110 a skos:Concept ;
+    skos:broader anzsic:411 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4110" ;
+    skos:prefLabel "Supermarket and Grocery Stores" .
+
+anzsic:4121 a skos:Concept ;
+    skos:broader anzsic:412 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4121" ;
+    skos:prefLabel "Fresh Meat, Fish and Poultry Retailing" .
+
+anzsic:4122 a skos:Concept ;
+    skos:broader anzsic:412 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4122" ;
+    skos:prefLabel "Fruit and Vegetable Retailing" .
+
+anzsic:4123 a skos:Concept ;
+    skos:broader anzsic:412 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4123" ;
+    skos:prefLabel "Liquor Retailing" .
+
+anzsic:4129 a skos:Concept ;
+    skos:broader anzsic:412 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4129" ;
+    skos:prefLabel "Other Specialised Food Retailing" .
+
+anzsic:4211 a skos:Concept ;
+    skos:broader anzsic:421 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4211" ;
+    skos:prefLabel "Furniture Retailing" .
+
+anzsic:4212 a skos:Concept ;
+    skos:broader anzsic:421 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4212" ;
+    skos:prefLabel "Floor Coverings Retailing" .
+
+anzsic:4213 a skos:Concept ;
+    skos:broader anzsic:421 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4213" ;
+    skos:prefLabel "Houseware Retailing" .
+
+anzsic:4214 a skos:Concept ;
+    skos:broader anzsic:421 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4214" ;
+    skos:prefLabel "Manchester and Other Textile Goods Retailing" .
+
+anzsic:4221 a skos:Concept ;
+    skos:broader anzsic:422 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4221" ;
+    skos:prefLabel "Electrical, Electronic and Gas Appliance Retailing" .
+
+anzsic:4222 a skos:Concept ;
+    skos:broader anzsic:422 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4222" ;
+    skos:prefLabel "Computer and Computer Peripheral Retailing" .
+
+anzsic:4229 a skos:Concept ;
+    skos:broader anzsic:422 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4229" ;
+    skos:prefLabel "Other Electrical and Electronic Goods Retailing" .
+
+anzsic:4231 a skos:Concept ;
+    skos:broader anzsic:423 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4231" ;
+    skos:prefLabel "Hardware and Building Supplies Retailing" .
+
+anzsic:4232 a skos:Concept ;
+    skos:broader anzsic:423 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4232" ;
+    skos:prefLabel "Garden Supplies Retailing" .
+
+anzsic:4241 a skos:Concept ;
+    skos:broader anzsic:424 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4241" ;
+    skos:prefLabel "Sport and Camping Equipment Retailing" .
+
+anzsic:4242 a skos:Concept ;
+    skos:broader anzsic:424 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4242" ;
+    skos:prefLabel "Entertainment Media Retailing" .
+
+anzsic:4243 a skos:Concept ;
+    skos:broader anzsic:424 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4243" ;
+    skos:prefLabel "Toy and Game Retailing" .
+
+anzsic:4244 a skos:Concept ;
+    skos:broader anzsic:424 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4244" ;
+    skos:prefLabel "Newspaper and Book Retailing" .
+
+anzsic:4245 a skos:Concept ;
+    skos:broader anzsic:424 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4245" ;
+    skos:prefLabel "Marine Equipment Retailing" .
+
+anzsic:4251 a skos:Concept ;
+    skos:broader anzsic:425 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4251" ;
+    skos:prefLabel "Clothing Retailing" .
+
+anzsic:4252 a skos:Concept ;
+    skos:broader anzsic:425 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4252" ;
+    skos:prefLabel "Footwear Retailing" .
+
+anzsic:4253 a skos:Concept ;
+    skos:broader anzsic:425 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4253" ;
+    skos:prefLabel "Watch and Jewellery Retailing" .
+
+anzsic:4259 a skos:Concept ;
+    skos:broader anzsic:425 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4259" ;
+    skos:prefLabel "Other Personal Accessory Retailing" .
+
+anzsic:4260 a skos:Concept ;
+    skos:broader anzsic:426 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4260" ;
+    skos:prefLabel "Department Stores" .
+
+anzsic:4271 a skos:Concept ;
+    skos:broader anzsic:427 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4271" ;
+    skos:prefLabel "Pharmaceutical, Cosmetic and Toiletry Goods Retailing" .
+
+anzsic:4272 a skos:Concept ;
+    skos:broader anzsic:427 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4272" ;
+    skos:prefLabel "Stationery Goods Retailing" .
+
+anzsic:4273 a skos:Concept ;
+    skos:broader anzsic:427 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4273" ;
+    skos:prefLabel "Antique and Used Goods Retailing" .
+
+anzsic:4274 a skos:Concept ;
+    skos:broader anzsic:427 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4274" ;
+    skos:prefLabel "Flower Retailing" .
+
+anzsic:4279 a skos:Concept ;
+    skos:broader anzsic:427 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4279" ;
+    skos:prefLabel "Other Store-Based Retailing n.e.c." .
+
+anzsic:4310 a skos:Concept ;
+    skos:broader anzsic:431 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4310" ;
+    skos:prefLabel "Non-Store Retailing" .
+
+anzsic:4320 a skos:Concept ;
+    skos:broader anzsic:432 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4320" ;
+    skos:prefLabel "Retail Commission-Based Buying and/or Selling" .
+
+anzsic:4400 a skos:Concept ;
+    skos:broader anzsic:440 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4400" ;
+    skos:prefLabel "Accommodation" .
+
+anzsic:4511 a skos:Concept ;
+    skos:broader anzsic:451 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4511" ;
+    skos:prefLabel "Cafes and Restaurants" .
+
+anzsic:4512 a skos:Concept ;
+    skos:broader anzsic:451 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4512" ;
+    skos:prefLabel "Takeaway Food Services" .
+
+anzsic:4513 a skos:Concept ;
+    skos:broader anzsic:451 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4513" ;
+    skos:prefLabel "Catering Services" .
+
+anzsic:4520 a skos:Concept ;
+    skos:broader anzsic:452 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4520" ;
+    skos:prefLabel "Pubs, Taverns and Bars" .
+
+anzsic:4530 a skos:Concept ;
+    skos:broader anzsic:453 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4530" ;
+    skos:prefLabel "Clubs (Hospitality)" .
+
+anzsic:4610 a skos:Concept ;
+    skos:broader anzsic:461 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4610" ;
+    skos:prefLabel "Road Freight Transport" .
+
+anzsic:4621 a skos:Concept ;
+    skos:broader anzsic:462 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4621" ;
+    skos:prefLabel "Interurban and Rural Bus Transport" .
+
+anzsic:4622 a skos:Concept ;
+    skos:broader anzsic:462 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4622" ;
+    skos:prefLabel "Urban Bus Transport (Including Tramway)" .
+
+anzsic:4623 a skos:Concept ;
+    skos:broader anzsic:462 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4623" ;
+    skos:prefLabel "Taxi and Other Road Transport" .
+
+anzsic:4710 a skos:Concept ;
+    skos:broader anzsic:471 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4710" ;
+    skos:prefLabel "Rail Freight Transport" .
+
+anzsic:4720 a skos:Concept ;
+    skos:broader anzsic:472 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4720" ;
+    skos:prefLabel "Rail Passenger Transport" .
+
+anzsic:4810 a skos:Concept ;
+    skos:broader anzsic:481 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4810" ;
+    skos:prefLabel "Water Freight Transport" .
+
+anzsic:4820 a skos:Concept ;
+    skos:broader anzsic:482 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4820" ;
+    skos:prefLabel "Water Passenger Transport" .
+
+anzsic:4900 a skos:Concept ;
+    skos:broader anzsic:490 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "4900" ;
+    skos:prefLabel "Air and Space Transport" .
+
+anzsic:5010 a skos:Concept ;
+    skos:broader anzsic:501 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5010" ;
+    skos:prefLabel "Scenic and Sightseeing Transport" .
+
+anzsic:5021 a skos:Concept ;
+    skos:broader anzsic:502 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5021" ;
+    skos:prefLabel "Pipeline Transport" .
+
+anzsic:5029 a skos:Concept ;
+    skos:broader anzsic:502 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5029" ;
+    skos:prefLabel "Other Transport n.e.c." .
+
+anzsic:5101 a skos:Concept ;
+    skos:broader anzsic:510 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5101" ;
+    skos:prefLabel "Postal Services" .
+
+anzsic:5102 a skos:Concept ;
+    skos:broader anzsic:510 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5102" ;
+    skos:prefLabel "Courier Pick-up and Delivery Services" .
+
+anzsic:5211 a skos:Concept ;
+    skos:broader anzsic:521 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5211" ;
+    skos:prefLabel "Stevedoring Services" .
+
+anzsic:5212 a skos:Concept ;
+    skos:broader anzsic:521 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5212" ;
+    skos:prefLabel "Port and Water Transport Terminal Operations" .
+
+anzsic:5219 a skos:Concept ;
+    skos:broader anzsic:521 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5219" ;
+    skos:prefLabel "Other Water Transport Support Services" .
+
+anzsic:5220 a skos:Concept ;
+    skos:broader anzsic:522 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5220" ;
+    skos:prefLabel "Airport Operations and Other Air Transport Support Services" .
+
+anzsic:5291 a skos:Concept ;
+    skos:broader anzsic:529 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5291" ;
+    skos:prefLabel "Customs Agency Services" .
+
+anzsic:5292 a skos:Concept ;
+    skos:broader anzsic:529 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5292" ;
+    skos:prefLabel "Freight Forwarding Services" .
+
+anzsic:5299 a skos:Concept ;
+    skos:broader anzsic:529 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5299" ;
+    skos:prefLabel "Other Transport Support Services n.e.c." .
+
+anzsic:5301 a skos:Concept ;
+    skos:broader anzsic:530 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5301" ;
+    skos:prefLabel "Grain Storage Services" .
+
+anzsic:5309 a skos:Concept ;
+    skos:broader anzsic:530 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5309" ;
+    skos:prefLabel "Other Warehousing and Storage Services" .
+
+anzsic:5411 a skos:Concept ;
+    skos:broader anzsic:541 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5411" ;
+    skos:prefLabel "Newspaper Publishing" .
+
+anzsic:5412 a skos:Concept ;
+    skos:broader anzsic:541 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5412" ;
+    skos:prefLabel "Magazine and Other Periodical Publishing" .
+
+anzsic:5413 a skos:Concept ;
+    skos:broader anzsic:541 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5413" ;
+    skos:prefLabel "Book Publishing" .
+
+anzsic:5414 a skos:Concept ;
+    skos:broader anzsic:541 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5414" ;
+    skos:prefLabel "Directory and Mailing List Publishing" .
+
+anzsic:5419 a skos:Concept ;
+    skos:broader anzsic:541 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5419" ;
+    skos:prefLabel "Other Publishing (except Software, Music and Internet)" .
+
+anzsic:5420 a skos:Concept ;
+    skos:broader anzsic:542 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5420" ;
+    skos:prefLabel "Software Publishing" .
+
+anzsic:5511 a skos:Concept ;
+    skos:broader anzsic:551 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5511" ;
+    skos:prefLabel "Motion Picture and Video Production" .
+
+anzsic:5512 a skos:Concept ;
+    skos:broader anzsic:551 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5512" ;
+    skos:prefLabel "Motion Picture and Video Distribution" .
+
+anzsic:5513 a skos:Concept ;
+    skos:broader anzsic:551 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5513" ;
+    skos:prefLabel "Motion Picture Exhibition" .
+
+anzsic:5514 a skos:Concept ;
+    skos:broader anzsic:551 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5514" ;
+    skos:prefLabel "Post-production Services and Other Motion Picture and Video Activities" .
+
+anzsic:5521 a skos:Concept ;
+    skos:broader anzsic:552 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5521" ;
+    skos:prefLabel "Music Publishing" .
+
+anzsic:5522 a skos:Concept ;
+    skos:broader anzsic:552 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5522" ;
+    skos:prefLabel "Music and Other Sound Recording Activities" .
+
+anzsic:5610 a skos:Concept ;
+    skos:broader anzsic:561 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5610" ;
+    skos:prefLabel "Radio Broadcasting" .
+
+anzsic:5621 a skos:Concept ;
+    skos:broader anzsic:562 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5621" ;
+    skos:prefLabel "Free-to-Air Television Broadcasting" .
+
+anzsic:5622 a skos:Concept ;
+    skos:broader anzsic:562 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5622" ;
+    skos:prefLabel "Cable and Other Subscription Broadcasting" .
+
+anzsic:5700 a skos:Concept ;
+    skos:broader anzsic:570 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5700" ;
+    skos:prefLabel "Internet Publishing and Broadcasting" .
+
+anzsic:5801 a skos:Concept ;
+    skos:broader anzsic:580 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5801" ;
+    skos:prefLabel "Wired Telecommunications Network Operation" .
+
+anzsic:5802 a skos:Concept ;
+    skos:broader anzsic:580 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5802" ;
+    skos:prefLabel "Other Telecommunications Network Operation" .
+
+anzsic:5809 a skos:Concept ;
+    skos:broader anzsic:580 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5809" ;
+    skos:prefLabel "Other Telecommunications Services" .
+
+anzsic:5910 a skos:Concept ;
+    skos:broader anzsic:591 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5910" ;
+    skos:prefLabel "Internet Service Providers and Web Search Portals" .
+
+anzsic:5921 a skos:Concept ;
+    skos:broader anzsic:592 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5921" ;
+    skos:prefLabel "Data Processing and Web Hosting Services" .
+
+anzsic:5922 a skos:Concept ;
+    skos:broader anzsic:592 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "5922" ;
+    skos:prefLabel "Electronic Information Storage Services" .
+
+anzsic:6010 a skos:Concept ;
+    skos:broader anzsic:601 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6010" ;
+    skos:prefLabel "Libraries and Archives" .
+
+anzsic:6020 a skos:Concept ;
+    skos:broader anzsic:602 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6020" ;
+    skos:prefLabel "Other Information Services" .
+
+anzsic:6210 a skos:Concept ;
+    skos:broader anzsic:621 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6210" ;
+    skos:prefLabel "Central Banking" .
+
+anzsic:6221 a skos:Concept ;
+    skos:broader anzsic:622 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6221" ;
+    skos:prefLabel "Banking" .
+
+anzsic:6222 a skos:Concept ;
+    skos:broader anzsic:622 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6222" ;
+    skos:prefLabel "Building Society Operation" .
+
+anzsic:6223 a skos:Concept ;
+    skos:broader anzsic:622 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6223" ;
+    skos:prefLabel "Credit Union Operation" .
+
+anzsic:6229 a skos:Concept ;
+    skos:broader anzsic:622 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6229" ;
+    skos:prefLabel "Other Depository Financial Intermediation" .
+
+anzsic:6230 a skos:Concept ;
+    skos:broader anzsic:623 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6230" ;
+    skos:prefLabel "Non-Depository Financing" .
+
+anzsic:6240 a skos:Concept ;
+    skos:broader anzsic:624 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6240" ;
+    skos:prefLabel "Financial Asset Investing" .
+
+anzsic:6310 a skos:Concept ;
+    skos:broader anzsic:631 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6310" ;
+    skos:prefLabel "Life Insurance" .
+
+anzsic:6321 a skos:Concept ;
+    skos:broader anzsic:632 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6321" ;
+    skos:prefLabel "Health Insurance" .
+
+anzsic:6322 a skos:Concept ;
+    skos:broader anzsic:632 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6322" ;
+    skos:prefLabel "General Insurance" .
+
+anzsic:6330 a skos:Concept ;
+    skos:broader anzsic:633 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6330" ;
+    skos:prefLabel "Superannuation Funds" .
+
+anzsic:6411 a skos:Concept ;
+    skos:broader anzsic:641 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6411" ;
+    skos:prefLabel "Financial Asset Broking Services" .
+
+anzsic:6419 a skos:Concept ;
+    skos:broader anzsic:641 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6419" ;
+    skos:prefLabel "Other Auxiliary Finance and Investment Services" .
+
+anzsic:6420 a skos:Concept ;
+    skos:broader anzsic:642 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6420" ;
+    skos:prefLabel "Auxiliary Insurance Services" .
+
+anzsic:6611 a skos:Concept ;
+    skos:broader anzsic:661 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6611" ;
+    skos:prefLabel "Passenger Car Rental and Hiring" .
+
+anzsic:6619 a skos:Concept ;
+    skos:broader anzsic:661 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6619" ;
+    skos:prefLabel "Other Motor Vehicle and Transport Equipment Rental and Hiring" .
+
+anzsic:6620 a skos:Concept ;
+    skos:broader anzsic:662 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6620" ;
+    skos:prefLabel "Farm Animal and Bloodstock Leasing" .
+
+anzsic:6631 a skos:Concept ;
+    skos:broader anzsic:663 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6631" ;
+    skos:prefLabel "Heavy Machinery and Scaffolding Rental and Hiring" .
+
+anzsic:6632 a skos:Concept ;
+    skos:broader anzsic:663 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6632" ;
+    skos:prefLabel "Video and Other Electronic Media Rental and Hiring" .
+
+anzsic:6639 a skos:Concept ;
+    skos:broader anzsic:663 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6639" ;
+    skos:prefLabel "Other Goods and Equipment Rental and Hiring n.e.c." .
+
+anzsic:6640 a skos:Concept ;
+    skos:broader anzsic:664 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6640" ;
+    skos:prefLabel "Non-Financial Intangible Assets (Except Copyrights) Leasing" .
+
+anzsic:6711 a skos:Concept ;
+    skos:broader anzsic:671 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6711" ;
+    skos:prefLabel "Residential Property Operators" .
+
+anzsic:6712 a skos:Concept ;
+    skos:broader anzsic:671 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6712" ;
+    skos:prefLabel "Non-Residential Property Operators" .
+
+anzsic:6720 a skos:Concept ;
+    skos:broader anzsic:672 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6720" ;
+    skos:prefLabel "Real Estate Services" .
+
+anzsic:6910 a skos:Concept ;
+    skos:broader anzsic:691 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6910" ;
+    skos:prefLabel "Scientific Research Services" .
+
+anzsic:6921 a skos:Concept ;
+    skos:broader anzsic:692 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6921" ;
+    skos:prefLabel "Architectural Services" .
+
+anzsic:6922 a skos:Concept ;
+    skos:broader anzsic:692 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6922" ;
+    skos:prefLabel "Surveying and Mapping Services" .
+
+anzsic:6923 a skos:Concept ;
+    skos:broader anzsic:692 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6923" ;
+    skos:prefLabel "Engineering Design and Engineering Consulting Services" .
+
+anzsic:6924 a skos:Concept ;
+    skos:broader anzsic:692 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6924" ;
+    skos:prefLabel "Other Specialised Design Services" .
+
+anzsic:6925 a skos:Concept ;
+    skos:broader anzsic:692 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6925" ;
+    skos:prefLabel "Scientific Testing and Analysis Services" .
+
+anzsic:6931 a skos:Concept ;
+    skos:broader anzsic:693 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6931" ;
+    skos:prefLabel "Legal Services" .
+
+anzsic:6932 a skos:Concept ;
+    skos:broader anzsic:693 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6932" ;
+    skos:prefLabel "Accounting Services" .
+
+anzsic:6940 a skos:Concept ;
+    skos:broader anzsic:694 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6940" ;
+    skos:prefLabel "Advertising Services" .
+
+anzsic:6950 a skos:Concept ;
+    skos:broader anzsic:695 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6950" ;
+    skos:prefLabel "Market Research and Statistical Services" .
+
+anzsic:6961 a skos:Concept ;
+    skos:broader anzsic:696 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6961" ;
+    skos:prefLabel "Corporate Head Office Management Services" .
+
+anzsic:6962 a skos:Concept ;
+    skos:broader anzsic:696 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6962" ;
+    skos:prefLabel "Management Advice and Related Consulting Services" .
+
+anzsic:6970 a skos:Concept ;
+    skos:broader anzsic:697 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6970" ;
+    skos:prefLabel "Veterinary Services" .
+
+anzsic:6991 a skos:Concept ;
+    skos:broader anzsic:699 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6991" ;
+    skos:prefLabel "Professional Photographic Services" .
+
+anzsic:6999 a skos:Concept ;
+    skos:broader anzsic:699 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "6999" ;
+    skos:prefLabel "Other Professional, Scientific and Technical Services n.e.c." .
+
+anzsic:7000 a skos:Concept ;
+    skos:broader anzsic:700 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7000" ;
+    skos:prefLabel "Computer System Design and Related Services" .
+
+anzsic:7211 a skos:Concept ;
+    skos:broader anzsic:721 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7211" ;
+    skos:prefLabel "Employment Placement and Recruitment Services" .
+
+anzsic:7212 a skos:Concept ;
+    skos:broader anzsic:721 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7212" ;
+    skos:prefLabel "Labour Supply Services" .
+
+anzsic:7220 a skos:Concept ;
+    skos:broader anzsic:722 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7220" ;
+    skos:prefLabel "Travel Agency and Tour Arrangement Services" .
+
+anzsic:7291 a skos:Concept ;
+    skos:broader anzsic:729 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7291" ;
+    skos:prefLabel "Office Administrative Services" .
+
+anzsic:7292 a skos:Concept ;
+    skos:broader anzsic:729 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7292" ;
+    skos:prefLabel "Document Preparation Services" .
+
+anzsic:7293 a skos:Concept ;
+    skos:broader anzsic:729 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7293" ;
+    skos:prefLabel "Credit Reporting and Debt Collection Services" .
+
+anzsic:7294 a skos:Concept ;
+    skos:broader anzsic:729 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7294" ;
+    skos:prefLabel "Call Centre Operation" .
+
+anzsic:7299 a skos:Concept ;
+    skos:broader anzsic:729 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7299" ;
+    skos:prefLabel "Other Administrative Services n.e.c." .
+
+anzsic:7311 a skos:Concept ;
+    skos:broader anzsic:731 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7311" ;
+    skos:prefLabel "Building and Other Industrial Cleaning Services" .
+
+anzsic:7312 a skos:Concept ;
+    skos:broader anzsic:731 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7312" ;
+    skos:prefLabel "Building Pest Control Services" .
+
+anzsic:7313 a skos:Concept ;
+    skos:broader anzsic:731 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7313" ;
+    skos:prefLabel "Gardening Services" .
+
+anzsic:7320 a skos:Concept ;
+    skos:broader anzsic:732 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7320" ;
+    skos:prefLabel "Packaging Services" .
+
+anzsic:7510 a skos:Concept ;
+    skos:broader anzsic:751 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7510" ;
+    skos:prefLabel "Central Government Administration" .
+
+anzsic:7520 a skos:Concept ;
+    skos:broader anzsic:752 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7520" ;
+    skos:prefLabel "State Government Administration" .
+
+anzsic:7530 a skos:Concept ;
+    skos:broader anzsic:753 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7530" ;
+    skos:prefLabel "Local Government Administration" .
+
+anzsic:7540 a skos:Concept ;
+    skos:broader anzsic:754 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7540" ;
+    skos:prefLabel "Justice" .
+
+anzsic:7551 a skos:Concept ;
+    skos:broader anzsic:755 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7551" ;
+    skos:prefLabel "Domestic Government Representation" .
+
+anzsic:7552 a skos:Concept ;
+    skos:broader anzsic:755 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7552" ;
+    skos:prefLabel "Foreign Government Representation" .
+
+anzsic:7600 a skos:Concept ;
+    skos:broader anzsic:760 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7600" ;
+    skos:prefLabel "Defence" .
+
+anzsic:7711 a skos:Concept ;
+    skos:broader anzsic:771 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7711" ;
+    skos:prefLabel "Police Services" .
+
+anzsic:7712 a skos:Concept ;
+    skos:broader anzsic:771 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7712" ;
+    skos:prefLabel "Investigation and Security Services" .
+
+anzsic:7713 a skos:Concept ;
+    skos:broader anzsic:771 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7713" ;
+    skos:prefLabel "Fire Protection and Other Emergency Services" .
+
+anzsic:7714 a skos:Concept ;
+    skos:broader anzsic:771 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7714" ;
+    skos:prefLabel "Correctional and Detention Services" .
+
+anzsic:7719 a skos:Concept ;
+    skos:broader anzsic:771 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7719" ;
+    skos:prefLabel "Other Public Order and Safety Services" .
+
+anzsic:7720 a skos:Concept ;
+    skos:broader anzsic:772 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "7720" ;
+    skos:prefLabel "Regulatory Services" .
+
+anzsic:8010 a skos:Concept ;
+    skos:broader anzsic:801 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8010" ;
+    skos:prefLabel "Preschool Education" .
+
+anzsic:8021 a skos:Concept ;
+    skos:broader anzsic:802 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8021" ;
+    skos:prefLabel "Primary Education" .
+
+anzsic:8022 a skos:Concept ;
+    skos:broader anzsic:802 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8022" ;
+    skos:prefLabel "Secondary Education" .
+
+anzsic:8023 a skos:Concept ;
+    skos:broader anzsic:802 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8023" ;
+    skos:prefLabel "Combined Primary and Secondary Education" .
+
+anzsic:8024 a skos:Concept ;
+    skos:broader anzsic:802 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8024" ;
+    skos:prefLabel "Special School Education" .
+
+anzsic:8101 a skos:Concept ;
+    skos:broader anzsic:810 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8101" ;
+    skos:prefLabel "Technical and Vocational Education and Training" .
+
+anzsic:8102 a skos:Concept ;
+    skos:broader anzsic:810 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8102" ;
+    skos:prefLabel "Higher Education" .
+
+anzsic:8211 a skos:Concept ;
+    skos:broader anzsic:821 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8211" ;
+    skos:prefLabel "Sports and Physical Recreation Instruction" .
+
+anzsic:8212 a skos:Concept ;
+    skos:broader anzsic:821 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8212" ;
+    skos:prefLabel "Arts Education" .
+
+anzsic:8219 a skos:Concept ;
+    skos:broader anzsic:821 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8219" ;
+    skos:prefLabel "Adult, Community and Other Education n.e.c." .
+
+anzsic:8220 a skos:Concept ;
+    skos:broader anzsic:822 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8220" ;
+    skos:prefLabel "Educational Support Services" .
+
+anzsic:8401 a skos:Concept ;
+    skos:broader anzsic:840 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8401" ;
+    skos:prefLabel "Hospitals (Except Psychiatric Hospitals)" .
+
+anzsic:8402 a skos:Concept ;
+    skos:broader anzsic:840 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8402" ;
+    skos:prefLabel "Psychiatric Hospitals" .
+
+anzsic:8511 a skos:Concept ;
+    skos:broader anzsic:851 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8511" ;
+    skos:prefLabel "General Practice Medical Services" .
+
+anzsic:8512 a skos:Concept ;
+    skos:broader anzsic:851 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8512" ;
+    skos:prefLabel "Specialist Medical Services" .
+
+anzsic:8520 a skos:Concept ;
+    skos:broader anzsic:852 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8520" ;
+    skos:prefLabel "Pathology and Diagnostic Imaging Services" .
+
+anzsic:8531 a skos:Concept ;
+    skos:broader anzsic:853 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8531" ;
+    skos:prefLabel "Dental Services" .
+
+anzsic:8532 a skos:Concept ;
+    skos:broader anzsic:853 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8532" ;
+    skos:prefLabel "Optometry and Optical Dispensing" .
+
+anzsic:8533 a skos:Concept ;
+    skos:broader anzsic:853 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8533" ;
+    skos:prefLabel "Physiotherapy Services" .
+
+anzsic:8534 a skos:Concept ;
+    skos:broader anzsic:853 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8534" ;
+    skos:prefLabel "Chiropractic and Osteopathic Services" .
+
+anzsic:8539 a skos:Concept ;
+    skos:broader anzsic:853 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8539" ;
+    skos:prefLabel "Other Allied Health Services" .
+
+anzsic:8591 a skos:Concept ;
+    skos:broader anzsic:859 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8591" ;
+    skos:prefLabel "Ambulance Services" .
+
+anzsic:8599 a skos:Concept ;
+    skos:broader anzsic:859 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8599" ;
+    skos:prefLabel "Other Health Care Services n.e.c." .
+
+anzsic:8601 a skos:Concept ;
+    skos:broader anzsic:860 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8601" ;
+    skos:prefLabel "Aged Care Residential Services" .
+
+anzsic:8609 a skos:Concept ;
+    skos:broader anzsic:860 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8609" ;
+    skos:prefLabel "Other Residential Care Services" .
+
+anzsic:8710 a skos:Concept ;
+    skos:broader anzsic:871 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8710" ;
+    skos:prefLabel "Child Care Services" .
+
+anzsic:8790 a skos:Concept ;
+    skos:broader anzsic:879 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8790" ;
+    skos:prefLabel "Other Social Assistance Services" .
+
+anzsic:8910 a skos:Concept ;
+    skos:broader anzsic:891 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8910" ;
+    skos:prefLabel "Museum Operation" .
+
+anzsic:8921 a skos:Concept ;
+    skos:broader anzsic:892 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8921" ;
+    skos:prefLabel "Zoological and Botanical Gardens Operation" .
+
+anzsic:8922 a skos:Concept ;
+    skos:broader anzsic:892 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "8922" ;
+    skos:prefLabel "Nature Reserves and Conservation Parks Operation" .
+
+anzsic:9001 a skos:Concept ;
+    skos:broader anzsic:900 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9001" ;
+    skos:prefLabel "Performing Arts Operation" .
+
+anzsic:9002 a skos:Concept ;
+    skos:broader anzsic:900 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9002" ;
+    skos:prefLabel "Creative Artists, Musicians, Writers and Performers" .
+
+anzsic:9003 a skos:Concept ;
+    skos:broader anzsic:900 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9003" ;
+    skos:prefLabel "Performing Arts Venue Operation" .
+
+anzsic:9111 a skos:Concept ;
+    skos:broader anzsic:911 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9111" ;
+    skos:prefLabel "Health and Fitness Centres and Gymnasia Operation" .
+
+anzsic:9112 a skos:Concept ;
+    skos:broader anzsic:911 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9112" ;
+    skos:prefLabel "Sports and Physical Recreation Clubs and Sports Professionals" .
+
+anzsic:9113 a skos:Concept ;
+    skos:broader anzsic:911 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9113" ;
+    skos:prefLabel "Sports and Physical Recreation Venues, Grounds and Facilities Operation" .
+
+anzsic:9114 a skos:Concept ;
+    skos:broader anzsic:911 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9114" ;
+    skos:prefLabel "Sports and Physical Recreation Administrative Service" .
+
+anzsic:9121 a skos:Concept ;
+    skos:broader anzsic:912 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9121" ;
+    skos:prefLabel "Horse and Dog Racing Administration and Track Operation" .
+
+anzsic:9129 a skos:Concept ;
+    skos:broader anzsic:912 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9129" ;
+    skos:prefLabel "Other Horse and Dog Racing Activities" .
+
+anzsic:9131 a skos:Concept ;
+    skos:broader anzsic:913 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9131" ;
+    skos:prefLabel "Amusement Parks and Centres Operation" .
+
+anzsic:9139 a skos:Concept ;
+    skos:broader anzsic:913 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9139" ;
+    skos:prefLabel "Amusement and Other Recreational Activities n.e.c." .
+
+anzsic:9201 a skos:Concept ;
+    skos:broader anzsic:920 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9201" ;
+    skos:prefLabel "Casino Operation" .
+
+anzsic:9202 a skos:Concept ;
+    skos:broader anzsic:920 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9202" ;
+    skos:prefLabel "Lottery Operation" .
+
+anzsic:9209 a skos:Concept ;
+    skos:broader anzsic:920 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9209" ;
+    skos:prefLabel "Other Gambling Activities" .
+
+anzsic:9411 a skos:Concept ;
+    skos:broader anzsic:941 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9411" ;
+    skos:prefLabel "Automotive Electrical Services" .
+
+anzsic:9412 a skos:Concept ;
+    skos:broader anzsic:941 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9412" ;
+    skos:prefLabel "Automotive Body, Paint and Interior Repair" .
+
+anzsic:9419 a skos:Concept ;
+    skos:broader anzsic:941 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9419" ;
+    skos:prefLabel "Other Automotive Repair and Maintenance" .
+
+anzsic:9421 a skos:Concept ;
+    skos:broader anzsic:942 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9421" ;
+    skos:prefLabel "Domestic Appliance Repair and Maintenance" .
+
+anzsic:9422 a skos:Concept ;
+    skos:broader anzsic:942 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9422" ;
+    skos:prefLabel "Electronic (except Domestic Appliance) and Precision Equipment Repair" .
+
+anzsic:9429 a skos:Concept ;
+    skos:broader anzsic:942 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9429" ;
+    skos:prefLabel "Other Machinery and Equipment Repair and Maintenance" .
+
+anzsic:9491 a skos:Concept ;
+    skos:broader anzsic:949 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9491" ;
+    skos:prefLabel "Clothing and Footwear Repair" .
+
+anzsic:9499 a skos:Concept ;
+    skos:broader anzsic:949 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9499" ;
+    skos:prefLabel "Other Repair and Maintenance n.e.c." .
+
+anzsic:9511 a skos:Concept ;
+    skos:broader anzsic:951 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9511" ;
+    skos:prefLabel "Hairdressing and Beauty Services" .
+
+anzsic:9512 a skos:Concept ;
+    skos:broader anzsic:951 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9512" ;
+    skos:prefLabel "Diet and Weight Reduction Centre Operation" .
+
+anzsic:9520 a skos:Concept ;
+    skos:broader anzsic:952 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9520" ;
+    skos:prefLabel "Funeral, Crematorium and Cemetery Services" .
+
+anzsic:9531 a skos:Concept ;
+    skos:broader anzsic:953 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9531" ;
+    skos:prefLabel "Laundry and Dry-Cleaning Services" .
+
+anzsic:9532 a skos:Concept ;
+    skos:broader anzsic:953 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9532" ;
+    skos:prefLabel "Photographic Film Processing" .
+
+anzsic:9533 a skos:Concept ;
+    skos:broader anzsic:953 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9533" ;
+    skos:prefLabel "Parking Services" .
+
+anzsic:9534 a skos:Concept ;
+    skos:broader anzsic:953 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9534" ;
+    skos:prefLabel "Brothel Keeping and Prostitution Services" .
+
+anzsic:9539 a skos:Concept ;
+    skos:broader anzsic:953 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9539" ;
+    skos:prefLabel "Other Personal Services n.e.c." .
+
+anzsic:9540 a skos:Concept ;
+    skos:broader anzsic:954 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9540" ;
+    skos:prefLabel "Religious Services" .
+
+anzsic:9551 a skos:Concept ;
+    skos:broader anzsic:955 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9551" ;
+    skos:prefLabel "Business and Professional Association Services" .
+
+anzsic:9552 a skos:Concept ;
+    skos:broader anzsic:955 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9552" ;
+    skos:prefLabel "Labour Association Services" .
+
+anzsic:9559 a skos:Concept ;
+    skos:broader anzsic:955 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9559" ;
+    skos:prefLabel "Other Interest Group Services n.e.c." .
+
+anzsic:9601 a skos:Concept ;
+    skos:broader anzsic:960 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9601" ;
+    skos:prefLabel "Private Households Employing Staff" .
+
+anzsic:9602 a skos:Concept ;
+    skos:broader anzsic:960 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9602" ;
+    skos:prefLabel "Undifferentiated Goods-Producing Activities of Private Households for Own Use" .
+
+anzsic:9603 a skos:Concept ;
+    skos:broader anzsic:960 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "9603" ;
+    skos:prefLabel "Undifferentiated Service-Producing Activities of Private Households for Own Use" .
+
+anzsic:016 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "016" ;
+    skos:prefLabel "Dairy Cattle Farming" .
+
+anzsic:018 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "018" ;
+    skos:prefLabel "Deer Farming" .
+
+anzsic:02 a skos:Concept ;
+    skos:broader anzsic:A ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "02" ;
+    skos:prefLabel "Aquaculture" .
+
+anzsic:03 a skos:Concept ;
+    skos:broader anzsic:A ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "03" ;
+    skos:prefLabel "Forestry and Logging" .
+
+anzsic:042 a skos:Concept ;
+    skos:broader anzsic:04 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "042" ;
+    skos:prefLabel "Hunting and Trapping" .
+
+anzsic:051 a skos:Concept ;
+    skos:broader anzsic:05 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "051" ;
+    skos:prefLabel "Forestry Support Services" .
+
+anzsic:06 a skos:Concept ;
+    skos:broader anzsic:B ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "06" ;
+    skos:prefLabel "Coal Mining" .
+
+anzsic:060 a skos:Concept ;
+    skos:broader anzsic:06 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "060" ;
+    skos:prefLabel "Coal Mining" .
+
+anzsic:07 a skos:Concept ;
+    skos:broader anzsic:B ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "07" ;
+    skos:prefLabel "Oil and Gas Extraction" .
+
+anzsic:070 a skos:Concept ;
+    skos:broader anzsic:07 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "070" ;
+    skos:prefLabel "Oil and Gas Extraction" .
+
+anzsic:08 a skos:Concept ;
+    skos:broader anzsic:B ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "08" ;
+    skos:prefLabel "Metal Ore Mining" .
+
+anzsic:099 a skos:Concept ;
+    skos:broader anzsic:09 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "099" ;
+    skos:prefLabel "Other Non-Metallic Mineral Mining and Quarrying" .
+
+anzsic:109 a skos:Concept ;
+    skos:broader anzsic:10 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "109" ;
+    skos:prefLabel "Other Mining Support Services" .
+
+anzsic:112 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "112" ;
+    skos:prefLabel "Seafood Processing" .
+
+anzsic:114 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "114" ;
+    skos:prefLabel "Fruit and Vegetable Processing" .
+
+anzsic:115 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "115" ;
+    skos:prefLabel "Oil and Fat Manufacturing" .
+
+anzsic:122 a skos:Concept ;
+    skos:broader anzsic:12 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "122" ;
+    skos:prefLabel "Cigarette and Tobacco Product Manufacturing" .
+
+anzsic:132 a skos:Concept ;
+    skos:broader anzsic:13 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "132" ;
+    skos:prefLabel "Leather Tanning, Fur Dressing and Leather Product Manufacturing" .
+
+anzsic:134 a skos:Concept ;
+    skos:broader anzsic:13 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "134" ;
+    skos:prefLabel "Knitted Product Manufacturing" .
+
+anzsic:151 a skos:Concept ;
+    skos:broader anzsic:15 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "151" ;
+    skos:prefLabel "Pulp, Paper and Paperboard Manufacturing" .
+
+anzsic:162 a skos:Concept ;
+    skos:broader anzsic:16 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "162" ;
+    skos:prefLabel "Reproduction of Recorded Media" .
+
+anzsic:17 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "17" ;
+    skos:prefLabel "Petroleum and Coal Product Manufacturing" .
+
+anzsic:192 a skos:Concept ;
+    skos:broader anzsic:19 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "192" ;
+    skos:prefLabel "Natural Rubber Product Manufacturing" .
+
+anzsic:201 a skos:Concept ;
+    skos:broader anzsic:20 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "201" ;
+    skos:prefLabel "Glass and Glass Product Manufacturing" .
+
+anzsic:209 a skos:Concept ;
+    skos:broader anzsic:20 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "209" ;
+    skos:prefLabel "Other Non-Metallic Mineral Product Manufacturing" .
+
+anzsic:211 a skos:Concept ;
+    skos:broader anzsic:21 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "211" ;
+    skos:prefLabel "Basic Ferrous Metal Manufacturing" .
+
+anzsic:221 a skos:Concept ;
+    skos:broader anzsic:22 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "221" ;
+    skos:prefLabel "Iron and Steel Forging" .
+
+anzsic:224 a skos:Concept ;
+    skos:broader anzsic:22 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "224" ;
+    skos:prefLabel "Sheet Metal Product Manufacturing (except Metal Structural and Container" .
+
+anzsic:262 a skos:Concept ;
+    skos:broader anzsic:26 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "262" ;
+    skos:prefLabel "Electricity Transmission" .
+
+anzsic:263 a skos:Concept ;
+    skos:broader anzsic:26 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "263" ;
+    skos:prefLabel "Electricity Distribution" .
+
+anzsic:264 a skos:Concept ;
+    skos:broader anzsic:26 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "264" ;
+    skos:prefLabel "On Selling Electricity and Electricity Market Operation" .
+
+anzsic:27 a skos:Concept ;
+    skos:broader anzsic:D ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "27" ;
+    skos:prefLabel "Gas Supply" .
+
+anzsic:270 a skos:Concept ;
+    skos:broader anzsic:27 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "270" ;
+    skos:prefLabel "Gas Supply" .
+
+anzsic:28 a skos:Concept ;
+    skos:broader anzsic:D ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "28" ;
+    skos:prefLabel "Water Supply, Sewerage and Drainage Services" .
+
+anzsic:302 a skos:Concept ;
+    skos:broader anzsic:30 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "302" ;
+    skos:prefLabel "Non-Residential Building Construction" .
+
+anzsic:31 a skos:Concept ;
+    skos:broader anzsic:E ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "31" ;
+    skos:prefLabel "Heavy and Civil Engineering Construction" .
+
+anzsic:35 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "35" ;
+    skos:prefLabel "Motor Vehicle and Motor Vehicle Parts Wholesaling" .
+
+anzsic:36 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "36" ;
+    skos:prefLabel "Grocery, Liquor and Tobacco Product Wholesaling" .
+
+anzsic:372 a skos:Concept ;
+    skos:broader anzsic:37 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "372" ;
+    skos:prefLabel "Pharmaceutical and Toiletry Goods Wholesaling" .
+
+anzsic:38 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "38" ;
+    skos:prefLabel "Commission-Based Wholesaling" .
+
+anzsic:380 a skos:Concept ;
+    skos:broader anzsic:38 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "380" ;
+    skos:prefLabel "Commission-Based Wholesaling" .
+
+anzsic:40 a skos:Concept ;
+    skos:broader anzsic:G ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "40" ;
+    skos:prefLabel "Fuel Retailing" .
+
+anzsic:400 a skos:Concept ;
+    skos:broader anzsic:40 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "400" ;
+    skos:prefLabel "Fuel Retailing" .
+
+anzsic:411 a skos:Concept ;
+    skos:broader anzsic:41 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "411" ;
+    skos:prefLabel "Supermarket and Grocery Stores" .
+
+anzsic:426 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "426" ;
+    skos:prefLabel "Department Stores" .
+
+anzsic:431 a skos:Concept ;
+    skos:broader anzsic:43 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "431" ;
+    skos:prefLabel "Non-Store Retailing" .
+
+anzsic:432 a skos:Concept ;
+    skos:broader anzsic:43 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "432" ;
+    skos:prefLabel "Retail Commission-Based Buying and/or Selling" .
+
+anzsic:44 a skos:Concept ;
+    skos:broader anzsic:H ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "44" ;
+    skos:prefLabel "Accommodation" .
+
+anzsic:440 a skos:Concept ;
+    skos:broader anzsic:44 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "440" ;
+    skos:prefLabel "Accommodation" .
+
+anzsic:452 a skos:Concept ;
+    skos:broader anzsic:45 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "452" ;
+    skos:prefLabel "Pubs, Taverns and Bars" .
+
+anzsic:453 a skos:Concept ;
+    skos:broader anzsic:45 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "453" ;
+    skos:prefLabel "Clubs (Hospitality)" .
+
+anzsic:461 a skos:Concept ;
+    skos:broader anzsic:46 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "461" ;
+    skos:prefLabel "Road Freight Transport" .
+
+anzsic:471 a skos:Concept ;
+    skos:broader anzsic:47 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "471" ;
+    skos:prefLabel "Rail Freight Transport" .
+
+anzsic:472 a skos:Concept ;
+    skos:broader anzsic:47 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "472" ;
+    skos:prefLabel "Rail Passenger Transport" .
+
+anzsic:481 a skos:Concept ;
+    skos:broader anzsic:48 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "481" ;
+    skos:prefLabel "Water Freight Transport" .
+
+anzsic:482 a skos:Concept ;
+    skos:broader anzsic:48 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "482" ;
+    skos:prefLabel "Water Passenger Transport" .
+
+anzsic:49 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "49" ;
+    skos:prefLabel "Air and Space Transport" .
+
+anzsic:490 a skos:Concept ;
+    skos:broader anzsic:49 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "490" ;
+    skos:prefLabel "Air and Space Transport" .
+
+anzsic:501 a skos:Concept ;
+    skos:broader anzsic:50 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "501" ;
+    skos:prefLabel "Scenic and Sightseeing Transport" .
+
+anzsic:51 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "51" ;
+    skos:prefLabel "Postal and Courier Pick-up and Delivery Services" .
+
+anzsic:522 a skos:Concept ;
+    skos:broader anzsic:52 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "522" ;
+    skos:prefLabel "Airport Operations and Other Air Transport Support Services" .
+
+anzsic:53 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "53" ;
+    skos:prefLabel "Warehousing and Storage Services" .
+
+anzsic:542 a skos:Concept ;
+    skos:broader anzsic:54 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "542" ;
+    skos:prefLabel "Software Publishing" .
+
+anzsic:561 a skos:Concept ;
+    skos:broader anzsic:56 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "561" ;
+    skos:prefLabel "Radio Broadcasting" .
+
+anzsic:57 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "57" ;
+    skos:prefLabel "Internet Publishing and Broadcasting" .
+
+anzsic:570 a skos:Concept ;
+    skos:broader anzsic:57 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "570" ;
+    skos:prefLabel "Internet Publishing and Broadcasting" .
+
+anzsic:58 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "58" ;
+    skos:prefLabel "Telecommunications Services" .
+
+anzsic:591 a skos:Concept ;
+    skos:broader anzsic:59 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "591" ;
+    skos:prefLabel "Internet Service Providers and Web Search Portals" .
+
+anzsic:601 a skos:Concept ;
+    skos:broader anzsic:60 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "601" ;
+    skos:prefLabel "Libraries and Archives" .
+
+anzsic:602 a skos:Concept ;
+    skos:broader anzsic:60 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "602" ;
+    skos:prefLabel "Other Information Services" .
+
+anzsic:621 a skos:Concept ;
+    skos:broader anzsic:62 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "621" ;
+    skos:prefLabel "Central Banking" .
+
+anzsic:623 a skos:Concept ;
+    skos:broader anzsic:62 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "623" ;
+    skos:prefLabel "Non-Depository Financing" .
+
+anzsic:624 a skos:Concept ;
+    skos:broader anzsic:62 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "624" ;
+    skos:prefLabel "Financial Asset Investing" .
+
+anzsic:631 a skos:Concept ;
+    skos:broader anzsic:63 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "631" ;
+    skos:prefLabel "Life Insurance" .
+
+anzsic:633 a skos:Concept ;
+    skos:broader anzsic:63 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "633" ;
+    skos:prefLabel "Superannuation Funds" .
+
+anzsic:642 a skos:Concept ;
+    skos:broader anzsic:64 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "642" ;
+    skos:prefLabel "Auxiliary Insurance Services" .
+
+anzsic:662 a skos:Concept ;
+    skos:broader anzsic:66 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "662" ;
+    skos:prefLabel "Farm Animal and Bloodstock Leasing" .
+
+anzsic:664 a skos:Concept ;
+    skos:broader anzsic:66 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "664" ;
+    skos:prefLabel "Non-Financial Intangible Assets (Except Copyrights) Leasing" .
+
+anzsic:672 a skos:Concept ;
+    skos:broader anzsic:67 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "672" ;
+    skos:prefLabel "Real Estate Services" .
+
+anzsic:691 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "691" ;
+    skos:prefLabel "Scientific Research Services" .
+
+anzsic:694 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "694" ;
+    skos:prefLabel "Advertising Services" .
+
+anzsic:695 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "695" ;
+    skos:prefLabel "Market Research and Statistical Services" .
+
+anzsic:697 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "697" ;
+    skos:prefLabel "Veterinary Services" .
+
+anzsic:70 a skos:Concept ;
+    skos:broader anzsic:M ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "70" ;
+    skos:prefLabel "Computer System Design and Related Services" .
+
+anzsic:700 a skos:Concept ;
+    skos:broader anzsic:70 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "700" ;
+    skos:prefLabel "Computer System Design and Related Services" .
+
+anzsic:722 a skos:Concept ;
+    skos:broader anzsic:72 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "722" ;
+    skos:prefLabel "Travel Agency and Tour Arrangement Services" .
+
+anzsic:732 a skos:Concept ;
+    skos:broader anzsic:73 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "732" ;
+    skos:prefLabel "Packaging Services" .
+
+anzsic:751 a skos:Concept ;
+    skos:broader anzsic:75 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "751" ;
+    skos:prefLabel "Central Government Administration" .
+
+anzsic:752 a skos:Concept ;
+    skos:broader anzsic:75 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "752" ;
+    skos:prefLabel "State Government Administration" .
+
+anzsic:753 a skos:Concept ;
+    skos:broader anzsic:75 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "753" ;
+    skos:prefLabel "Local Government Administration" .
+
+anzsic:754 a skos:Concept ;
+    skos:broader anzsic:75 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "754" ;
+    skos:prefLabel "Justice" .
+
+anzsic:76 a skos:Concept ;
+    skos:broader anzsic:O ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "76" ;
+    skos:prefLabel "Defence" .
+
+anzsic:760 a skos:Concept ;
+    skos:broader anzsic:76 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "760" ;
+    skos:prefLabel "Defence" .
+
+anzsic:772 a skos:Concept ;
+    skos:broader anzsic:77 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "772" ;
+    skos:prefLabel "Regulatory Services" .
+
+anzsic:801 a skos:Concept ;
+    skos:broader anzsic:80 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "801" ;
+    skos:prefLabel "Preschool Education" .
+
+anzsic:81 a skos:Concept ;
+    skos:broader anzsic:P ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "81" ;
+    skos:prefLabel "Tertiary Education" .
+
+anzsic:822 a skos:Concept ;
+    skos:broader anzsic:82 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "822" ;
+    skos:prefLabel "Educational Support Services" .
+
+anzsic:84 a skos:Concept ;
+    skos:broader anzsic:Q ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "84" ;
+    skos:prefLabel "Hospitals" .
+
+anzsic:852 a skos:Concept ;
+    skos:broader anzsic:85 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "852" ;
+    skos:prefLabel "Pathology and Diagnostic Imaging Services" .
+
+anzsic:86 a skos:Concept ;
+    skos:broader anzsic:Q ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "86" ;
+    skos:prefLabel "Residential Care Services" .
+
+anzsic:871 a skos:Concept ;
+    skos:broader anzsic:87 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "871" ;
+    skos:prefLabel "Child Care Services" .
+
+anzsic:879 a skos:Concept ;
+    skos:broader anzsic:87 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "879" ;
+    skos:prefLabel "Other Social Assistance Services" .
+
+anzsic:891 a skos:Concept ;
+    skos:broader anzsic:89 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "891" ;
+    skos:prefLabel "Museum Operation" .
+
+anzsic:90 a skos:Concept ;
+    skos:broader anzsic:R ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "90" ;
+    skos:prefLabel "Creative and Performing Arts Activities" .
+
+anzsic:92 a skos:Concept ;
+    skos:broader anzsic:R ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "92" ;
+    skos:prefLabel "Gambling Activities" .
+
+anzsic:952 a skos:Concept ;
+    skos:broader anzsic:95 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "952" ;
+    skos:prefLabel "Funeral, Crematorium and Cemetery Services" .
+
+anzsic:954 a skos:Concept ;
+    skos:broader anzsic:95 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "954" ;
+    skos:prefLabel "Religious Services" .
+
+anzsic:96 a skos:Concept ;
+    skos:broader anzsic:S ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "96" ;
+    skos:prefLabel "Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use" .
+
+anzsic:017 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "017" ;
+    skos:prefLabel "Poultry Farming" .
+
+anzsic:030 a skos:Concept ;
+    skos:broader anzsic:03 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "030" ;
+    skos:prefLabel "Forestry and Logging" .
+
+anzsic:04 a skos:Concept ;
+    skos:broader anzsic:A ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "04" ;
+    skos:prefLabel "Fishing, Hunting and Trapping" .
+
+anzsic:05 a skos:Concept ;
+    skos:broader anzsic:A ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "05" ;
+    skos:prefLabel "Agriculture, Forestry and Fishing Support Services" .
+
+anzsic:09 a skos:Concept ;
+    skos:broader anzsic:B ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "09" ;
+    skos:prefLabel "Non-Metallic Mineral Mining and Quarrying" .
+
+anzsic:091 a skos:Concept ;
+    skos:broader anzsic:09 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "091" ;
+    skos:prefLabel "Construction Material Mining" .
+
+anzsic:10 a skos:Concept ;
+    skos:broader anzsic:B ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "10" ;
+    skos:prefLabel "Exploration and Other Mining Support Services" .
+
+anzsic:101 a skos:Concept ;
+    skos:broader anzsic:10 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "101" ;
+    skos:prefLabel "Exploration" .
+
+anzsic:116 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "116" ;
+    skos:prefLabel "Grain Mill and Cereal Product Manufacturing" .
+
+anzsic:118 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "118" ;
+    skos:prefLabel "Sugar and Confectionery Manufacturing" .
+
+anzsic:12 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "12" ;
+    skos:prefLabel "Beverage and Tobacco Product Manufacturing" .
+
+anzsic:135 a skos:Concept ;
+    skos:broader anzsic:13 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "135" ;
+    skos:prefLabel "Clothing and Footwear Manufacturing" .
+
+anzsic:14 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "14" ;
+    skos:prefLabel "Wood Product Manufacturing" .
+
+anzsic:15 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "15" ;
+    skos:prefLabel "Pulp, Paper and Converted Paper Product Manufacturing" .
+
+anzsic:16 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "16" ;
+    skos:prefLabel "Printing (including the Reproduction of Recorded Media)" .
+
+anzsic:161 a skos:Concept ;
+    skos:broader anzsic:16 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "161" ;
+    skos:prefLabel "Printing and Printing Support Services" .
+
+anzsic:170 a skos:Concept ;
+    skos:broader anzsic:17 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "170" ;
+    skos:prefLabel "Petroleum and Coal Product Manufacturing" .
+
+anzsic:182 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "182" ;
+    skos:prefLabel "Basic Polymer Manufacturing" .
+
+anzsic:183 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "183" ;
+    skos:prefLabel "Fertiliser and Pesticide Manufacturing" .
+
+anzsic:184 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "184" ;
+    skos:prefLabel "Pharmaceutical and Medicinal Product Manufacturing" .
+
+anzsic:185 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "185" ;
+    skos:prefLabel "Cleaning Compound and Toiletry Preparation Manufacturing" .
+
+anzsic:19 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "19" ;
+    skos:prefLabel "Polymer Product and Rubber Product Manufacturing" .
+
+anzsic:202 a skos:Concept ;
+    skos:broader anzsic:20 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "202" ;
+    skos:prefLabel "Ceramic Product Manufacturing" .
+
+anzsic:212 a skos:Concept ;
+    skos:broader anzsic:21 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "212" ;
+    skos:prefLabel "Basic Ferrous Metal Product Manufacturing" .
+
+anzsic:223 a skos:Concept ;
+    skos:broader anzsic:22 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "223" ;
+    skos:prefLabel "Metal Container Manufacturing" .
+
+anzsic:23 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "23" ;
+    skos:prefLabel "Transport Equipment Manufacturing" .
+
+anzsic:244 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "244" ;
+    skos:prefLabel "Domestic Appliance Manufacturing" .
+
+anzsic:245 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "245" ;
+    skos:prefLabel "Pump, Compressor, Heating and Ventilation Equipment Manufacturing" .
+
+anzsic:249 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "249" ;
+    skos:prefLabel "Other Machinery and Equipment Manufacturing" .
+
+anzsic:25 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "25" ;
+    skos:prefLabel "Furniture and Other Manufacturing" .
+
+anzsic:281 a skos:Concept ;
+    skos:broader anzsic:28 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "281" ;
+    skos:prefLabel "Water Supply, Sewerage and Drainage Services" .
+
+anzsic:29 a skos:Concept ;
+    skos:broader anzsic:D ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "29" ;
+    skos:prefLabel "Waste Collection, Treatment and Disposal Services" .
+
+anzsic:291 a skos:Concept ;
+    skos:broader anzsic:29 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "291" ;
+    skos:prefLabel "Waste Collection Services" .
+
+anzsic:292 a skos:Concept ;
+    skos:broader anzsic:29 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "292" ;
+    skos:prefLabel "Waste Treatment, Disposal and Remediation Services" .
+
+anzsic:30 a skos:Concept ;
+    skos:broader anzsic:E ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "30" ;
+    skos:prefLabel "Building Construction" .
+
+anzsic:301 a skos:Concept ;
+    skos:broader anzsic:30 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "301" ;
+    skos:prefLabel "Residential Building Construction" .
+
+anzsic:310 a skos:Concept ;
+    skos:broader anzsic:31 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "310" ;
+    skos:prefLabel "Heavy and Civil Engineering Construction" .
+
+anzsic:321 a skos:Concept ;
+    skos:broader anzsic:32 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "321" ;
+    skos:prefLabel "Land Development and Site Preparation Services" .
+
+anzsic:34 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "34" ;
+    skos:prefLabel "Machinery and Equipment Wholesaling" .
+
+anzsic:341 a skos:Concept ;
+    skos:broader anzsic:34 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "341" ;
+    skos:prefLabel "Specialised Industrial Machinery and Equipment Wholesaling" .
+
+anzsic:371 a skos:Concept ;
+    skos:broader anzsic:37 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "371" ;
+    skos:prefLabel "Textile, Clothing and Footwear Wholesaling" .
+
+anzsic:39 a skos:Concept ;
+    skos:broader anzsic:G ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "39" ;
+    skos:prefLabel "Motor Vehicle and Motor Vehicle Parts Retailing" .
+
+anzsic:392 a skos:Concept ;
+    skos:broader anzsic:39 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "392" ;
+    skos:prefLabel "Motor Vehicle Parts and Tyre Retailing" .
+
+anzsic:41 a skos:Concept ;
+    skos:broader anzsic:G ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "41" ;
+    skos:prefLabel "Food Retailing" .
+
+anzsic:423 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "423" ;
+    skos:prefLabel "Hardware, Building and Garden Supplies Retailing" .
+
+anzsic:43 a skos:Concept ;
+    skos:broader anzsic:G ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "43" ;
+    skos:prefLabel "Non-Store Retailing and Retail Commission-Based Buying and/or Selling" .
+
+anzsic:46 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "46" ;
+    skos:prefLabel "Road Transport" .
+
+anzsic:47 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "47" ;
+    skos:prefLabel "Rail Transport" .
+
+anzsic:48 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "48" ;
+    skos:prefLabel "Water Transport" .
+
+anzsic:50 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "50" ;
+    skos:prefLabel "Other Transport" .
+
+anzsic:502 a skos:Concept ;
+    skos:broader anzsic:50 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "502" ;
+    skos:prefLabel "Pipeline and Other Transport" .
+
+anzsic:510 a skos:Concept ;
+    skos:broader anzsic:51 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "510" ;
+    skos:prefLabel "Postal and Courier Pick-up and Delivery Services" .
+
+anzsic:530 a skos:Concept ;
+    skos:broader anzsic:53 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "530" ;
+    skos:prefLabel "Warehousing and Storage Services" .
+
+anzsic:54 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "54" ;
+    skos:prefLabel "Publishing (except Internet and Music Publishing)" .
+
+anzsic:55 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "55" ;
+    skos:prefLabel "Motion Picture and Sound Recording Activities" .
+
+anzsic:552 a skos:Concept ;
+    skos:broader anzsic:55 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "552" ;
+    skos:prefLabel "Sound Recording and Music Publishing" .
+
+anzsic:56 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "56" ;
+    skos:prefLabel "Broadcasting (except Internet)" .
+
+anzsic:562 a skos:Concept ;
+    skos:broader anzsic:56 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "562" ;
+    skos:prefLabel "Television Broadcasting" .
+
+anzsic:59 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "59" ;
+    skos:prefLabel "Internet Service Providers, Web Search Portals and Data Processing Services" .
+
+anzsic:592 a skos:Concept ;
+    skos:broader anzsic:59 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "592" ;
+    skos:prefLabel "Data Processing, Web Hosting and Electronic Information Storage Services" .
+
+anzsic:60 a skos:Concept ;
+    skos:broader anzsic:J ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "60" ;
+    skos:prefLabel "Library and Other Information Services" .
+
+anzsic:632 a skos:Concept ;
+    skos:broader anzsic:63 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "632" ;
+    skos:prefLabel "Health and General Insurance" .
+
+anzsic:64 a skos:Concept ;
+    skos:broader anzsic:K ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "64" ;
+    skos:prefLabel "Auxiliary Finance and Insurance Services" .
+
+anzsic:641 a skos:Concept ;
+    skos:broader anzsic:64 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "641" ;
+    skos:prefLabel "Auxiliary Finance and Investment Services" .
+
+anzsic:661 a skos:Concept ;
+    skos:broader anzsic:66 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "661" ;
+    skos:prefLabel "Motor Vehicle and Transport Equipment Rental and Hiring" .
+
+anzsic:67 a skos:Concept ;
+    skos:broader anzsic:L ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "67" ;
+    skos:prefLabel "Property Operators and Real Estate Services" .
+
+anzsic:671 a skos:Concept ;
+    skos:broader anzsic:67 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "671" ;
+    skos:prefLabel "Property Operators" .
+
+anzsic:693 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "693" ;
+    skos:prefLabel "Legal and Accounting Services" .
+
+anzsic:696 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "696" ;
+    skos:prefLabel "Management and Related Consulting Services" .
+
+anzsic:699 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "699" ;
+    skos:prefLabel "Other Professional, Scientific and Technical Services" .
+
+anzsic:721 a skos:Concept ;
+    skos:broader anzsic:72 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "721" ;
+    skos:prefLabel "Employment Services" .
+
+anzsic:73 a skos:Concept ;
+    skos:broader anzsic:N ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "73" ;
+    skos:prefLabel "Building Cleaning, Pest Control and Other Support Services" .
+
+anzsic:755 a skos:Concept ;
+    skos:broader anzsic:75 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "755" ;
+    skos:prefLabel "Government Representation" .
+
+anzsic:77 a skos:Concept ;
+    skos:broader anzsic:O ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "77" ;
+    skos:prefLabel "Public Order, Safety and Regulatory Services" .
+
+anzsic:80 a skos:Concept ;
+    skos:broader anzsic:P ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "80" ;
+    skos:prefLabel "Preschool and School Education" .
+
+anzsic:810 a skos:Concept ;
+    skos:broader anzsic:81 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "810" ;
+    skos:prefLabel "Tertiary Education" .
+
+anzsic:82 a skos:Concept ;
+    skos:broader anzsic:P ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "82" ;
+    skos:prefLabel "Adult, Community and Other Education" .
+
+anzsic:840 a skos:Concept ;
+    skos:broader anzsic:84 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "840" ;
+    skos:prefLabel "Hospitals" .
+
+anzsic:851 a skos:Concept ;
+    skos:broader anzsic:85 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "851" ;
+    skos:prefLabel "Medical Services" .
+
+anzsic:859 a skos:Concept ;
+    skos:broader anzsic:85 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "859" ;
+    skos:prefLabel "Other Health Care Services" .
+
+anzsic:860 a skos:Concept ;
+    skos:broader anzsic:86 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "860" ;
+    skos:prefLabel "Residential Care Services" .
+
+anzsic:87 a skos:Concept ;
+    skos:broader anzsic:Q ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "87" ;
+    skos:prefLabel "Social Assistance Services" .
+
+anzsic:89 a skos:Concept ;
+    skos:broader anzsic:R ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "89" ;
+    skos:prefLabel "Heritage Activities" .
+
+anzsic:892 a skos:Concept ;
+    skos:broader anzsic:89 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "892" ;
+    skos:prefLabel "Parks and Gardens Operations" .
+
+anzsic:912 a skos:Concept ;
+    skos:broader anzsic:91 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "912" ;
+    skos:prefLabel "Horse and Dog Racing Activities" .
+
+anzsic:913 a skos:Concept ;
+    skos:broader anzsic:91 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "913" ;
+    skos:prefLabel "Amusement and Other Recreation Activities" .
+
+anzsic:949 a skos:Concept ;
+    skos:broader anzsic:94 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "949" ;
+    skos:prefLabel "Other Repair and Maintenance" .
+
+anzsic:951 a skos:Concept ;
+    skos:broader anzsic:95 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "951" ;
+    skos:prefLabel "Personal Care Services" .
+
+anzsic:H a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "H" ;
+    skos:prefLabel "Accommodation and Food Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:L a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "L" ;
+    skos:prefLabel "Rental, Hiring and Real Estate Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:M a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "M" ;
+    skos:prefLabel "Professional, Scientific and Technical Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:N a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "N" ;
+    skos:prefLabel "Administrative and Support Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:012 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "012" ;
+    skos:prefLabel "Mushroom and Vegetable Growing" .
+
+anzsic:015 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "015" ;
+    skos:prefLabel "Other Crop Growing" .
+
+anzsic:020 a skos:Concept ;
+    skos:broader anzsic:02 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "020" ;
+    skos:prefLabel "Aquaculture" .
+
+anzsic:052 a skos:Concept ;
+    skos:broader anzsic:05 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "052" ;
+    skos:prefLabel "Agriculture and Fishing Support Services" .
+
+anzsic:111 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "111" ;
+    skos:prefLabel "Meat and Meat Product Manufacturing" .
+
+anzsic:113 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "113" ;
+    skos:prefLabel "Dairy Product Manufacturing" .
+
+anzsic:119 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "119" ;
+    skos:prefLabel "Other Food Product Manufacturing" .
+
+anzsic:131 a skos:Concept ;
+    skos:broader anzsic:13 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "131" ;
+    skos:prefLabel "Textile Manufacturing" .
+
+anzsic:141 a skos:Concept ;
+    skos:broader anzsic:14 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "141" ;
+    skos:prefLabel "Log Sawmilling and Timber Dressing" .
+
+anzsic:181 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "181" ;
+    skos:prefLabel "Basic Chemical Manufacturing" .
+
+anzsic:189 a skos:Concept ;
+    skos:broader anzsic:18 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "189" ;
+    skos:prefLabel "Other Basic Chemical Product Manufacturing" .
+
+anzsic:214 a skos:Concept ;
+    skos:broader anzsic:21 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "214" ;
+    skos:prefLabel "Basic Non-Ferrous Metal Product Manufacturing" .
+
+anzsic:241 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "241" ;
+    skos:prefLabel "Professional and Scientific Equipment Manufacturing" .
+
+anzsic:242 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "242" ;
+    skos:prefLabel "Computer and Electronic Equipment Manufacturing" .
+
+anzsic:243 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "243" ;
+    skos:prefLabel "Electrical Equipment Manufacturing" .
+
+anzsic:259 a skos:Concept ;
+    skos:broader anzsic:25 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "259" ;
+    skos:prefLabel "Other Manufacturing" .
+
+anzsic:261 a skos:Concept ;
+    skos:broader anzsic:26 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "261" ;
+    skos:prefLabel "Electricity Generation" .
+
+anzsic:329 a skos:Concept ;
+    skos:broader anzsic:32 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "329" ;
+    skos:prefLabel "Other Construction Services" .
+
+anzsic:33 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "33" ;
+    skos:prefLabel "Basic Material Wholesaling" .
+
+anzsic:331 a skos:Concept ;
+    skos:broader anzsic:33 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "331" ;
+    skos:prefLabel "Agricultural Product Wholesaling" .
+
+anzsic:332 a skos:Concept ;
+    skos:broader anzsic:33 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "332" ;
+    skos:prefLabel "Mineral, Metal and Chemical Wholesaling" .
+
+anzsic:333 a skos:Concept ;
+    skos:broader anzsic:33 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "333" ;
+    skos:prefLabel "Timber and Hardware Goods Wholesaling" .
+
+anzsic:37 a skos:Concept ;
+    skos:broader anzsic:F ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "37" ;
+    skos:prefLabel "Other Goods Wholesaling" .
+
+anzsic:391 a skos:Concept ;
+    skos:broader anzsic:39 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "391" ;
+    skos:prefLabel "Motor Vehicle Retailing" .
+
+anzsic:422 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "422" ;
+    skos:prefLabel "Electrical and Electronic Goods Retailing" .
+
+anzsic:45 a skos:Concept ;
+    skos:broader anzsic:H ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "45" ;
+    skos:prefLabel "Food and Beverage Services" .
+
+anzsic:451 a skos:Concept ;
+    skos:broader anzsic:45 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "451" ;
+    skos:prefLabel "Cafes, Restaurants and Takeaway Food Services" .
+
+anzsic:462 a skos:Concept ;
+    skos:broader anzsic:46 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "462" ;
+    skos:prefLabel "Road Passenger Transport" .
+
+anzsic:52 a skos:Concept ;
+    skos:broader anzsic:I ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "52" ;
+    skos:prefLabel "Transport Support Services" .
+
+anzsic:521 a skos:Concept ;
+    skos:broader anzsic:52 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "521" ;
+    skos:prefLabel "Water Transport Support Services" .
+
+anzsic:529 a skos:Concept ;
+    skos:broader anzsic:52 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "529" ;
+    skos:prefLabel "Other Transport Support Services" .
+
+anzsic:580 a skos:Concept ;
+    skos:broader anzsic:58 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "580" ;
+    skos:prefLabel "Telecommunications Services" .
+
+anzsic:63 a skos:Concept ;
+    skos:broader anzsic:K ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "63" ;
+    skos:prefLabel "Insurance and Superannuation Funds" .
+
+anzsic:663 a skos:Concept ;
+    skos:broader anzsic:66 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "663" ;
+    skos:prefLabel "Other Goods and Equipment Rental and Hiring" .
+
+anzsic:72 a skos:Concept ;
+    skos:broader anzsic:N ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "72" ;
+    skos:prefLabel "Administrative Services" .
+
+anzsic:731 a skos:Concept ;
+    skos:broader anzsic:73 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "731" ;
+    skos:prefLabel "Building Cleaning, Pest Control and Gardening Services" .
+
+anzsic:821 a skos:Concept ;
+    skos:broader anzsic:82 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "821" ;
+    skos:prefLabel "Adult, Community and Other Education" .
+
+anzsic:900 a skos:Concept ;
+    skos:broader anzsic:90 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "900" ;
+    skos:prefLabel "Creative and Performing Arts Activities" .
+
+anzsic:91 a skos:Concept ;
+    skos:broader anzsic:R ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "91" ;
+    skos:prefLabel "Sports and Recreation Activities" .
+
+anzsic:920 a skos:Concept ;
+    skos:broader anzsic:92 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "920" ;
+    skos:prefLabel "Gambling Activities" .
+
+anzsic:94 a skos:Concept ;
+    skos:broader anzsic:S ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "94" ;
+    skos:prefLabel "Repair and Maintenance" .
+
+anzsic:941 a skos:Concept ;
+    skos:broader anzsic:94 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "941" ;
+    skos:prefLabel "Automotive Repair and Maintenance" .
+
+anzsic:942 a skos:Concept ;
+    skos:broader anzsic:94 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "942" ;
+    skos:prefLabel "Machinery and Equipment Repair and Maintenance" .
+
+anzsic:955 a skos:Concept ;
+    skos:broader anzsic:95 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "955" ;
+    skos:prefLabel "Civic, Professional and Other Interest Group Services" .
+
+anzsic:960 a skos:Concept ;
+    skos:broader anzsic:96 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "960" ;
+    skos:prefLabel "Private Households Employing Staff and Undifferentiated Goods- and" .
+
+anzsic:E a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "E" ;
+    skos:prefLabel "Construction" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:K a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "K" ;
+    skos:prefLabel "Financial and Insurance Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:O a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "O" ;
+    skos:prefLabel "Public Administration and Safety" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:P a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "P" ;
+    skos:prefLabel "Education and Training" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:S a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "S" ;
+    skos:prefLabel "Other Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:019 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "019" ;
+    skos:prefLabel "Other Livestock Farming" .
+
+anzsic:117 a skos:Concept ;
+    skos:broader anzsic:11 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "117" ;
+    skos:prefLabel "Bakery Product Manufacturing" .
+
+anzsic:121 a skos:Concept ;
+    skos:broader anzsic:12 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "121" ;
+    skos:prefLabel "Beverage Manufacturing" .
+
+anzsic:133 a skos:Concept ;
+    skos:broader anzsic:13 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "133" ;
+    skos:prefLabel "Textile Product Manufacturing" .
+
+anzsic:20 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "20" ;
+    skos:prefLabel "Non-Metallic Mineral Product Manufacturing" .
+
+anzsic:203 a skos:Concept ;
+    skos:broader anzsic:20 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "203" ;
+    skos:prefLabel "Cement, Lime, Plaster and Concrete Product Manufacturing" .
+
+anzsic:21 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "21" ;
+    skos:prefLabel "Primary Metal and Metal Product Manufacturing" .
+
+anzsic:213 a skos:Concept ;
+    skos:broader anzsic:21 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "213" ;
+    skos:prefLabel "Basic Non-Ferrous Metal Manufacturing" .
+
+anzsic:229 a skos:Concept ;
+    skos:broader anzsic:22 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "229" ;
+    skos:prefLabel "Other Fabricated Metal Product Manufacturing" .
+
+anzsic:231 a skos:Concept ;
+    skos:broader anzsic:23 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "231" ;
+    skos:prefLabel "Motor Vehicle and Motor Vehicle Part Manufacturing" .
+
+anzsic:246 a skos:Concept ;
+    skos:broader anzsic:24 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "246" ;
+    skos:prefLabel "Specialised Machinery and Equipment Manufacturing" .
+
+anzsic:251 a skos:Concept ;
+    skos:broader anzsic:25 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "251" ;
+    skos:prefLabel "Furniture Manufacturing" .
+
+anzsic:26 a skos:Concept ;
+    skos:broader anzsic:D ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "26" ;
+    skos:prefLabel "Electricity Supply" .
+
+anzsic:322 a skos:Concept ;
+    skos:broader anzsic:32 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "322" ;
+    skos:prefLabel "Building Structure Services" .
+
+anzsic:412 a skos:Concept ;
+    skos:broader anzsic:41 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "412" ;
+    skos:prefLabel "Specialised Food Retailing" .
+
+anzsic:421 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "421" ;
+    skos:prefLabel "Furniture, Floor Coverings, Houseware and Textile Goods Retailing" .
+
+anzsic:425 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "425" ;
+    skos:prefLabel "Clothing, Footwear and Personal Accessory Retailing" .
+
+anzsic:551 a skos:Concept ;
+    skos:broader anzsic:55 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "551" ;
+    skos:prefLabel "Motion Picture and Video Activities" .
+
+anzsic:62 a skos:Concept ;
+    skos:broader anzsic:K ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "62" ;
+    skos:prefLabel "Finance" .
+
+anzsic:622 a skos:Concept ;
+    skos:broader anzsic:62 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "622" ;
+    skos:prefLabel "Depository Financial Intermediation" .
+
+anzsic:66 a skos:Concept ;
+    skos:broader anzsic:L ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "66" ;
+    skos:prefLabel "Rental and Hiring Services (except Real Estate)" .
+
+anzsic:802 a skos:Concept ;
+    skos:broader anzsic:80 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "802" ;
+    skos:prefLabel "School Education" .
+
+anzsic:85 a skos:Concept ;
+    skos:broader anzsic:Q ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "85" ;
+    skos:prefLabel "Medical and Other Health Care Services" .
+
+anzsic:911 a skos:Concept ;
+    skos:broader anzsic:91 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "911" ;
+    skos:prefLabel "Sports and Physical Recreation Activities" .
+
+anzsic:D a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "D" ;
+    skos:prefLabel "Electricity, Gas, Water and Waste Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:Q a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "Q" ;
+    skos:prefLabel "Health Care and Social Assistance" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:R a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "R" ;
+    skos:prefLabel "Arts and Recreation Services" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:011 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "011" ;
+    skos:prefLabel "Nursery and Floriculture Production" .
+
+anzsic:041 a skos:Concept ;
+    skos:broader anzsic:04 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "041" ;
+    skos:prefLabel "Fishing" .
+
+anzsic:13 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "13" ;
+    skos:prefLabel "Textile, Leather, Clothing and Footwear Manufacturing" .
+
+anzsic:149 a skos:Concept ;
+    skos:broader anzsic:14 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "149" ;
+    skos:prefLabel "Other Wood Product Manufacturing" .
+
+anzsic:152 a skos:Concept ;
+    skos:broader anzsic:15 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "152" ;
+    skos:prefLabel "Converted Paper Product Manufacturing" .
+
+anzsic:22 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "22" ;
+    skos:prefLabel "Fabricated Metal Product Manufacturing" .
+
+anzsic:222 a skos:Concept ;
+    skos:broader anzsic:22 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "222" ;
+    skos:prefLabel "Structural Metal Product Manufacturing" .
+
+anzsic:239 a skos:Concept ;
+    skos:broader anzsic:23 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "239" ;
+    skos:prefLabel "Other Transport Equipment Manufacturing" .
+
+anzsic:32 a skos:Concept ;
+    skos:broader anzsic:E ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "32" ;
+    skos:prefLabel "Construction Services" .
+
+anzsic:323 a skos:Concept ;
+    skos:broader anzsic:32 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "323" ;
+    skos:prefLabel "Building Installation Services" .
+
+anzsic:324 a skos:Concept ;
+    skos:broader anzsic:32 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "324" ;
+    skos:prefLabel "Building Completion Services" .
+
+anzsic:349 a skos:Concept ;
+    skos:broader anzsic:34 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "349" ;
+    skos:prefLabel "Other Machinery and Equipment Wholesaling" .
+
+anzsic:350 a skos:Concept ;
+    skos:broader anzsic:35 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "350" ;
+    skos:prefLabel "Motor Vehicle and Motor Vehicle Parts Wholesaling" .
+
+anzsic:424 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "424" ;
+    skos:prefLabel "Recreational Goods Retailing" .
+
+anzsic:427 a skos:Concept ;
+    skos:broader anzsic:42 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "427" ;
+    skos:prefLabel "Pharmaceutical and Other Store-Based Retailing" .
+
+anzsic:541 a skos:Concept ;
+    skos:broader anzsic:54 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "541" ;
+    skos:prefLabel "Newspaper, Periodical, Book and Directory Publishing" .
+
+anzsic:692 a skos:Concept ;
+    skos:broader anzsic:69 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "692" ;
+    skos:prefLabel "Architectural, Engineering and Technical Services" .
+
+anzsic:729 a skos:Concept ;
+    skos:broader anzsic:72 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "729" ;
+    skos:prefLabel "Other Administrative Services" .
+
+anzsic:75 a skos:Concept ;
+    skos:broader anzsic:O ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "75" ;
+    skos:prefLabel "Public Administration" .
+
+anzsic:771 a skos:Concept ;
+    skos:broader anzsic:77 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "771" ;
+    skos:prefLabel "Public Order and Safety Services" .
+
+anzsic:853 a skos:Concept ;
+    skos:broader anzsic:85 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "853" ;
+    skos:prefLabel "Allied Health Services" .
+
+anzsic:95 a skos:Concept ;
+    skos:broader anzsic:S ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "95" ;
+    skos:prefLabel "Personal and Other Services" .
+
+anzsic:953 a skos:Concept ;
+    skos:broader anzsic:95 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "953" ;
+    skos:prefLabel "Other Personal Services" .
+
+anzsic:A a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "A" ;
+    skos:prefLabel "Agriculture, Forestry and Fishing" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:B a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "B" ;
+    skos:prefLabel "Mining" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:G a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "G" ;
+    skos:prefLabel "Retail Trade" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:18 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "18" ;
+    skos:prefLabel "Basic Chemical and Chemical Product Manufacturing" .
+
+anzsic:F a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "F" ;
+    skos:prefLabel "Wholesale Trade" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:014 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "014" ;
+    skos:prefLabel "Sheep, Beef Cattle and Grain Farming" .
+
+anzsic:191 a skos:Concept ;
+    skos:broader anzsic:19 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "191" ;
+    skos:prefLabel "Polymer Product Manufacturing" .
+
+anzsic:24 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "24" ;
+    skos:prefLabel "Machinery and Equipment Manufacturing" .
+
+anzsic:360 a skos:Concept ;
+    skos:broader anzsic:36 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "360" ;
+    skos:prefLabel "Grocery, Liquor and Tobacco Product Wholesaling" .
+
+anzsic:373 a skos:Concept ;
+    skos:broader anzsic:37 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "373" ;
+    skos:prefLabel "Furniture, Floor Covering and Other Goods Wholesaling" .
+
+anzsic:42 a skos:Concept ;
+    skos:broader anzsic:G ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "42" ;
+    skos:prefLabel "Other Store-Based Retailing" .
+
+anzsic:J a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "J" ;
+    skos:prefLabel "Information Media and Telecommunications" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:013 a skos:Concept ;
+    skos:broader anzsic:01 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "013" ;
+    skos:prefLabel "Fruit and Tree Nut Growing" .
+
+anzsic:080 a skos:Concept ;
+    skos:broader anzsic:08 ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "080" ;
+    skos:prefLabel "Metal Ore Mining" .
+
+anzsic:69 a skos:Concept ;
+    skos:broader anzsic:M ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "69" ;
+    skos:prefLabel "Professional, Scientific and Technical Services (Except Computer System Design and Related Services)" .
+
+anzsic:I a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "I" ;
+    skos:prefLabel "Transport, Postal and Warehousing" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:01 a skos:Concept ;
+    skos:broader anzsic:A ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "01" ;
+    skos:prefLabel "Agriculture" .
+
+anzsic:11 a skos:Concept ;
+    skos:broader anzsic:C ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "11" ;
+    skos:prefLabel "Food Product Manufacturing" .
+
+anzsic:C a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "C" ;
+    skos:prefLabel "Manufacturing" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:scheme a skos:ConceptScheme ;
+    skos:prefLabel "Australian and New Zealand Standard Industrial Classification (ANZSIC)" ;
+    pav:version "2006 (Revision 2.0)" .
+

@@ -1,0 +1,174 @@
+atlassian:
+  connect:
+    redirect-root-to-descriptor: true
+    require-auth-exclude-paths: 
+        - /subject-byline
+        - /type-byline
+        - /class-byline
+        - /taxonomy-admin-page
+        - /taxonomy-page
+        - /provenance
+        - /taxonomy/concept
+        - /taxonomy/conceptscheme
+        - /taxonomy/topconcept
+        - /taxonomy/narrowerconcept
+        - /taxonomy/content
+        - /taxonomy/search
+        - /provenance
+        - /webhook/blog_created
+        - /webhook/blog_removed
+        - /webhook/blog_restored
+        - /webhook/blog_trashed
+        - /webhook/blog_updated
+        - /webhook/content_created
+        - /webhook/content_removed
+        - /webhook/content_updated
+        - /webhook/page_created
+        - /webhook/page_removed
+        - /webhook/page_restored
+        - /webhook/page_trashed
+        - /webhook/page_updated
+        - /relation
+        - /relation-editor
+        - /toc
+        - /toc-editor
+        - /sparql-macro
+        - /sparql-macro-editor
+        - /resource
+        - /resource-editor        
+        - /taxonomy/version
+        - /taxonomy/version/draft/import-catalog
+        - /taxonomy/version/draft/import-file
+        - /taxonomy/version/draft/calculate-content-impact
+        - /taxonomy/version/draft/transition-to-current
+        - /taxonomy/version/draft/cancel-transition-to-current
+        - /taxonomy/version/draft/clear
+        - /schema/empty-defining-resources-for-classes
+        - /schema/defining-resources-for-classes
+        - /schema/top-classes
+        - /schema/top-classes-for-defining-resource
+        - /schema/sub-classes
+        - /schema/sub-classes-for-defining-resource
+        - /schema/content-with-class-as-object
+        - /schema/resource
+        - /schema/search
+        - /schema/empty-defining-resources-for-properties
+        - /schema/defining-resources-for-properties
+        - /schema/top-properties
+        - /schema/top-properties-for-defining-resource
+        - /schema/sub-properties
+        - /schema/sub-properties-for-defining-resource
+        - /schema/content-with-property-as-predicate
+        - /class/search
+
+addon:
+  key: taxonomies-for-confluence
+  base-url: https://dalstonsemantics.au.ngrok.io
+  jwt:
+    ttl: 180
+  host:
+    validation:
+      suffix: atlassian.net
+      delay-sec: 1
+    shared-secret:
+      key-identifier: https://tfc.vault.azure.net/keys/tfc-atlassian-shared-secret/33acef1ef13445ab94566c9c8ec7efea      
+  repositories:
+    host:
+      data-dir: ./data/host
+    taxonomy:
+      data-dir: ./data/taxonomy
+      index-dir: ./data/taxonomy/index
+      context:
+        taxonomy-version:
+          init-delay-sec: 10
+        taxonomy:
+          max-size: 500000
+        content:
+          max-size: 500000
+  sparql:
+    max-execution-time-sec: 10
+  sparql-macro:
+    max-execution-time-sec: 10
+    max-rows: 1000
+  key-vault:
+    url: https://tfc.vault.azure.net
+  queues:
+    receive-visibility-timeout-sec: 600
+    receive-timeout-sec: 60
+    queue-service-client-endpoint-url: https://tfcproduction.queue.core.windows.net
+    import-resource: tfc-development-import-resource
+    import-file: tfc-development-import-file
+    copy-from-current: tfc-development-copy-from-current
+    calculate-taxonomy-version-difference: tfc-development-calculate-taxonomy-version-difference
+    calculate-content-impact: tfc-development-calculate-content-impact
+    transition-to-current: tfc-development-transition-to-current
+    cancel-transition-to-current: tfc-development-cancel-transition-to-current
+    clear: tfc-development-clear
+    callback-content-created-removed-updated: tfc-development-callback-content-created-removed-updated
+    callback-property-created-updated: tfc-development-callback-property-created-updated
+    callback-property-removed: tfc-development-callback-property-removed
+    materialize-content-graph: tfc-development-materialize-content-graph
+  blobs:
+    blob-service-client-endpoint-url: https://tfcproduction.blob.core.windows.net
+    import-file: tfc-development-import-file
+  caches:
+    host:
+      heap: 1000
+      ttl-sec: 600
+    user:
+      heap: 1000
+      ttl-sec: 600
+    addon:
+      heap: 1000
+      ttl-sec: 600
+  headers:
+    content-security-policy: script-src 'self' connect-cdn.atl-paas.net; form-action 'self'
+  http:
+    client:
+      max-conn-per-route: 400
+      max-conn-total: 400
+      connection-time-to-live-min: 15
+    connection-manager:
+      validate-after-inactivity-millis: 600000
+  license:
+    enforce: true
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  web:
+    resources:
+      chain:
+        strategy:
+          content:
+            enabled: true
+            paths: /js/**
+      cache:
+        cachecontrol:
+          max-age: 365d
+          no-cache: false
+          no-store: false
+          cache-public: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+server:
+  tomcat:
+    connection-timeout: 20000
+    max-connections: 10000
+    threads:
+      max: 400
+      min-spare: 50
+    processor-cache: 400
+    basedir: ./
+    accesslog:
+      enabled: false
+      rotate: false
+      prefix: 1
+      suffix: ""
+      directory: /proc/self/fd
+      pattern: "%{YYYY-MM-dd HH:mm:ss.SSS}t ACCESS [%I] \"%r\" %s %b %D %{User-Agent}i"
+      
+logging.level.com.atlassian.connect.spring: TRACE

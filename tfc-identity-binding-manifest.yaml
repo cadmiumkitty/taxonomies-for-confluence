@@ -1,0 +1,7 @@
+apiVersion: "aadpodidentity.k8s.io/v1"
+kind: AzureIdentityBinding
+metadata:
+  name: tfc-binding
+spec:
+  azureIdentity: tfc
+  selector: tfc

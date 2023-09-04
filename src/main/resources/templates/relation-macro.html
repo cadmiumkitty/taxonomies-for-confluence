@@ -1,0 +1,21 @@
+<span 
+    th:unless="${#strings.isEmpty(prefLabel)}" 
+    th:text="${prefLabel}" 
+    th:style="|
+        background-image: url(${baseUrl}/icons/macro-relation-01.svg);
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: 4px 50%;
+        border-radius: 3px;
+        border: 2px solid #00875A;
+        padding: 1px 4px 1px 24px;|">
+</span><span 
+    th:if="${#strings.isEmpty(prefLabel)}" 
+    th:style="|
+        background-image: url(${baseUrl}/icons/macro-relation-disabled-01.svg);
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: 4px 50%;
+        border-radius: 3px;
+        border: 2px solid #EBECF0;
+        padding: 1px 4px 1px 24px;|">Concept not found</span>

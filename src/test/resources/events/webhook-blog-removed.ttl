@@ -1,0 +1,10 @@
+<https://tfc.dalstonsemantics.com/event/1> a <https://dalstonsemantics.com/ns/com/atlassian/CallbackContentCreatedRemovedRestoredTrashedUpdatedEvent> ;
+  <https://dalstonsemantics.com/ns/com/atlassian/clientKey> "927294f7-0a9f-3d01-8120-b3ca3a45df38" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentId> "1192525828" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentSpaceKey> "~323528440" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentTitle> "Simple Blog Post" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentType> "blogpost" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentSelf> "https://dalstonsemantics.atlassian.net/wiki/spaces/~323528440/blog/2021/09/19/1192525828/Simple+Blog+Post" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/eventContentVersion> 2 ;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "removed" .

@@ -1,0 +1,141 @@
+{
+  "id": "1192591361",
+  "type": "com.atlassian.confluence.plugins.confluence-content-property-storage:content-property",
+  "status": "current",
+  "title": "taxonomies-for-confluence-subject",
+  "space": {
+    "id": 1149861892,
+    "key": "~323528440",
+    "name": "Eugene Morozov",
+    "type": "personal",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/~323528440/settings",
+      "metadata": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=~323528440",
+      "identifiers": "",
+      "permissions": "",
+      "icon": "",
+      "description": "",
+      "theme": "/rest/api/space/~323528440/theme",
+      "history": "",
+      "homepage": "/rest/api/content/1149862011"
+    },
+    "_links": {
+      "webui": "/spaces/~323528440",
+      "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/space/~323528440"
+    }
+  },
+  "history": {
+    "latest": true,
+    "createdBy": {
+      "type": "known",
+      "accountId": "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+      "accountType": "atlassian",
+      "email": "eugene.morozov@dalstonsemantics.com",
+      "publicName": "Eugene Morozov",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Eugene Morozov",
+      "isExternalCollaborator": false,
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/user?accountId=557058:d092c978-5ab7-4c8a-8d87-32ffac22c584"
+      }
+    },
+    "createdDate": "2021-09-19T15:48:20.455Z",
+    "_expandable": {
+      "lastUpdated": "",
+      "previousVersion": "",
+      "contributors": "",
+      "nextVersion": ""
+    },
+    "_links": {
+      "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/content/1192591361/history"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+      "accountType": "atlassian",
+      "email": "eugene.morozov@dalstonsemantics.com",
+      "publicName": "Eugene Morozov",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "Eugene Morozov",
+      "isExternalCollaborator": false,
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/user?accountId=557058:d092c978-5ab7-4c8a-8d87-32ffac22c584"
+      }
+    },
+    "when": "2021-09-19T15:48:20.455Z",
+    "friendlyWhen": "just a moment ago",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "contentTypeModified": false,
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/1192591361"
+    },
+    "_links": {
+      "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/content/1192591361/version/1"
+    }
+  },
+  "macroRenderedOutput": {},
+  "metadata": {
+    "labels": {
+      "results": [],
+      "start": 0,
+      "limit": 200,
+      "size": 0,
+      "_links": {
+        "next": "/rest/api/content/1192591361/label?next=true&limit=200&start=200",
+        "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/content/1192591361/label"
+      }
+    },
+    "_expandable": {
+      "currentuser": "",
+      "comments": "",
+      "simple": "",
+      "properties": "",
+      "frontend": "",
+      "likes": ""
+    }
+  },
+  "_expandable": {
+    "childTypes": "",
+    "container": "/rest/api/content/1192525828",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/1192591361/child",
+    "restrictions": "/rest/api/content/1192591361/restriction/byOperation",
+    "ancestors": "",
+    "body": "",
+    "descendants": "/rest/api/content/1192591361/descendant"
+  },
+  "_links": {
+    "context": "/wiki",
+    "self": "https://dalstonsemantics.atlassian.net/wiki/rest/api/content/1192591361",
+    "collection": "/rest/api/content",
+    "webui": "",
+    "base": "https://dalstonsemantics.atlassian.net/wiki"
+  }
+}

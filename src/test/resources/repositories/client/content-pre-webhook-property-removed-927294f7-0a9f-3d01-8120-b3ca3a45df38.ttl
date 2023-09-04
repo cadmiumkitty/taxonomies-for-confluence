@@ -1,0 +1,107 @@
+@prefix team: <https://dalstonsemantics.com/ns/com/atlassian/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-100" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/100/Label> ;
+  team:contentId "100" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:A;
+  team:propertyId "100";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:B;
+  team:propertyId "110";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:C;
+  team:macroId "1";
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584> a prov:Agent;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584".
+
+
+<https://tfc.dalstonsemantics.com/activity/100> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  prov:used <https://tfc.dalstonsemantics.com/blank/100>;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100> .
+
+<https://tfc.dalstonsemantics.com/blank/100> dcterms:subject anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/110> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  prov:used <https://tfc.dalstonsemantics.com/blank/110>;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110> .
+
+<https://tfc.dalstonsemantics.com/blank/110> dcterms:type anzsic:B .
+
+<https://tfc.dalstonsemantics.com/activity/120> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  prov:used <https://tfc.dalstonsemantics.com/blank/120>;
+  prov:generated <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120> .
+
+<https://tfc.dalstonsemantics.com/blank/120> dcterms:relation anzsic:C .
+
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "294914";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int;
+  <http://purl.org/dc/terms/title> "Retail Banking Support Updated";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/VM/pages/294914/Retail+Banking+Support+Updated> .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-1191804929>
+  a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914>;
+  rdf:predicate <http://purl.org/dc/terms/subject>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/A>;
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyId> "1191804929";
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/activity/b7279f95-1820-4582-8088-f7d065fd116d> a
+    <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2023-01-16T06:45:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#endedAtTime> "2023-01-16T06:45:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#wasAssociatedWith> <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-1191804929>;
+  <http://www.w3.org/ns/prov#used> _:b7279f95-1820-4582-8088-f7d065f00001 .
+
+_:b7279f95-1820-4582-8088-f7d065f00001 <http://purl.org/dc/terms/subject> <https://www.abs.gov.au/ausstats/anzsic/A> .

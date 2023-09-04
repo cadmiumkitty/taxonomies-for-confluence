@@ -1,0 +1,326 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix team: <https://dalstonsemantics.com/ns/com/atlassian/> .
+
+team:schema a team:DefiningResource ;
+  rdfs:label "Taxonomy for Confluence Schema" ;
+  rdfs:comment "Classes and Properties used internally by Taxonomies for Confluence add-on." .
+
+team:AtlassianHost a rdfs:Class ;
+  rdfs:label "Atlassian Host" ;
+  rdfs:comment "Resource referring to an Atlassian Host that has the add-on installed." ;
+  rdfs:isDefinedBy team:schema .
+
+team:baseUrl a rdf:Property ;
+  rdfs:label "Base URL" ;
+  rdfs:comment "Base URL mapped from Atlassian Connect AtlassianHost baseUrl." ;
+  rdfs:isDefinedBy team:schema .
+
+team:clientKey a rdf:Property ;
+  rdfs:label "Client Key" ;
+  rdfs:comment "Unique identifier of the Atlassian host product installation. Client key mapped from Atlassian Connect AtlassianHost clientKey." ;
+  rdfs:isDefinedBy team:schema .
+
+team:description a rdf:Property ;
+  rdfs:label "Description" ;
+  rdfs:comment "Description mapped from Atlassian Connect AtlassianHost description." ;
+  rdfs:isDefinedBy team:schema .
+
+team:productType a rdf:Property ;
+  rdfs:label "Product Type" ;
+  rdfs:comment "Product type mapped from Atlassian Connect AtlassianHost productType." ;
+  rdfs:isDefinedBy team:schema .
+
+team:sharedSecret a rdf:Property ;
+  rdfs:label "Shared Secret" ;
+  rdfs:comment "Encrypted with the key identitifier and base-64 encoded shared secret of the Taxonomies for Confluence installation within the Alassian host product installation." ;
+  rdfs:isDefinedBy team:schema .
+
+team:keyIdentifier a rdf:Property ;
+  rdfs:label "Key Identifier" ;
+  rdfs:comment "Identifier of the encryption key in the Azure Key Vault used to encrypt shared secret." ;
+  rdfs:isDefinedBy team:schema .
+
+team:addonInstalled a rdf:Property ;
+  rdfs:label "Addon Installed" ;
+  rdfs:comment "Addon installed flag mapped from Atlassian Connect AtlassianHost addonInstalled." ;
+  rdfs:isDefinedBy team:schema .
+
+team:oauthClientId a rdf:Property ;
+  rdfs:label "OAuth Client Identifier" ;
+  rdfs:comment "Product Type mapped from Atlassian Connect AtlassianHost oauthClientId." ;
+  rdfs:isDefinedBy team:schema .
+
+team:serviceEntitlementNumber a rdf:Property ;
+  rdfs:label "Service Entitlement Number" ;
+  rdfs:comment "Service entitlement number mapped from Atlassian Connect AtlassianHost serviceEntitlementNumber." ;
+  rdfs:isDefinedBy team:schema .
+
+team:accountId a rdf:Property ;
+  rdfs:label "Account Id" ;
+  rdfs:comment "Account identifier mapped from Atlassian user identifier." ;
+  rdfs:isDefinedBy team:schema .
+
+team:propertyId a rdf:Property ;
+  rdfs:label "Property Id" ;
+  rdfs:comment "Property identifier mapped from Confluence content identifier." ;
+  rdfs:isDefinedBy team:schema .
+
+team:propertyVersion a rdf:Property ;
+  rdfs:label "Property Version" ;
+  rdfs:comment "Property version mapped from Confluence content version." ;
+  rdfs:isDefinedBy team:schema .
+
+team:page a rdfs:Class ;
+  rdfs:label "Confluence Page" ;
+  rdfs:comment "Resource referencing a Confluence page." ;
+  rdfs:isDefinedBy team:schema .
+
+team:blogpost a rdfs:Class ;
+  rdfs:label "Confluence Blog Post" ;
+  rdfs:comment "Resource referencing a Confluence blog post." ;
+  rdfs:isDefinedBy team:schema .
+
+team:contentId a rdf:Property ;
+  rdfs:label "Content Id" ;
+  rdfs:comment "Content identifier mapped from Confluence page or blog post identifier." ;
+  rdfs:isDefinedBy team:schema .
+
+team:contentVersion a rdf:Property ;
+  rdfs:label "Content Version" ;
+  rdfs:comment "Content version mapped from Confluence page or blog post version." ;
+  rdfs:isDefinedBy team:schema .
+
+team:macroId a rdf:Property ;
+  rdfs:label "Macro Id" ;
+  rdfs:comment "Macro identifier to help optimise statement clean up when dealing with creating statemens from content." ;
+  rdfs:isDefinedBy team:schema .
+
+team:tableId a rdf:Property ;
+  rdfs:label "Table Id" ;
+  rdfs:comment "Table identifier to help optimise statement clean up when dealing with creating statemens from tabular structures in content." ;
+  rdfs:isDefinedBy team:schema .
+
+team:TaxonomyGraph a rdfs:Class ;
+  rdfs:label "Taxonomy Graph" ;
+  rdfs:comment "Resource referencing a taxonomy snapshot. Same resource is used as context of taxonomy statements." ;
+  rdfs:isDefinedBy team:schema .
+
+team:previousTaxonomyGraph a rdf:Property ;
+  rdfs:label "Prefious Taxonomy Graph" ;
+  rdfs:comment "Reference to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:taxonomyGraphSequenceNumber a rdf:Property ;
+  rdfs:label "Taxonomy Graph Sequence Number" ;
+  rdfs:comment "Sequence number of the taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:conceptSchemeCount a rdf:Property ;
+  rdfs:label "Concept Scheme Count" ;
+  rdfs:comment "Count of concept schemes in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:conceptCount a rdf:Property ;
+  rdfs:label "Concept Count" ;
+  rdfs:comment "Count of concepts in taxonomy snapshot or a concept scheme, or count of narrower concepts for a concept." ;
+  rdfs:isDefinedBy team:schema .
+
+team:classCount a rdf:Property ;
+  rdfs:label "Class Count" ;
+  rdfs:comment "Count of classes in taxonomy snapshot or a defining resource, or count of subclasses for a class." ;
+  rdfs:isDefinedBy team:schema .
+
+team:propertyCount a rdf:Property ;
+  rdfs:label "Property Count" ;
+  rdfs:comment "Count of properties in taxonomy snapshot or a defining resource, or count of subproperties for a property." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedConceptCount a rdf:Property ;
+  rdfs:label "Inserted Concept Count" ;
+  rdfs:comment "Concept inserted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedConceptCount a rdf:Property ;
+  rdfs:label "Updated Concept Count" ;
+  rdfs:comment "Concept updated in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedConceptCount a rdf:Property ;
+  rdfs:label "Deleted Concept Count" ;
+  rdfs:comment "Concept deleted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedConcept a rdf:Property ;
+  rdfs:label "Inserted Concept" ;
+  rdfs:comment "Concept inserted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedConcept a rdf:Property ;
+  rdfs:label "Updated Concept" ;
+  rdfs:comment "Concept updated in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedConcept a rdf:Property ;
+  rdfs:label "Deleted Concept" ;
+  rdfs:comment "Concept deleted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedClassCount a rdf:Property ;
+  rdfs:label "Inserted Class Count" ;
+  rdfs:comment "Classes inserted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedClassCount a rdf:Property ;
+  rdfs:label "Updated Class Count" ;
+  rdfs:comment "Classes updated in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedClassCount a rdf:Property ;
+  rdfs:label "Deleted Class Count" ;
+  rdfs:comment "Class deleted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedClass a rdf:Property ;
+  rdfs:label "Inserted Class" ;
+  rdfs:comment "Class inserted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedClass a rdf:Property ;
+  rdfs:label "Updated Class" ;
+  rdfs:comment "Class updated in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedClass a rdf:Property ;
+  rdfs:label "Deleted Class" ;
+  rdfs:comment "Class deleted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedPropertyCount a rdf:Property ;
+  rdfs:label "Inserted Property Count" ;
+  rdfs:comment "Property inserted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedPropertyCount a rdf:Property ;
+  rdfs:label "Updated Property Count" ;
+  rdfs:comment "Property updated in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedPropertyCount a rdf:Property ;
+  rdfs:label "Deleted Property Count" ;
+  rdfs:comment "Property deleted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedProperty a rdf:Property ;
+  rdfs:label "Inserted Property" ;
+  rdfs:comment "Property inserted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedProperty a rdf:Property ;
+  rdfs:label "Updated Property" ;
+  rdfs:comment "Property updated in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedProperty a rdf:Property ;
+  rdfs:label "Deleted Property" ;
+  rdfs:comment "Property deleted in this taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:insertedCount a rdf:Property ;
+  rdfs:label "Count of inserted Concepts, Classes and Properties" ;
+  rdfs:comment "Concepts, Classes and Properties inserted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:updatedCount a rdf:Property ;
+  rdfs:label "Count of updated Concepts, Classes and Properties" ;
+  rdfs:comment "Concepts, Classes and Properties updated in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:deletedCount a rdf:Property ;
+  rdfs:label "Count of deleted Concepts, Classes and Properties" ;
+  rdfs:comment "Concepts, Classes and Properties deleted in this taxonomy snapshot relative to previous taxonomy snapshot." ;
+  rdfs:isDefinedBy team:schema .
+
+team:impactedContentCount a rdf:Property ;
+  rdfs:label "Impacted Content Count" ;
+  rdfs:comment "Count of content - pages and blog posts - that will be impacted by the status transition from draft to current. Impacted means a related concept or a property need to be updated or removed." ;
+  rdfs:isDefinedBy team:schema .
+
+team:processedContentCount a rdf:Property ;
+  rdfs:label "Processed Content Count" ;
+  rdfs:comment "Count of content - pages and blog posts - for which status transition from draft to current has been processed successfully." ;
+  rdfs:isDefinedBy team:schema .
+
+team:failedContentCount a rdf:Property ;
+  rdfs:label "Failed Content Count" ;
+  rdfs:comment "Count of content - pages and blog posts - for which status transition from draft to current has failed." ;
+  rdfs:isDefinedBy team:schema .
+
+team:statusTransitionErrorMessage a rdf:Property ;
+  rdfs:label "Status Transition Error Message" ;
+  rdfs:comment "Error message in case status transition errors occur." ;
+  rdfs:isDefinedBy team:schema .
+
+team:status a rdf:Property ;
+  rdfs:label "Status" ;
+  rdfs:comment "Status of any resource created by Taxonomies for Confluence." ;
+  rdfs:isDefinedBy team:schema .
+
+team:ImportFileEvent a rdfs:Class ;
+  rdfs:label "Import File Event" ;
+  rdfs:comment "Event used to transition the target taxonomy into importing state and start import from uploaded file." ;
+  rdfs:isDefinedBy team:schema .
+
+team:blobName a rdf:Property ;
+  rdfs:label "Blob Name" ;
+  rdfs:comment "Name of the Azure Storage blob used to temporarily store the uploaded file." ;
+  rdfs:isDefinedBy team:schema .
+
+team:ImportResourceEvent a rdfs:Class ;
+  rdfs:label "Import Resource Event" ;
+  rdfs:comment "Event used to transition the target taxonomy into importing state and start import from resource identified by URL." ;
+  rdfs:isDefinedBy team:schema .
+
+team:resource a rdf:Property ;
+  rdfs:label "Resource" ;
+  rdfs:comment "URL of the resource to be imported." ;
+  rdfs:isDefinedBy team:schema .
+
+team:CalculateTaxonomyVersionDifferenceEvent a rdfs:Class ;
+  rdfs:label "Calculate Taxonomy Version Difference Event" ;
+  rdfs:comment "Event used to transition the target taxonomy into calculating_taxonomy_version_difference state and start calculation of the differences." ;
+  rdfs:isDefinedBy team:schema .
+
+team:ClearEvent a rdfs:Class ;
+  rdfs:label "Clear Event" ;
+  rdfs:comment "Event used to transition the target taxonomy into clearing state and start clearing of the target taxonomy." ;
+  rdfs:isDefinedBy team:schema .
+
+team:CalculateContentImpactEvent a rdfs:Class ;
+  rdfs:label "Calculate Content Impact Event" ;
+  rdfs:comment "Event used to transition the target taxonomy into transitioning_to_current state and start calculation of the content impact." ;
+  rdfs:isDefinedBy team:schema .
+
+team:TransitionToCurrentEvent a rdfs:Class ;
+  rdfs:label "Transition To Current Event" ;
+  rdfs:comment "Event used to transition of the target taxonomy into current state and complete migration of content." ;
+  rdfs:isDefinedBy team:schema .
+
+team:CancelTransitionToCurrentEvent a rdfs:Class ;
+  rdfs:label "Cancel Transition To Current Event" ;
+  rdfs:comment "Event used to cancel transition of the target taxonomy into current state." ;
+  rdfs:isDefinedBy team:schema .
+
+team:targetTaxonomyGraph a rdf:Property ;
+  rdfs:label "Target Taxonomy Graph" ;
+  rdfs:comment "Target taxonomy graph for the event." ;
+  rdfs:isDefinedBy team:schema .
+
+team:DefiningResource a rdfs:Class ;
+  rdfs:label "Defining Resource" ;
+  rdfs:comment "Resource that is defining other resources. Similar to SKOS Concept Scheme." ;
+  rdfs:isDefinedBy team:schema .
+
+team:BlankDefiningResource a rdfs:Class ;
+  rdfs:label "Blank Defining Resource" ;
+  rdfs:comment "Resource that is defining other resources. Similar to SKOS Concept Scheme." ;
+  rdfs:isDefinedBy team:schema .

@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>
+  a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate <http://purl.org/dc/terms/subject>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/A>;
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyId> "100";
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110>
+  a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate <http://purl.org/dc/terms/type>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/B>;
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyId> "110";
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/activity/100> a <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#endedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#wasAssociatedWith> <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  <http://www.w3.org/ns/prov#used> <https://tfc.dalstonsemantics.com/blank/100> .
+
+<https://tfc.dalstonsemantics.com/activity/110> a <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#endedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#wasAssociatedWith> <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110>;
+  <http://www.w3.org/ns/prov#used> <https://tfc.dalstonsemantics.com/blank/110> .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-1192525828>
+  a <https://dalstonsemantics.com/ns/com/atlassian/blogpost>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "Simple Blog Post";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/~323528440/blog/2021/09/19/1192525828/Simple+Blog+Post>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "1192525828";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "2"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/activity/b7279f95-1820-4582-8088-f7d065fd116d> a
+    <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2023-01-17T20:10:05.040+00:05"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#endedAtTime> "2023-01-17T20:10:05.040+00:05"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#wasAssociatedWith> <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/macro/eb59fcc8-dfb6-40f8-9b22-18f743e55555>;
+  <http://www.w3.org/ns/prov#used> _:b7279f95-1820-4582-8088-f7d065f00001 .
+
+<https://tfc.dalstonsemantics.com/macro/eb59fcc8-dfb6-40f8-9b22-18f743e55555> a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "1192525828";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-1192525828>;
+  rdf:predicate <http://purl.org/dc/terms/relation>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/B>;
+  <https://dalstonsemantics.com/ns/com/atlassian/macroId> "eb59fcc8-dfb6-40f8-9b22-18f743e55555" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "XXX-100";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/100/Label>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "100";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/blank/100> <http://purl.org/dc/terms/subject> <https://www.abs.gov.au/ausstats/anzsic/A> .
+
+<https://tfc.dalstonsemantics.com/blank/110> <http://purl.org/dc/terms/type> <https://www.abs.gov.au/ausstats/anzsic/B> .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120>
+  a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "100";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate <http://purl.org/dc/terms/relation>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/C>;
+  <https://dalstonsemantics.com/ns/com/atlassian/macroId> "1" .
+
+<https://tfc.dalstonsemantics.com/activity/120> a <http://www.w3.org/ns/prov#Activity>;
+  <http://www.w3.org/ns/prov#startedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#endedAtTime> "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  <http://www.w3.org/ns/prov#wasAssociatedWith> <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  <http://www.w3.org/ns/prov#generated> <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120>;
+  <http://www.w3.org/ns/prov#used> <https://tfc.dalstonsemantics.com/blank/120> .
+
+<https://tfc.dalstonsemantics.com/blank/120> <http://purl.org/dc/terms/relation> <https://www.abs.gov.au/ausstats/anzsic/C> .
+
+_:b7279f95-1820-4582-8088-f7d065f00001 <http://purl.org/dc/terms/relation> <https://www.abs.gov.au/ausstats/anzsic/B> .
+
+<https://tfc.dalstonsemantics.com/macro/eb59fcc8-dfb6-40f8-9b22-18f743ed4818> a rdf:Statement;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-1192525828>;
+  rdf:predicate <http://purl.org/dc/terms/relation>;
+  rdf:object <https://www.abs.gov.au/ausstats/anzsic/A>;
+  <https://dalstonsemantics.com/ns/com/atlassian/macroId> "eb59fcc8-dfb6-40f8-9b22-18f743ed4818" .

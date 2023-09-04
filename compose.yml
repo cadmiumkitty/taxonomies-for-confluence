@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  rdf4j-server:
+    image: dalstonsemantics.azurecr.io/rdf4j-server:4.2.4-tomcat-9.0.73-jdk17-temurin-jammy
+    build:
+      context: ./
+      dockerfile: ./rdf4j-server/Dockerfile    
+    ports:
+      - "8080:8080"
+    volumes: 
+      - ./rdf4j_data_server:/var/rdf4j
+      - ./rdf4j_data_server_users:/usr/local/tomcat/users
+    env_file:
+      - variables-rdf4j-server-docker.env
+  rdf4j-workbench:
+    image: dalstonsemantics.azurecr.io/rdf4j-workbench:4.2.4-tomcat-9.0.73-jdk17-temurin-jammy
+    build:
+      context: ./
+      dockerfile: ./rdf4j-workbench/Dockerfile    
+    ports:
+      - "8090:8080"
+    volumes: 
+      - ./rdf4j_data_workbench:/var/rdf4j
+      - ./rdf4j_data_workbench_users:/usr/local/tomcat/users
+    env_file:
+      - variables-rdf4j-workbench-docker.env
+  tfc:
+    image: dalstonsemantics.azurecr.io/tfc:4.16.0
+    build:
+      context: ./
+      dockerfile: ./tfc/Dockerfile
+    ports:
+      - "8100:8080"
+    env_file:
+      - variables-tfc-docker.env

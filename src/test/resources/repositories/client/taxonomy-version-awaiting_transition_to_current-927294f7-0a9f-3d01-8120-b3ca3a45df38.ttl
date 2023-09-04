@@ -1,0 +1,69 @@
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix test: <https://dalstonsemantics.com/test/> .
+
+<https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38-1> a <https://dalstonsemantics.com/ns/com/atlassian/TaxonomyGraph>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "awaiting_transition_to_current";
+  <https://dalstonsemantics.com/ns/com/atlassian/statusTransitionEvent> <https://tfc.dalstonsemantics.com/event/4>;
+  <https://dalstonsemantics.com/ns/com/atlassian/previousTaxonomyGraph> <https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38>;
+  <https://dalstonsemantics.com/ns/com/atlassian/conceptSchemeCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/conceptCount> 4;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedConcept> anzsic:E;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedConcept> anzsic:F;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedConcept> anzsic:B;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedConcept> anzsic:C;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedConcept> anzsic:D;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedConceptCount> 2;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedConceptCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedConceptCount> 2;
+  <https://dalstonsemantics.com/ns/com/atlassian/classCount> 4;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedClass> test:Class4;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedClass> test:Class5;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedClass> test:Class2;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedClass> test:Class3;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedClassCount> 2;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedClassCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedClassCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyCount> 4;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedProperty> test:property4;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedProperty> test:property5;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedProperty> test:property2;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedProperty> test:property3;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedPropertyCount> 2;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedPropertyCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedPropertyCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContent> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-201>;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContent> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-202>;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContent> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-203>;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContent> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204>;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContent> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContentCount> 5.
+
+<https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38> a <https://dalstonsemantics.com/ns/com/atlassian/TaxonomyGraph>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <https://dalstonsemantics.com/ns/com/atlassian/conceptSchemeCount> 1;
+  <https://dalstonsemantics.com/ns/com/atlassian/conceptCount> 4;
+  <https://dalstonsemantics.com/ns/com/atlassian/classCount> 3;
+  <https://dalstonsemantics.com/ns/com/atlassian/propertyCount> 3;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedConceptCount> 4;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedConceptCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedConceptCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedClassCount> 3;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedClassCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedClassCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/insertedPropertyCount> 3;
+  <https://dalstonsemantics.com/ns/com/atlassian/updatedPropertyCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/deletedPropertyCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/impactedContentCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/processedContentCount> 0;
+  <https://dalstonsemantics.com/ns/com/atlassian/failedContentCount> 0.
+
+<https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584> a prov:Agent;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584".
+
+<https://tfc.dalstonsemantics.com/activity/1> a prov:Activity;
+  prov:startedAtTime "2021-01-01T10:20:30.040+00:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  prov:endedAtTime "2021-01-01T10:20:30.040+00:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/557058:d092c978-5ab7-4c8a-8d87-32ffac22c584>;
+  prov:generated <https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38>;
+  prov:generated <https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38-1>.

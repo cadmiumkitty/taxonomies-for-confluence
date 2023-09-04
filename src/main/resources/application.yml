@@ -1,0 +1,115 @@
+addon:
+  key: taxonomies-for-confluence-development
+  base-url: https://dalstonsemantics.au.ngrok.io
+  jwt:
+    ttl: 180
+  host:
+    validation:
+      suffix: atlassian.net
+    shared-secret:
+      key-identifier: https://tfc.vault.azure.net/keys/tfc-atlassian-shared-secret/f9ace45dc0ef45fdbbac8cfb2d9ea9db
+  repositories:
+    host:
+      server: ${TFC_HOST_REPOSITORY_SERVER}
+      username: ${TFC_HOST_REPOSITORY_USERNAME}
+      password: ${TFC_HOST_REPOSITORY_PASSWORD}
+    taxonomy:
+      server: ${TFC_TAXONOMY_REPOSITORY_SERVER}
+      username: ${TFC_TAXONOMY_REPOSITORY_USERNAME}
+      password: ${TFC_TAXONOMY_REPOSITORY_PASSWORD}
+      context:
+        taxonomy-version:
+          init-delay-sec: 10
+        taxonomy:
+          max-size: 500000
+        content:
+          max-size: 500000
+  sparql:
+    max-execution-time-sec: 10
+  sparql-macro:
+    max-execution-time-sec: 10
+    max-rows: 1000
+  key-vault:
+    url: https://tfc.vault.azure.net
+  queues:
+    receive-visibility-timeout-sec: 600
+    receive-timeout-sec: 60
+    queue-service-client-endpoint-url: https://tfcproduction.queue.core.windows.net
+    import-resource: tfc-development-import-resource
+    import-file: tfc-development-import-file
+    copy-from-current: tfc-development-copy-from-current
+    calculate-taxonomy-version-difference: tfc-development-calculate-taxonomy-version-difference
+    calculate-content-impact: tfc-development-calculate-content-impact
+    transition-to-current: tfc-development-transition-to-current
+    cancel-transition-to-current: tfc-development-cancel-transition-to-current
+    clear: tfc-development-clear
+    callback-content-created-removed-updated: tfc-development-callback-content-created-removed-updated
+    callback-property-created-updated: tfc-development-callback-property-created-updated
+    callback-property-removed: tfc-development-callback-property-removed
+    materialize-content-graph: tfc-development-materialize-content-graph
+  blobs:
+    blob-service-client-endpoint-url: https://tfcproduction.blob.core.windows.net
+    import-file: tfc-development-import-file
+  caches:
+    host:
+      heap: 1000
+      ttl-sec: 10
+    user:
+      heap: 1000
+      ttl-sec: 10
+    addon:
+      heap: 1000
+      ttl-sec: 10
+  headers:
+    content-security-policy: script-src 'unsafe-eval' 'self' connect-cdn.atl-paas.net; form-action 'self'
+  http:
+    client:
+      max-conn-per-route: 400
+      max-conn-total: 400
+      connection-time-to-live-min: 15
+    connection-manager:
+      validate-after-inactivity-millis: 600000
+  license:
+    enforce: false
+
+atlassian:
+  connect:
+    allow-reinstall-missing-host: true
+    install-timeout: 15
+
+server:
+  port: ${TFC_SERVER_PORT}
+  tomcat:
+    connection-timeout: 20000
+    max-connections: 10000
+    threads:
+      max: 400
+      min-spare: 50
+    processor-cache: 400
+    basedir: ${TFC_SERVER_TOMCAT_BASEDIR}
+    accesslog:
+      enabled: false
+      rotate: false
+      prefix: 1
+      suffix: ""
+      directory: /proc/self/fd
+      pattern: "%{YYYY-MM-dd HH:mm:ss.SSS}t ACCESS [%I] \"%r\" %s %b %D %{User-Agent}i"
+
+spring:
+  web:
+    resources:
+      chain:
+        strategy:
+          content:
+            enabled: true
+            paths: /js/**
+      cache:
+        cachecontrol:
+          max-age: 365d
+          no-cache: false
+          no-store: false
+          cache-public: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB

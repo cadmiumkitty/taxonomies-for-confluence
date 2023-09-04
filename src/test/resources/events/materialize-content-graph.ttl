@@ -1,0 +1,2 @@
+<https://tfc.dalstonsemantics.com/event/1> a <https://dalstonsemantics.com/ns/com/atlassian/MaterializeContentGraphEvent> ;
+  <https://dalstonsemantics.com/ns/com/atlassian/clientKey> "927294f7-0a9f-3d01-8120-b3ca3a45df38" .

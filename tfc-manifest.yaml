@@ -1,0 +1,516 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tfc
+data:
+  tfc_host_repository_server: "http://rdf4j-server-0.rdf4j-server.tfc.svc.cluster.local:8080/rdf4j-server"
+  tfc_taxonomy_repository_server: "http://rdf4j-server-0.rdf4j-server.tfc.svc.cluster.local:8080/rdf4j-server"
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: rdf4j-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rdf4j-server
+  serviceName: rdf4j-server
+  template:
+    metadata:
+      labels:
+        app: rdf4j-server
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+        - name: rdf4j-server
+          image: dalstonsemantics.azurecr.io/rdf4j-server:4.2.4-tomcat-9.0.73-jdk17-temurin-jammy
+          imagePullPolicy: Always
+          env:
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: CATALINA_OPTS
+              value: "-Xmx6G -Xms6G -Dorg.eclipse.rdf4j.appdata.basedir=/var/rdf4j -Dorg.eclipse.rdf4j.common.logging.dir=/var/rdf4j/server/logs-${NODE_NAME} -DnodeName=${NODE_NAME}"
+          resources:
+            requests:
+              memory: "6Gi"
+            limits:
+              memory: "6Gi"
+          ports:
+            - containerPort: 8080
+              name: rdf4j-server
+          volumeMounts:
+            - mountPath: "/var/rdf4j"
+              name: data
+              subPath: "rdf4j-server"
+            - mountPath: "/usr/local/tomcat/users"
+              name: rdf4j-server-tomcat-users
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: data-disk
+        - name: rdf4j-server-tomcat-users
+          secret:
+            secretName: rdf4j-server-tomcat-users
+            items:
+              - key: tomcat-users
+                path: "tomcat-users.xml"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rdf4j-server
+  labels:
+    app: rdf4j-server
+spec:
+  ports:
+    - port: 8080
+      name: rdf4j-server
+  clusterIP: None
+  selector:
+    app: rdf4j-server
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rdf4j-workbench
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rdf4j-workbench
+  template:
+    metadata:
+      labels:
+        app: rdf4j-workbench
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+        - name: rdf4j-workbench
+          image: dalstonsemantics.azurecr.io/rdf4j-workbench:4.2.4-tomcat-9.0.73-jdk17-temurin-jammy
+          imagePullPolicy: Always
+          env:
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: CATALINA_OPTS
+              value: "-Xmx500M -Xms500M -Dorg.eclipse.rdf4j.appdata.basedir=/var/rdf4j -DnodeName=${NODE_NAME}"
+          resources:
+            requests:
+              memory: "500Mi"
+            limits:
+              memory: "500Mi"
+          ports:
+            - containerPort: 8080
+              name: rdf4j-workbench
+          volumeMounts:
+            - mountPath: "/var/rdf4j"
+              name: data
+              subPath: "rdf4j-workbench"
+            - mountPath: "/usr/local/tomcat/users"
+              name: rdf4j-workbench-tomcat-users
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: data-disk
+        - name: rdf4j-workbench-tomcat-users
+          secret:
+            secretName: rdf4j-workbench-tomcat-users
+            items:
+              - key: tomcat-users
+                path: "tomcat-users.xml"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rdf4j-workbench
+  labels:
+    app: rdf4j-workbench
+spec:
+  ports:
+    - port: 8080
+      name: rdf4j-workbench
+  selector:
+    app: rdf4j-workbench
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tfc
+  minReadySeconds: 5 
+  template:
+    metadata:
+      labels:
+        app: tfc
+        aadpodidbinding: tfc
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+        - name: tfc
+          image: dalstonsemantics.azurecr.io/tfc:4.16.0
+          imagePullPolicy: Always
+          env:
+            - name: _JAVA_OPTIONS
+              value: "-Xmx2G -Xms2G -Dspring.profiles.active=production"
+            - name: TFC_HOST_REPOSITORY_SERVER
+              valueFrom:
+                configMapKeyRef:
+                  name: tfc
+                  key: tfc_host_repository_server
+            - name: TFC_HOST_REPOSITORY_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: tfc
+                  key: tfc_host_repository_username
+            - name: TFC_HOST_REPOSITORY_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: tfc
+                  key: tfc_host_repository_password
+            - name: TFC_TAXONOMY_REPOSITORY_SERVER
+              valueFrom:
+                configMapKeyRef:
+                  name: tfc
+                  key: tfc_taxonomy_repository_server
+            - name: TFC_TAXONOMY_REPOSITORY_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: tfc
+                  key: tfc_taxonomy_repository_username
+            - name: TFC_TAXONOMY_REPOSITORY_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: tfc
+                  key: tfc_taxonomy_repository_password
+          resources:
+            requests:
+              memory: "2Gi"
+            limits:
+              memory: "2Gi"
+          ports:
+            - containerPort: 8080
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: data-disk
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tfc
+spec:
+  ports:
+  - port: 8080
+  selector:
+    app: tfc
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tfc-ingress
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: 10m
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  rules:
+    - host: tfc.dalstonsemantics.com
+      http:
+        paths:
+          - path: /subject-byline
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /type-byline
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /class-byline
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /taxonomy-admin-page
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /taxonomy-page
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /taxonomy
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /schema
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /class
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /provenance
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /relation
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /relation-editor
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /toc
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /toc-editor
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /sparql-macro
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /sparql-macro-editor
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /resource
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /resource-editor
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /js
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /images
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /icons
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+  tls:
+    - hosts:
+      - tfc.dalstonsemantics.com
+      secretName: tls-secret
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tfc-ingress-sparql
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: 128k
+    nginx.ingress.kubernetes.io/limit-rps: "10"
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  rules:
+    - host: tfc.dalstonsemantics.com
+      http:
+        paths:
+          - path: /sparql
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+  tls:
+    - hosts:
+      - tfc.dalstonsemantics.com
+      secretName: tls-secret
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tfc-ingress-lifecycle
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: 1m
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    nginx.ingress.kubernetes.io/whitelist-source-range: 3.26.128.128/26,3.69.198.0/26,3.99.65.0/26,3.101.177.128/26,3.109.72.192/26,3.251.213.64/26,13.52.5.0/25,13.52.5.96/28,13.214.1.0/26,13.236.8.128/25,13.236.8.224/28,15.228.142.0/26,18.136.214.0/25,18.136.214.96/28,18.170.192.128/26,18.184.99.128/25,18.184.99.224/28,18.205.93.0/27,18.234.32.128/25,18.234.32.224/28,18.246.31.128/25,18.246.31.224/28,34.218.156.209/32,34.218.168.212/32,35.75.131.128/26,35.84.197.128/26,44.197.146.192/26,52.41.219.63/32,52.215.192.128/25,52.215.192.224/28,104.192.136.0/21,104.192.136.240/28,104.192.137.240/28,104.192.138.240/28,104.192.140.240/28,104.192.142.240/28,104.192.143.240/28,185.166.140.0/22,185.166.142.240/28,185.166.143.240/28,2401:1d80:3000::/36,2401:1d80:3000:100::/61,2401:1d80:3000:200::/61,2401:1d80:3000:300::/61,2401:1d80:3000:400::/61,2401:1d80:3000:500::/61,2401:1d80:3000:600::/61,2401:1d80:3000:700::/61,2406:da18:809:e00::/56,2406:da18:809:e04::/64,2406:da18:809:e05::/64,2406:da18:809:e06::/64,2406:da1c:1e0:a200::/56,2406:da1c:1e0:a204::/64,2406:da1c:1e0:a205::/64,2406:da1c:1e0:a206::/64,2600:1f14:824:300::/56,2600:1f14:824:304::/64,2600:1f14:824:305::/64,2600:1f14:824:306::/64,2600:1f18:2146:e300::/56,2600:1f18:2146:e304::/64,2600:1f18:2146:e305::/64,2600:1f18:2146:e306::/64,2600:1f1c:cc5:2300::/56,2600:1f1c:cc5:2304::/64,2600:1f1c:cc5:2305::/64,2a05:d014:f99:dd00::/56,2a05:d014:f99:dd04::/64,2a05:d014:f99:dd05::/64,2a05:d014:f99:dd06::/64,2a05:d018:34d:5800::/56,2a05:d018:34d:5804::/64,2a05:d018:34d:5805::/64,2a05:d018:34d:5806::/64,3.216.235.48/32,34.231.96.243/32,44.199.3.254/32,174.129.205.191/32,44.199.127.226/32,44.199.45.64/32,3.221.151.112/32,52.205.184.192/32,52.72.137.240/32,34.232.119.183/32,35.155.178.254/32,34.216.18.129/32,35.171.175.212/32,35.160.177.10/32,34.199.54.113/32,52.204.96.37/32,34.232.25.90/32,52.202.195.162/32,52.54.90.98/32,52.203.14.55/32,34.236.25.177/32
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  rules:
+    - host: tfc.dalstonsemantics.com
+      http:
+        paths:
+          - path: /
+            pathType: Exact
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /atlassian-connect.json
+            pathType: Exact
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /installed
+            pathType: Exact
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /uninstalled
+            pathType: Exact
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+          - path: /webhook
+            pathType: Prefix
+            backend:
+              service: 
+                name: tfc
+                port: 
+                  number: 8080
+  tls:
+    - hosts:
+      - tfc.dalstonsemantics.com
+      secretName: tls-secret
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tfc-ingress-rdf4j-workbench
+  annotations:
+    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: 1m
+    nginx.ingress.kubernetes.io/limit-rps: "10"
+    nginx.ingress.kubernetes.io/whitelist-source-range: 192.168.0.1/32
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  rules:
+    - host: tfc.dalstonsemantics.com
+      http:
+        paths:
+          - path: /rdf4j-workbench
+            pathType: Prefix
+            backend:
+              service:
+                name: rdf4j-workbench
+                port:
+                  number: 8080
+  tls:
+    - hosts:
+      - tfc.dalstonsemantics.com
+      secretName: tls-secret
+---
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: azure-file
+provisioner: kubernetes.io/azure-file
+reclaimPolicy: Retain
+parameters:
+  skuName: Premium_LRS
+mountOptions:
+  - dir_mode=0777
+  - file_mode=0777
+  - uid=0
+  - gid=0
+  - mfsymlinks
+  - cache=strict
+  - actimeo=30
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: data-disk
+spec:
+  accessModes:
+    - ReadWriteMany
+  storageClassName: azure-file
+  resources:
+    requests:
+      storage: 100Gi

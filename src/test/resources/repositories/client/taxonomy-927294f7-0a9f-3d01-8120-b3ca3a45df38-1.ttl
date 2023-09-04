@@ -1,0 +1,68 @@
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix test: <https://dalstonsemantics.com/test/> .
+
+anzsic:scheme a skos:ConceptScheme ;
+    skos:prefLabel "Australian and New Zealand Standard Industrial Classification (ANZSIC)" ;
+    pav:version "2006 (Revision 2.0)" .
+
+anzsic:A a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "A" ;
+    skos:prefLabel "Agriculture, Forestry and Fishing" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:B a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "BModified" ;
+    skos:prefLabel "Mining Modified" ;
+    skos:topConceptOf anzsic:scheme .
+
+anzsic:E a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "E" ;
+    skos:prefLabel "Construction" ;
+    skos:topConceptOf anzsic:scheme ;
+    dcterms:replaces anzsic:D.
+
+anzsic:F a skos:Concept ;
+    skos:inScheme anzsic:scheme ;
+    skos:notation "F" ;
+    skos:prefLabel "Wholesale Trade" ;
+    skos:topConceptOf anzsic:scheme .
+
+test:scheme rdfs:label "Defining resource." .
+
+test:Class1 a rdfs:Class ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Class 1" .
+
+test:Class2 a rdfs:Class ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Class 2 Modified" .
+
+test:Class4 a rdfs:Class ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Class 4 New" .
+
+test:Class5 a rdfs:Class ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Class 5 New" .
+
+test:property1 a rdf:Property ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Property 1" .
+
+test:property2 a rdf:Property ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Property 2 Modified" .
+
+test:property4 a rdf:Property ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Property 4 New" .
+
+test:property5 a rdf:Property ;
+    rdfs:isDefinedBy test:scheme ;
+    rdfs:label "Property 5 New" .

@@ -1,0 +1,154 @@
+@prefix team: <https://dalstonsemantics.com/ns/com/atlassian/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-100" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/100/Label> ;
+  team:contentId "100" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-101> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-101" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/101/Label> ;
+  team:contentId "101" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:A;
+  team:propertyId "100";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:B;
+  team:propertyId "101";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:A;
+  team:propertyId "110";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-111>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:B;
+  team:propertyId "111";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:A;
+  team:macroId "1";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-121-1>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:0111;
+  team:macroId "2";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-121-2>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:B;
+  team:macroId "3";
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87> a prov:Agent ;
+  team:accountId "60f87c67411fae0070962c87" .
+
+
+<https://tfc.dalstonsemantics.com/activity/100> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:100;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100> .
+
+_:100 dcterms:subject anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/101> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:101;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-101> .
+
+_:101 dcterms:subject anzsic:B .
+
+
+<https://tfc.dalstonsemantics.com/activity/110> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:110;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110> .
+
+_:110 dcterms:type anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/111> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:111;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-111> .
+
+_:111 dcterms:type anzsic:B .
+
+
+<https://tfc.dalstonsemantics.com/activity/120> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:120;
+  prov:generated <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-120> .
+
+_:120 dcterms:relation anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/121> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:121;
+  prov:generated <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-121-1>, 
+    <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-121-2> .
+
+_:121 dcterms:relation anzsic:A, 
+    anzsic:B .

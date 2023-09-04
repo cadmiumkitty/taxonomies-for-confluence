@@ -1,0 +1,92 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "XXX-100";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/100/Label>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "100";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int;
+  <http://purl.org/dc/terms/subject> <https://www.abs.gov.au/ausstats/anzsic/A>;
+  <http://purl.org/dc/terms/type> <https://www.abs.gov.au/ausstats/anzsic/B>;
+  <http://purl.org/dc/terms/relation> <https://www.abs.gov.au/ausstats/anzsic/C>;
+  <https://schema.org/postalCode> "E8 4DS".
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "Retail Banking Support Updated";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/VM/pages/294914/Retail+Banking+Support+Updated>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "294914";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int;
+  <http://purl.org/dc/terms/relation> <https://www.abs.gov.au/ausstats/anzsic/A>, <https://www.abs.gov.au/ausstats/anzsic/01>;
+  <https://dalstonsemantics.com/test/testProperty1> "Value 1", "Value 2 Value 3";
+  <https://dalstonsemantics.com/test/testProperty2> <https://tfc.dalstonsemantics.com/agent/62ca1beae16ddfe82be12376>,
+    <https://tfc.dalstonsemantics.com/agent/000000000000000000000001>, <https://tfc.dalstonsemantics.com/agent/000000000000000000000002>,
+    <https://tfc.dalstonsemantics.com/agent/000000000000000000000003>, <https://tfc.dalstonsemantics.com/agent/000000000000000000000004>;
+  <https://dalstonsemantics.com/test/testProperty3> <https://dalstonsemantics.com/ns/au/gov/abs/anzsic/621>,
+    <https://dalstonsemantics.com/test/TestClass1>, <https://dalstonsemantics.com/test/TestClass2>,
+    <https://dalstonsemantics.com/test/TestClass3>, <https://dalstonsemantics.com/test/TestClass4>;
+  <https://dalstonsemantics.com/test/testProperty4> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914>,
+    <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10020>,
+    <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10010>;
+  <https://dalstonsemantics.com/test/testProperty5> "2022-12-10T00:00:00.000Z"^^xsd:dateTime,
+    "2022-12-11T00:00:00.000Z"^^xsd:dateTime, "2022-12-12T00:00:00.000Z"^^xsd:dateTime,
+    "2022-12-13T00:00:00.000Z"^^xsd:dateTime, "2022-12-14T00:00:00.000Z"^^xsd:dateTime .
+
+<https://tfc.dalstonsemantics.com/agent/62ca1beae16ddfe82be12376> a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "62ca1beae16ddfe82be12376" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10020>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "Sample SPARQL Page";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/VM/pages/10020/Sample+SPARQL+Page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "10020";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10010>
+  a <https://dalstonsemantics.com/ns/com/atlassian/page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/status> "current";
+  <http://purl.org/dc/terms/title> "Sample SPARQL Page";
+  <http://purl.org/dc/terms/source> <https://dalstonsemantics.atlassian.net/wiki/spaces/FI/pages/10010/Sample+SPARQL+Page>;
+  <https://dalstonsemantics.com/ns/com/atlassian/contentId> "10010";
+  <https://dalstonsemantics.com/ns/com/atlassian/contentVersion> "1"^^xsd:int .
+
+<https://tfc.dalstonsemantics.com/agent/000000000000000000000001> a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "000000000000000000000001" .
+
+<https://tfc.dalstonsemantics.com/agent/000000000000000000000002> a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "000000000000000000000002" .
+
+<https://tfc.dalstonsemantics.com/agent/000000000000000000000003> a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "000000000000000000000003" .
+
+<https://tfc.dalstonsemantics.com/agent/000000000000000000000004> a <http://www.w3.org/ns/prov#Agent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "000000000000000000000004" .
+
+<https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914-4>
+  <https://dalstonsemantics.com/test/testProperty10> <https://tfc.dalstonsemantics.com/agent/62ca1beae16ddfe82be12376> .
+
+<https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914-5>
+  <https://dalstonsemantics.com/test/testProperty10> <https://dalstonsemantics.com/ns/au/gov/abs/anzsic/621>;
+  <https://dalstonsemantics.com/test/testProperty11> "Value" .
+
+<https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914-6>
+  <https://dalstonsemantics.com/test/testProperty10> "Rijen";
+  <https://dalstonsemantics.com/test/testProperty11> "P u n" .
+
+<https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914-7>
+  <https://dalstonsemantics.com/test/testProperty10> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10020>;
+  <https://dalstonsemantics.com/test/testProperty11> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-10010> .
+
+<https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914-8>
+  <https://dalstonsemantics.com/test/testProperty10> <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-294914>;
+  <https://dalstonsemantics.com/test/testProperty11> "2022-12-29T00:00:00.000Z"^^xsd:dateTime,
+    "2022-12-30T00:00:00.000Z"^^xsd:dateTime .

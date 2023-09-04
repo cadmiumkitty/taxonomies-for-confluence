@@ -1,0 +1,5 @@
+<https://tfc.dalstonsemantics.com/event/1> a <https://dalstonsemantics.com/ns/com/atlassian/ImportFileEvent>;
+  <https://dalstonsemantics.com/ns/com/atlassian/clientKey> "927294f7-0a9f-3d01-8120-b3ca3a45df38" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/accountId> "557058:d092c978-5ab7-4c8a-8d87-32ffac22c584" ;
+  <https://dalstonsemantics.com/ns/com/atlassian/targetTaxonomyGraph> <https://tfc.dalstonsemantics.com/taxonomy/927294f7-0a9f-3d01-8120-b3ca3a45df38-1> ;
+  <https://dalstonsemantics.com/ns/com/atlassian/blobName> "anzsic.ttl".

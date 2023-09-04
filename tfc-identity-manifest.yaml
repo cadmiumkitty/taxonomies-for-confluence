@@ -1,0 +1,8 @@
+apiVersion: "aadpodidentity.k8s.io/v1"
+kind: AzureIdentity
+metadata:
+  name: tfc
+spec:
+  type: 0
+  resourceID: /subscriptions/1677ad7d-8b89-4171-b3a1-c9e8d2f4cca0/resourcegroups/MC_dalstonsemantics_tfc-production_uksouth/providers/Microsoft.ManagedIdentity/userAssignedIdentities/tfc
+  clientID: 93b42ae7-4771-43b5-97cf-b0fe223e3529

@@ -1,0 +1,378 @@
+@prefix team: <https://dalstonsemantics.com/ns/com/atlassian/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix anzsic: <https://www.abs.gov.au/ausstats/anzsic/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix test: <https://dalstonsemantics.com/test/> .
+
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-200> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-200" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/200/Label> ;
+  team:contentId "200" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-201> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-201" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/201/Label> ;
+  team:contentId "201" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-202> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-202" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/202/Label> ;
+  team:contentId "202" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-203> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-203" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/203/Label> ;
+  team:contentId "203" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "XXX-204" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/204/Label> ;
+  team:contentId "204" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301> a <https://dalstonsemantics.com/ns/com/atlassian/page> ;
+  dcterms:title "301 - Page with Class being updated" ;
+  dcterms:source <https://dalstonsemantics.atlassian.net/wiki/spaces/DSC/pages/301/Label> ;
+  team:contentId "301" ;
+  team:contentVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-200>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:A;
+  team:propertyId "100";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-101>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-201>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:B;
+  team:propertyId "101";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-102>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-202>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:C;
+  team:propertyId "102";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-103>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-203>;
+  rdf:predicate dcterms:subject;
+  rdf:object anzsic:D;
+  team:propertyId "103";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-200>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:A;
+  team:propertyId "110";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-111>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-201>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:B;
+  team:propertyId "111";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-112>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-202>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:C;
+  team:propertyId "112";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-113>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-203>;
+  rdf:predicate dcterms:type;
+  rdf:object anzsic:D;
+  team:propertyId "113";
+  team:propertyVersion "1"^^xsd:int;
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-150>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-200>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:A;
+  team:macroId "1";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-1>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:A;
+  team:macroId "2";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-2>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:B;
+  team:macroId "3";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-3>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:C;
+  team:macroId "4";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-4>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-204>;
+  rdf:predicate dcterms:relation;
+  rdf:object anzsic:D;
+  team:macroId "5";
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-1>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  rdf:predicate test:property1;
+  rdf:object test:Class2;
+  team:macroId "3011";
+  team:tableId "3011";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-2>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  rdf:predicate test:property1;
+  rdf:object test:Class3;
+  team:macroId "3012";
+  team:tableId "3012";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-3>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  rdf:predicate test:property2;
+  rdf:object test:Class1;
+  team:macroId "3013";
+  team:tableId "3013";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-4>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  rdf:predicate test:property3;
+  rdf:object test:Class1;
+  team:macroId "3014";
+  team:tableId "3014";
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-1-0-0>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-1>;
+  rdf:predicate test:property1;
+  rdf:object test:Class2;
+  team:content <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  team:macroId "301100";
+  team:tableId "301100";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-2-0-0>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-2>;
+  rdf:predicate test:property1;
+  rdf:object test:Class3;
+  team:content <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  team:macroId "301200";
+  team:tableId "301200";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-3-0-0>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-3>;
+  rdf:predicate test:property2;
+  rdf:object test:Class1;
+  team:content <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  team:macroId "301300";
+  team:tableId "301300";
+  team:status "current" .
+
+<https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-4-0-0>
+  a rdf:Statement;
+  rdf:subject <https://tfc.dalstonsemantics.com/resource/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-4>;
+  rdf:predicate test:property3;
+  rdf:object test:Class1;
+  team:content <https://tfc.dalstonsemantics.com/content/927294f7-0a9f-3d01-8120-b3ca3a45df38-301>;
+  team:macroId "301400";
+  team:tableId "301400";
+  team:status "current" .
+
+
+<https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87> a prov:Agent ;
+  team:accountId "60f87c67411fae0070962c87" .
+
+
+<https://tfc.dalstonsemantics.com/activity/100> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:100;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-100> .
+
+_:100 dcterms:subject anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/101> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:101;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-101> .
+
+_:101 dcterms:subject anzsic:B .
+
+<https://tfc.dalstonsemantics.com/activity/102> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T12:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T12:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:102;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-102> .
+
+_:102 dcterms:subject anzsic:C .
+
+<https://tfc.dalstonsemantics.com/activity/103> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T12:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T12:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:103;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-103> .
+
+_:103 dcterms:subject anzsic:D .
+
+
+<https://tfc.dalstonsemantics.com/activity/110> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:110;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-110> .
+
+_:110 dcterms:type anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/111> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:111;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-111> .
+
+_:111 dcterms:type anzsic:B .
+
+<https://tfc.dalstonsemantics.com/activity/112> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:112;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-112> .
+
+_:112 dcterms:type anzsic:C .
+
+<https://tfc.dalstonsemantics.com/activity/113> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:113;
+  prov:generated <https://tfc.dalstonsemantics.com/property/927294f7-0a9f-3d01-8120-b3ca3a45df38-113> .
+
+_:113 dcterms:type anzsic:D .
+
+
+<https://tfc.dalstonsemantics.com/activity/150> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T10:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:150;
+  prov:generated <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-150> .
+
+_:150 dcterms:relation anzsic:A .
+
+<https://tfc.dalstonsemantics.com/activity/154> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:154;
+  prov:generated <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-1>, 
+    <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-2>,
+    <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-3>,
+    <https://tfc.dalstonsemantics.com/macro/927294f7-0a9f-3d01-8120-b3ca3a45df38-154-4> .
+
+_:154 dcterms:relation anzsic:A, 
+    anzsic:B, 
+    anzsic:C,
+    anzsic:D .
+
+
+<https://tfc.dalstonsemantics.com/activity/301> a
+    prov:Activity;
+  prov:startedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:endedAtTime "2021-01-01T11:30:30.5Z"^^xsd:dateTime;
+  prov:wasAssociatedWith <https://tfc.dalstonsemantics.com/agent/60f87c67411fae0070962c87>;
+  prov:used _:301;
+  prov:generated <https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-1>,
+  <https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-2>,
+  <https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-3>,
+  <https://tfc.dalstonsemantics.com/table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-4>,
+  <https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-1-0-0>,
+  <https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-2-0-0>,
+  <https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-3-0-0>,
+  <https://tfc.dalstonsemantics.com/resource-table/927294f7-0a9f-3d01-8120-b3ca3a45df38-301-4-0-0>.
+
+_:301 test:property1 anzsic:Class2;
+  test:property1 anzsic:Class3;
+  test:property2 anzsic:Class1;
+  test:property3 anzsic:Class1.

@@ -1,0 +1,61 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://www.abs.gov.au/ausstats/anzsic/scheme> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Australian and New Zealand Standard Industrial Classification (ANZSIC)";
+  <http://purl.org/pav/version> "2006 (Revision 2.0)" .
+
+<https://www.abs.gov.au/ausstats/anzsic/A> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture, Forestry and Fishing";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.abs.gov.au/ausstats/anzsic/scheme>;
+  <http://www.w3.org/2004/02/skos/core#notation> "A";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.abs.gov.au/ausstats/anzsic/scheme> .
+
+<https://www.abs.gov.au/ausstats/anzsic/B> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Mining";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.abs.gov.au/ausstats/anzsic/scheme>;
+  <http://www.w3.org/2004/02/skos/core#notation> "B";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.abs.gov.au/ausstats/anzsic/scheme> .
+
+<https://www.abs.gov.au/ausstats/anzsic/C> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacturing";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.abs.gov.au/ausstats/anzsic/scheme>;
+  <http://www.w3.org/2004/02/skos/core#notation> "C";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.abs.gov.au/ausstats/anzsic/scheme> .
+
+<https://www.abs.gov.au/ausstats/anzsic/D> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Electricity, Gas, Water and Waste Services";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.abs.gov.au/ausstats/anzsic/scheme>;
+  <http://www.w3.org/2004/02/skos/core#notation> "D";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://www.abs.gov.au/ausstats/anzsic/scheme> .
+
+<https://dalstonsemantics.com/test/scheme> rdfs:label "Defining resource." .
+
+<https://dalstonsemantics.com/test/Class1> a rdfs:Class;
+  rdfs:label "Class 1";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .
+
+<https://dalstonsemantics.com/test/Class2> a rdfs:Class;
+  rdfs:label "Class 2";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .
+
+<https://dalstonsemantics.com/test/Class3> a rdfs:Class;
+  rdfs:label "Class 3";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .
+
+<https://dalstonsemantics.com/test/property1> a rdf:Property;
+  rdfs:label "Property 1";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .
+
+<https://dalstonsemantics.com/test/property2> a rdf:Property;
+  rdfs:label "Property 2";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .
+
+<https://dalstonsemantics.com/test/property3> a rdf:Property;
+  rdfs:label "Property 3";
+  rdfs:isDefinedBy <https://dalstonsemantics.com/test/scheme> .

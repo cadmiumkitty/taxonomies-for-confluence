@@ -1,0 +1,17 @@
+<p th:if="${malformedQueryException}">Malformed query.</p>
+<p th:if="${booleanQueryException}">Boolean query not supported.</p>
+<p th:if="${graphQueryException}">Graph query not supported.</p>
+<p th:if="${throwable}">Something went horribly wrong.</p>
+<p th:if="${#lists.isEmpty(rows)}">No results to display.</p>
+<table th:unless="${#lists.isEmpty(rows)}">
+    <tbody>
+        <tr>
+            <th th:each="column: ${columns}" th:text="${column}"></th>
+        </tr>
+        <tr th:each="row: ${rows}">
+            <td th:each="column: ${columns}">
+                <ac:link th:if="${#strings.endsWith(column, 'content_id')}"><ri:content-entity th:attr="'ri:content-id'=${row.get(column).stringValue()}"/></ac:link><ac:link th:if="${#strings.endsWith(column, 'account_id')}"><ri:user th:attr="'ri:userkey'=${row.get(column).stringValue()}"/></ac:link><a th:if="${not #strings.endsWith(column, 'account_id') and not #strings.endsWith(column, 'content_id') and row.get(column).isIRI()}" th:attr="href=${row.get(column).stringValue()}" th:text="${row.get(column).stringValue()}"></a><span th:if="${not #strings.endsWith(column, 'account_id') and not #strings.endsWith(column, 'content_id') and row.get(column).isLiteral()}" th:text="${row.get(column).stringValue()}"></span>
+            </td>
+        </tr>
+    </tbody>
+</table>

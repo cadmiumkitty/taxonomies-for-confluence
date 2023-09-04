@@ -1,0 +1,730 @@
+{
+  "key": "${addon.key}",
+  "baseUrl": "${addon.base-url}",
+  "name": "Taxonomies for Confluence",
+  "description": "Use Confluence for enterprise architecture, data governance, risk management, regulatory compliance and more. Import Simple Knowledge Organization System (SKOS) controlled vocabularies and Resource Description Framework Schema (RDFS) schemas. Index Confluence pages and track alignment and gaps without complex and expensive specialised tools.",
+  "vendor": {
+    "name": "Dalston Semantics Ltd",
+    "url": "https://dalstonsemantics.com"
+  },
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "scopes": [
+    "READ",
+    "WRITE"
+  ],
+  "enableLicensing": false,  
+  "apiMigrations": {
+    "context-qsh": true,
+    "signed-install": true
+  },  
+  "modules": {
+    "adminPages": [
+      {
+        "key": "taxonomy-admin-page",
+        "url": "/taxonomy-admin-page",
+        "location": "system.admin/configuration",
+        "name": {
+          "value": "Taxonomies and Schemas"
+        },
+        "conditions": [
+          {
+            "condition": "user_is_logged_in"
+          }
+        ]
+      }
+    ],
+    "generalPages": [
+      {
+        "key": "taxonomy-page",
+        "url": "/taxonomy-page",
+        "location": "system.header/left",
+        "name": {
+          "value": "SKOS Taxonomies"
+        },
+        "icon": {
+          "width": 24,
+          "height": 24,
+          "url": "icons/taxonomy-page.png"
+        },
+        "conditions": [
+          {
+            "condition": "user_is_logged_in"
+          }
+        ]        
+      }
+    ],
+    "contentBylineItems": [
+      {
+        "key": "taxonomies-for-confluence-subject-byline",
+        "url": "/subject-byline",
+        "context": "addon",
+        "target": {
+          "type": "inlinedialog"
+        },
+        "contentPropertyKey": "taxonomies-for-confluence-subject",
+        "name": {
+          "value": "No Subject"
+        },
+        "tooltip": {
+          "value": "No Subject"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "icons/byline-subject-disabled-01.png"
+        },
+        "conditions": [
+          {
+            "condition": "user_is_logged_in"
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-type-byline",
+        "url": "/type-byline",
+        "context": "addon",
+        "target": {
+          "type": "inlinedialog"
+        },
+        "contentPropertyKey": "taxonomies-for-confluence-type",
+        "name": {
+          "value": "No Type"
+        },
+        "tooltip": {
+          "value": "No Type"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "icons/byline-type-disabled-01.png"
+        },
+        "conditions": [
+          {
+            "condition": "user_is_logged_in"
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-class-byline",
+        "url": "/class-byline",
+        "context": "addon",
+        "target": {
+          "type": "inlinedialog"
+        },
+        "contentPropertyKey": "taxonomies-for-confluence-class",
+        "name": {
+          "value": "No Class"
+        },
+        "tooltip": {
+          "value": "No Class"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "icons/byline-class-disabled-01.png"
+        },
+        "conditions": [
+          {
+            "condition": "user_is_logged_in"
+          }
+        ]
+      }
+    ],
+    "confluenceContentProperties": [
+      {
+        "key": "taxonomies-for-confluence-subject",
+        "name": {
+          "value": "Subject"
+        },
+        "keyConfigurations": [
+          {
+            "propertyKey": "taxonomies-for-confluence-subject",
+            "extractions": [
+              {
+                "objectName": "name.value",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceSubjectPreferredLabel",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Subject Preferred Label",
+                    "i18n": "subject.preflabel.name"
+                  },
+                  "tooltip": {
+                    "value": "Subject Preferred Label",
+                    "i18n": "subject.preflabel.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              },
+              {
+                "objectName": "uri",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceSubjectUri",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Subject URI",
+                    "i18n": "subject.uri.name"
+                  },
+                  "tooltip": {
+                    "value": "Subject URI",
+                    "i18n": "subject.uri.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              },
+              {
+                "objectName": "notation",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceSubjectNotation",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Subject Notation",
+                    "i18n": "subject.notation.name"
+                  },
+                  "tooltip": {
+                    "value": "Subject Notation",
+                    "i18n": "subject.notation.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-type",
+        "name": {
+          "value": "Type"
+        },
+        "keyConfigurations": [
+          {
+            "propertyKey": "taxonomies-for-confluence-type",
+            "extractions": [
+              {
+                "objectName": "name.value",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceTypePreferredLabel",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Type Preferred Label",
+                    "i18n": "type.preflabel.name"
+                  },
+                  "tooltip": {
+                    "value": "Type Preferred Label",
+                    "i18n": "type.preflabel.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              },
+              {
+                "objectName": "uri",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceTypeUri",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Type URI",
+                    "i18n": "type.uri.name"
+                  },
+                  "tooltip": {
+                    "value": "Type URI",
+                    "i18n": "type.uri.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              },
+              {
+                "objectName": "notation",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceTypeNotation",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Type Notation",
+                    "i18n": "type.notation.name"
+                  },
+                  "tooltip": {
+                    "value": "Type Notation",
+                    "i18n": "type.notation.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-class",
+        "name": {
+          "value": "Class"
+        },
+        "keyConfigurations": [
+          {
+            "propertyKey": "taxonomies-for-confluence-class",
+            "extractions": [
+              {
+                "objectName": "name.value",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceClassLabel",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Class Label",
+                    "i18n": "class.label.name"
+                  },
+                  "tooltip": {
+                    "value": "Class Label",
+                    "i18n": "class.label.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              },
+              {
+                "objectName": "uri",
+                "type": "string",
+                "alias": "taxonomiesForConfluenceClassUri",
+                "uiSupport": {
+                  "defaultOperator": "=",
+                  "name": {
+                    "value": "Class URI",
+                    "i18n": "class.uri.name"
+                  },
+                  "tooltip": {
+                    "value": "Class URI",
+                    "i18n": "class.uri.tooltip"
+                  },
+                  "valueType": "string"
+                }
+              }
+            ]
+          }
+        ]
+      }      
+    ],
+    "staticContentMacros": [
+      {
+        "key": "taxonomies-for-confluence-relation",
+        "name": {
+          "value": "Related Concept"
+        },
+        "url": "/relation?uri={uri}",
+        "aliases": [
+          "relation", "related", "concept"
+        ],
+        "bodyType": "plain-text",
+        "categories": [
+          "external-content"
+        ],
+        "description": {
+          "value": "Insert reference to related taxonomy concept."
+        },
+        "documentation": {
+          "url": "https://dalstonsemantics.com/services/taxonomies-for-confluence/",
+          "altText": "Taxonomies for Confluence",
+          "title": "Taxonomies for Confluence"
+        },
+        "editor": {
+          "url": "/relation-editor",
+          "cacheable": false,
+          "editTitle": {
+            "value": "Update related concept"
+          },
+          "insertTitle": {
+            "value": "Insert related concept"
+          },
+          "width": "600px",
+          "height": "400px"
+        },
+        "featured": true,
+        "hidden": false,
+        "icon": {
+          "width": 80,
+          "height": 80,
+          "url": "/icons/macro-browser-concept.png"
+        },
+        "outputType": "inline",
+        "renderingMethod": "get",
+        "parameters": [
+          {
+            "identifier": "uri",
+            "name": {
+              "value": "SKOS concept URI"
+            },
+            "type": "url",
+            "description": {
+              "value": "Allows indexing of SKOS concept URI"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": false,
+            "required": true
+          },
+          {
+            "identifier": "prefLabel",
+            "name": {
+              "value": "SKOS concept prefLabel"
+            },
+            "type": "string",
+            "description": {
+              "value": "Allows indexing of SKOS concept prefLabel"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": true,
+            "required": true
+          },
+          {
+            "identifier": "altLabel",
+            "name": {
+              "value": "SKOS concept altLabel"
+            },
+            "type": "string",
+            "description": {
+              "value": "Allows indexing of SKOS concept altLabel"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": true,
+            "required": true
+          },
+          {
+            "identifier": "notation",
+            "name": {
+              "value": "SKOS concept notation"
+            },
+            "type": "string",
+            "description": {
+              "value": "Allows indexing of SKOS concept notation"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": true,
+            "required": false
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-resource",
+        "name": {
+          "value": "Resource"
+        },
+        "url": "/resource?uri={uri}",
+        "aliases": [
+          "resource", "rdfs"
+        ],
+        "bodyType": "plain-text",
+        "categories": [
+          "external-content"
+        ],
+        "description": {
+          "value": "Insert reference to Class, Property or Concept resource."
+        },
+        "documentation": {
+          "url": "https://dalstonsemantics.com/services/taxonomies-for-confluence/",
+          "altText": "Taxonomies for Confluence",
+          "title": "Taxonomies for Confluence"
+        },
+        "editor": {
+          "url": "/resource-editor",
+          "cacheable": false,
+          "editTitle": {
+            "value": "Update resource"
+          },
+          "insertTitle": {
+            "value": "Insert resource"
+          },
+          "width": "600px",
+          "height": "400px"
+        },
+        "featured": true,
+        "hidden": false,
+        "icon": {
+          "width": 80,
+          "height": 80,
+          "url": "/icons/macro-browser-concept.png"
+        },
+        "outputType": "inline",
+        "renderingMethod": "get",
+        "parameters": [
+          {
+            "identifier": "uri",
+            "name": {
+              "value": "Resource URI"
+            },
+            "type": "url",
+            "description": {
+              "value": "Allows indexing of resource URI"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": false,
+            "required": true
+          },
+          {
+            "identifier": "label",
+            "name": {
+              "value": "RDFS label"
+            },
+            "type": "string",
+            "description": {
+              "value": "Allows indexing of RDFS label"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": true,
+            "required": false
+          },
+          {
+            "identifier": "prefLabel",
+            "name": {
+              "value": "SKOS concept prefLabel"
+            },
+            "type": "string",
+            "description": {
+              "value": "Allows indexing of SKOS concept prefLabel"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": true
+            },
+            "multiple": true,
+            "required": false
+          }
+        ]
+      },      
+      {
+        "key": "taxonomies-for-confluence-toc",
+        "name": {
+          "value": "About and Related"
+        },
+        "url": "/toc?transitive={transitive}&predicate={predicate}&object={object}",
+        "aliases": [
+          "content"
+        ],
+        "bodyType": "none",
+        "categories": [
+          "external-content"
+        ],
+        "description": {
+          "value": "Insert table of contents that are about or related to taxonomy concepts."
+        },
+        "documentation": {
+          "url": "https://dalstonsemantics.com/services/taxonomies-for-confluence/",
+          "altText": "Taxonomies for Confluence",
+          "title": "Taxonomies for Confluence"
+        },
+        "editor": {
+          "url": "/toc-editor",
+          "cacheable": false,
+          "editTitle": {
+            "value": "Update Table of Contents criteria"
+          },
+          "insertTitle": {
+            "value": "Insert Table of Contents"
+          },
+          "width": "800px",
+          "height": "600px"
+        },
+        "featured": true,
+        "hidden": false,
+        "icon": {
+          "width": 80,
+          "height": 80,
+          "url": "/icons/macro-browser-concept.png"
+        },
+        "outputType": "block",
+        "renderingMethod": "get",
+        "parameters": [
+          {
+            "identifier": "transitive",
+            "name": {
+              "value": "Transitive"
+            },
+            "type": "boolean",
+            "description": {
+              "value": "Indicates whether the search includes narrower concepts"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": false
+            },
+            "multiple": true,
+            "required": true
+          },
+          {
+            "identifier": "predicate",
+            "name": {
+              "value": "Predicate"
+            },
+            "type": "url",
+            "description": {
+              "value": "Content resource predicate"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": false
+            },
+            "multiple": true,
+            "required": true
+          },
+          {
+            "identifier": "object",
+            "name": {
+              "value": "Object"
+            },
+            "type": "url",
+            "description": {
+              "value": "SKOS concept"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": false
+            },
+            "multiple": true,
+            "required": true
+          }
+        ]
+      },
+      {
+        "key": "taxonomies-for-confluence-sparql",
+        "name": {
+          "value": "SPARQL Query"
+        },
+        "url": "/sparql-macro?pageId={page.id}&pageType={page.type}&q={query}",
+        "aliases": [
+          "sparql",
+          "query"
+        ],
+        "bodyType": "none",
+        "categories": [
+          "external-content"
+        ],
+        "description": {
+          "value": "Insert results of a SPARQL query."
+        },
+        "documentation": {
+          "url": "https://dalstonsemantics.com/services/taxonomies-for-confluence/",
+          "altText": "Taxonomies for Confluence",
+          "title": "Taxonomies for Confluence"
+        },
+        "editor": {
+          "url": "/sparql-macro-editor",
+          "cacheable": false,
+          "editTitle": {
+            "value": "Update SPARQL query"
+          },
+          "insertTitle": {
+            "value": "Insert SPARQL query"
+          },
+          "width": "800px",
+          "height": "600px"
+        },
+        "featured": true,
+        "hidden": false,
+        "icon": {
+          "width": 80,
+          "height": 80,
+          "url": "/icons/macro-browser-concept.png"
+        },
+        "outputType": "block",
+        "renderingMethod": "get",
+        "parameters": [
+          {
+            "identifier": "query",
+            "name": {
+              "value": "Query"
+            },
+            "type": "string",
+            "description": {
+              "value": "SPARQL query string"
+            },
+            "hidden": true,
+            "indexing": {
+              "enabled": false
+            },
+            "multiple": false,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "webhooks": [
+      {
+        "event": "blog_created",
+        "url": "/webhook/blog_created"
+      },
+      {
+        "event": "blog_removed",
+        "url": "/webhook/blog_removed"
+      },
+      {
+        "event": "blog_restored",
+        "url": "/webhook/blog_restored"
+      },
+      {
+        "event": "blog_trashed",
+        "url": "/webhook/blog_trashed"
+      },      
+      {
+        "event": "blog_updated",
+        "url": "/webhook/blog_updated"
+      },
+      {
+        "event": "content_created",
+        "url": "/webhook/content_created"
+      },
+      {
+        "event": "content_removed",
+        "url": "/webhook/content_removed"
+      },
+      {
+        "event": "content_updated",
+        "url": "/webhook/content_updated"
+      },
+      {
+        "event": "page_created",
+        "url": "/webhook/page_created"
+      },
+      {
+        "event": "page_removed",
+        "url": "/webhook/page_removed"
+      },
+      {
+        "event": "page_restored",
+        "url": "/webhook/page_restored"
+      },
+      {
+        "event": "page_trashed",
+        "url": "/webhook/page_trashed"
+      },
+      {
+        "event": "page_updated",
+        "url": "/webhook/page_updated" 
+      }
+    ]
+  }
+}

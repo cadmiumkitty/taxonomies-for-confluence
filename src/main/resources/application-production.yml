@@ -1,0 +1,41 @@
+addon:
+  key: taxonomies-for-confluence
+  base-url: https://tfc.dalstonsemantics.com
+  license:
+    enforce: true
+  queues:
+    import-resource: tfc-production-import-resource
+    import-file: tfc-production-import-file
+    copy-from-current: tfc-production-copy-from-current
+    calculate-taxonomy-version-difference: tfc-production-calculate-taxonomy-version-difference
+    calculate-content-impact: tfc-production-calculate-content-impact
+    transition-to-current: tfc-production-transition-to-current
+    cancel-transition-to-current: tfc-production-cancel-transition-to-current
+    clear: tfc-production-clear
+    callback-content-created-removed-updated: tfc-production-callback-content-created-removed-updated
+    callback-property-created-updated: tfc-production-callback-property-created-updated
+    callback-property-removed: tfc-production-callback-property-removed
+    materialize-content-graph: tfc-production-materialize-content-graph
+  blobs:
+    import-file: tfc-production-import-file
+  caches:
+    host:
+      heap: 1000
+      ttl-sec: 600
+    user:
+      heap: 1000
+      ttl-sec: 600
+    addon:
+      heap: 1000
+      ttl-sec: 600
+  headers:
+    content-security-policy: script-src 'self' connect-cdn.atl-paas.net; form-action 'self'
+
+atlassian:
+  connect:
+    allow-reinstall-missing-host: false
+
+server:
+  port : 8080
+  tomcat:
+    basedir: /usr/local/tomcat
